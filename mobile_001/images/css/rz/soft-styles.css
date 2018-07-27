@@ -1,0 +1,477 @@
+.whitedark {
+  color: #cacaca; }
+
+.lightwhite {
+  color: #fff; }
+
+.gray1 {
+  color: #333; }
+
+.gray2 {
+  color: #747474; }
+
+.gray3 {
+  color: #666; }
+
+.gray4 {
+  color: #cdcdcd; }
+
+.grey1 {
+  color: #ededee; }
+
+.grey2 {
+  color: #cecece; }
+
+.grey3 {
+  color: #757575; }
+
+.black {
+  color: #000; }
+
+.orange {
+  color: #ffa800; }
+
+.blue {
+  color: #00b2a1; }
+
+.darkblue {
+  color: #0d7db6; }
+
+.darkorange {
+  color: #d36027; }
+
+.darkred {
+  color: #d36027; }
+
+.f18, .softdesign-section .banner .content .year, .softdesign-section .soft-onestop .content .leftside .item .discribe .english, .softdesign-section .soft-onestop .content .midside .item .discribe .english, .softdesign-section .soft-onestop .content .midside .item:nth-child(2) .discribe .center .main-english {
+  font-size: 0.75rem; }
+
+.f20, .softdesign-section .banner .content .phone .tel, .softdesign-section .banner .sign, .softdesign-section .soft-desgin .content .item .discribe, .softdesign-section .soft-service .content, .softdesign-section .soft-onestop .content, .softdesign-section .soft-know .attitude .content .discribe .txt, .softdesign-section .soft-know .module .item .theme, .softdesign-section .soft-appreciation .content, .softdesign-section .soft-appreciation .content .swiper-container .control, .softdesign-section .soft-case .content .item span a:nth-child(2) {
+  font-size: 0.83rem; }
+
+.f24, .softdesign-section .soft-onestop .content .leftside .item .discribe .chinese, .softdesign-section .soft-onestop .content .midside .item .discribe .chinese, .softdesign-section .soft-know .attitude .content .discribe .order {
+  font-size: 1rem; }
+
+.f28, .softdesign-section .soft-desgin .content .item .tip, .softdesign-section .soft-know .module .item .tip, .softdesign-section .soft-know .module .item .link, .softdesign-section .soft-case .content .item span a {
+  font-size: 1.17rem; }
+
+.f30, .softdesign-section .banner .content .original, .softdesign-section .soft-appreciation .content .swiper-container .control .order {
+  font-size: 1.25rem; }
+
+.f32, .softdesign-section .soft-know .attitude .content .discribe .tip {
+  font-size: 1.33rem; }
+
+.f36, .softdesign-section .soft-onestop .content .midside .item:nth-child(2) .discribe .center .main-chinese, .softdesign-section .soft-appreciation .content .swiper-container .swiper-slide .discribe {
+  font-size: 1.5rem; }
+
+.f48, .softdesign-section .soft-desgin .title, .softdesign-section .soft-service .title, .softdesign-section .soft-onestop .title, .softdesign-section .soft-know .title, .softdesign-section .soft-appreciation .title, .softdesign-section .soft-trust .title, .softdesign-section .soft-case .title {
+  font-size: 2rem; }
+
+.bg1 {
+  background-color: #fefefd; }
+
+.jx-block, .softdesign-section .soft-service .content .leftside .contact img, .softdesign-section .soft-service .content .leftside .contact .area, .softdesign-section .soft-service .content .leftside .contact .discribe, .softdesign-section .soft-service .content .rightside .row .contact img, .softdesign-section .soft-service .content .rightside .row .contact .area, .softdesign-section .soft-service .content .rightside .row .contact .discribe, .softdesign-section .soft-trust .content .row .case img {
+  display: block; }
+
+.jx-middle, .softdesign-section .soft-service .content .leftside, .softdesign-section .soft-service .content .rightside {
+  vertical-align: middle; }
+
+.jx-inlineB, .softdesign-section .soft-know .module .item .link, .softdesign-section .soft-case .content .item img {
+  display: inline-block; }
+
+.jx-inline, .softdesign-section .soft-service .content .leftside .contact {
+  display: inline; }
+
+.jx-none {
+  display: none; }
+
+.jx-center, .softdesign-section .banner .sign, .softdesign-section .banner .sign .order, .softdesign-section .soft-desgin .title, .softdesign-section .soft-service .title, .softdesign-section .soft-service .content .leftside, .softdesign-section .soft-service .content .leftside .contact, .softdesign-section .soft-service .content .rightside, .softdesign-section .soft-service .content .rightside .row .contact, .softdesign-section .soft-onestop .title, .softdesign-section .soft-onestop .content .midside .item:nth-child(2) .discribe, .softdesign-section .soft-know .title, .softdesign-section .soft-know .module .item, .softdesign-section .soft-know .module .item .tip, .softdesign-section .soft-appreciation .title, .softdesign-section .soft-appreciation .content .swiper-container .swiper-slide .discribe, .softdesign-section .soft-appreciation .content .swiper-container .control, .softdesign-section .soft-trust .title, .softdesign-section .soft-case .title {
+  text-align: center; }
+
+.jx-auto, .softdesign-section .banner .content, .softdesign-section .soft-desgin .content, .softdesign-section .soft-service .content, .softdesign-section .soft-service .content .leftside .contact img, .softdesign-section .soft-service .content .rightside .row .contact img, .softdesign-section .soft-onestop .content, .softdesign-section .soft-know .attitude, .softdesign-section .soft-know .attitude .content, .softdesign-section .soft-know .module, .softdesign-section .soft-know .module .item .theme, .softdesign-section .soft-appreciation .content, .softdesign-section .soft-appreciation .content .swiper-container .control, .softdesign-section .soft-trust .content, .softdesign-section .soft-case .content {
+  margin: 0 auto; }
+
+.jx-hidden, .softdesign-section, .softdesign-section .banner, .softdesign-section .soft-desgin, .softdesign-section .soft-desgin .content, .softdesign-section .soft-service .content, .softdesign-section .soft-onestop, .softdesign-section .soft-onestop .content, .softdesign-section .soft-onestop .content .leftside .item, .softdesign-section .soft-onestop .content .midside .item, .softdesign-section .soft-know, .softdesign-section .soft-know .attitude, .softdesign-section .soft-know .attitude .content, .softdesign-section .soft-appreciation .content, .softdesign-section .soft-appreciation .content .swiper-container .control, .softdesign-section .soft-trust .content, .softdesign-section .soft-trust .content .row .case, .softdesign-section .soft-case .content {
+  overflow: hidden; }
+
+.jx-visible {
+  overflow: visible; }
+
+.jx-repeat {
+  background: no-repeat; }
+
+.jx-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.softdesign-section {
+  width: 100%;
+  background-color: #ededee; }
+  .softdesign-section .banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url("../../img/ruanzhuang/soft-banner-bj.jpg") no-repeat;
+    background-size: 100% 100%; }
+    .softdesign-section .banner .content {
+      width: 67%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 2rem 1rem 1.58rem 1rem;
+      margin-bottom: 5.2rem;
+      margin-top: 2.9rem; }
+      .softdesign-section .banner .content .title-logo {
+        width: 100%; }
+      .softdesign-section .banner .content .phone {
+        padding-top: .83rem; }
+        .softdesign-section .banner .content .phone img {
+          width: 1.5rem;
+          vertical-align: top;
+          padding-right: .33rem; }
+        .softdesign-section .banner .content .phone .tel {
+          color: #a63701; }
+      .softdesign-section .banner .content .original {
+        color: #333;
+        padding: 0.5rem 0 0.5rem 0; }
+      .softdesign-section .banner .content .year {
+        line-height: 1;
+        background-color: #00b2a1;
+        color: #fff;
+        padding: 0.58rem 0.4rem 0.58rem 0.4rem; }
+    .softdesign-section .banner .sign {
+      width: 13rem;
+      height: 6.5rem;
+      background: url(../../img/ruanzhuang/soft-sign.png) no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -6.4rem; }
+      .softdesign-section .banner .sign .order {
+        position: absolute;
+        right: 0;
+        bottom: 1.3rem;
+        left: -1%; }
+  .softdesign-section .soft-desgin {
+    background: url("../../img/ruanzhuang/soft-design-bg.jpg") no-repeat;
+    background-size: 100% 100%;
+    margin: 0.75rem 0 0.75rem 0; }
+    .softdesign-section .soft-desgin .title {
+      line-height: 1;
+      color: #fff;
+      padding: 2.08rem 0 1.75rem 0; }
+    .softdesign-section .soft-desgin .content {
+      width: 94%;
+      color: #fff;
+      padding-bottom: 2.17rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .softdesign-section .soft-desgin .content .item {
+        width: 47%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.6rem 0 2.1rem 0; }
+        .softdesign-section .soft-desgin .content .item .tip {
+          font-weight: bold;
+          padding-bottom: 1rem; }
+        .softdesign-section .soft-desgin .content .item:nth-child(even) {
+          border-left: 0.1rem solid rgba(255, 255, 255, 0.3);
+          padding-left: 3.5%; }
+        .softdesign-section .soft-desgin .content .item:nth-child(odd) {
+          padding-right: 1.6%;
+          padding-left: .5%; }
+        .softdesign-section .soft-desgin .content .item:nth-child(1) {
+          border-bottom: 0.1rem solid rgba(255, 255, 255, 0.3); }
+        .softdesign-section .soft-desgin .content .item:nth-child(2) {
+          border-bottom: 0.1rem solid rgba(255, 255, 255, 0.3); }
+  .softdesign-section .soft-service {
+    background-color: #fff; }
+    .softdesign-section .soft-service .title {
+      line-height: 1;
+      color: #2e2e2e;
+      padding: 2.08rem 0 1.75rem 0; }
+    .softdesign-section .soft-service .content {
+      width: 94%;
+      padding-bottom: 2.17rem; }
+      .softdesign-section .soft-service .content .leftside {
+        float: left;
+        width: 42.5%;
+        border: 0.04rem solid #cacaca;
+        background-color: #fff;
+        color: #2e2e2e;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        padding: 5.41rem 0 5.66rem 0; }
+        .softdesign-section .soft-service .content .leftside .contact img {
+          width: 3rem;
+          margin-bottom: .83rem; }
+        .softdesign-section .soft-service .content .leftside .contact .area {
+          line-height: 1; }
+        .softdesign-section .soft-service .content .leftside .contact .discribe {
+          line-height: 1; }
+      .softdesign-section .soft-service .content .rightside {
+        float: right;
+        width: 55%;
+        background-color: #fff;
+        color: #2e2e2e;
+        display: flex;
+        flex-wrap: wrap; }
+        .softdesign-section .soft-service .content .rightside .row {
+          width: 100%;
+          display: flex; }
+          .softdesign-section .soft-service .content .rightside .row .contact {
+            width: 47%;
+            padding: 1.15rem 0 1.15rem 0;
+            border: 0.04rem solid #cacaca;
+            margin: 0 0 0.4rem 0.4rem; }
+
+            .softdesign-section .soft-service .content .rightside .row .contact img {
+              width: 3rem;
+              margin-bottom: .83rem; }
+            .softdesign-section .soft-service .content .rightside .row .contact .area {
+              line-height: 1; }
+            .softdesign-section .soft-service .content .rightside .row .contact .discribe {
+              line-height: 1.2; }
+  .softdesign-section .soft-onestop {
+    background-color: #fff;
+    margin: 0.66rem 0 0.66rem 0; }
+    .softdesign-section .soft-onestop .title {
+      line-height: 1;
+      color: #2e2e2e;
+      padding: 2.08rem 0 1.75rem 0; }
+    .softdesign-section .soft-onestop .content {
+      width: 94%;
+      padding-bottom: 4.26rem;
+      display: flex; }
+      .softdesign-section .soft-onestop .content .leftside {
+        width: 30%;
+        display: flex;
+        flex-direction: column; }
+        .softdesign-section .soft-onestop .content .leftside .item {
+          width: 100%;
+          margin-bottom: .2rem;
+          position: relative;
+          color: #fff; }
+          .softdesign-section .soft-onestop .content .leftside .item img {
+            width: 100%;
+            height: 8.35rem; }
+          .softdesign-section .soft-onestop .content .leftside .item .discribe {
+            position: absolute;
+            bottom: 0.83rem;
+            left: 0.83rem; }
+            .softdesign-section .soft-onestop .content .leftside .item .discribe .english {
+              line-height: 1; }
+            .softdesign-section .soft-onestop .content .leftside .item .discribe .chinese {
+              padding-top: .58rem; }
+      .softdesign-section .soft-onestop .content .midside {
+        width: 37%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 1.5% 0 1.5%; }
+        .softdesign-section .soft-onestop .content .midside .item {
+          width: 100%;
+          margin-bottom: .34rem;
+          position: relative;
+          color: #fff; }
+          .softdesign-section .soft-onestop .content .midside .item img {
+            width: 100%;
+            height: 8.35rem; }
+          .softdesign-section .soft-onestop .content .midside .item .discribe {
+            position: absolute;
+            bottom: 0.83rem;
+            left: 0.83rem; }
+            .softdesign-section .soft-onestop .content .midside .item .discribe .english {
+              line-height: 1; }
+            .softdesign-section .soft-onestop .content .midside .item .discribe .chinese {
+              padding-top: .58rem; }
+          .softdesign-section .soft-onestop .content .midside .item:nth-child(2) {
+            display: table;
+            color: #333; }
+            .softdesign-section .soft-onestop .content .midside .item:nth-child(2) .discribe {
+              position: inherit;
+              top: 0;
+              left: 0;
+              height: 8.35rem;
+              line-height: 1;
+              display: table-cell;
+              vertical-align: middle; }
+              .softdesign-section .soft-onestop .content .midside .item:nth-child(2) .discribe .center {
+                display: flex; }
+  .softdesign-section .soft-know {
+    width: 100%;
+    background: url("../../img/ruanzhuang/soft-know-bg.jpg") no-repeat;
+    background-size: 100% 100%; }
+    .softdesign-section .soft-know .title {
+      color: #fff;
+      font-weight: bold;
+      padding: 2.08rem 0 2.75rem 0; }
+    .softdesign-section .soft-know .attitude {
+      width: 94%;
+      background-color: #00b2a1;
+      color: #fff; }
+      .softdesign-section .soft-know .attitude .content {
+        width: 82.55%;
+        padding: 2.08rem 0 1.91rem 0; }
+        .softdesign-section .soft-know .attitude .content img {
+          display: block;
+          float: left;
+          width: 3.5rem;
+          margin: 2.5rem 0 0 4rem; }
+        .softdesign-section .soft-know .attitude .content .discribe {
+          width: 51.5%;
+          float: right; }
+          .softdesign-section .soft-know .attitude .content .discribe .txt {
+            padding: 0.75rem 0 1.5rem 0; }
+          .softdesign-section .soft-know .attitude .content .discribe .order {
+            color: #fff;
+            padding: 0.66rem 1.75rem 0.66rem 1.75rem;
+            border: 0.04rem solid #fff; }
+    .softdesign-section .soft-know .module {
+      width: 94%;
+      display: flex;
+      padding: 1.25rem 0 2.33rem 0; }
+      .softdesign-section .soft-know .module .item {
+        width: 30.6%;
+        padding: 1.9rem 0 1.5rem 0;
+        color: #fff; }
+        .softdesign-section .soft-know .module .item .tip {
+          font-weight: bold;
+          padding-bottom: .83rem; }
+        .softdesign-section .soft-know .module .item .theme {
+          width: 90%;
+          height: 5rem;
+          line-height: 1.3;
+          text-align: left; }
+        .softdesign-section .soft-know .module .item .link {
+          color: #fff;
+          border: 0.04rem solid #fff;
+          padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+          line-height: 1; }
+        .softdesign-section .soft-know .module .item:nth-child(1) {
+          background-color: #ffa800;
+          color: #fff; }
+          .softdesign-section .soft-know .module .item:nth-child(1) .link {
+            margin-top: 2rem; }
+        .softdesign-section .soft-know .module .item:nth-child(2) {
+          background-color: #0d7db6;
+          color: #fff;
+          margin: 0 4.1% 0 4.1%; }
+          .softdesign-section .soft-know .module .item:nth-child(2) .link {
+            margin-top: 2rem; }
+        .softdesign-section .soft-know .module .item:nth-child(3) {
+          background-color: #d36027;
+          color: #fff; }
+          .softdesign-section .soft-know .module .item:nth-child(3) .link {
+            margin-top: 2rem; }
+  .softdesign-section .soft-appreciation {
+    background-color: #fff;
+    margin: 0.66rem 0 0.66rem 0; }
+    .softdesign-section .soft-appreciation .title {
+      line-height: 1;
+      color: #2e2e2e;
+      padding: 2.08rem 0 1.75rem 0; }
+    .softdesign-section .soft-appreciation .content {
+      width: 94%;
+      padding-bottom: 1.7rem; }
+      .softdesign-section .soft-appreciation .content .swiper-container {
+        position: relative;
+        width: 100%; }
+        .softdesign-section .soft-appreciation .content .swiper-container .swiper-slide img {
+          width: 100%; }
+        .softdesign-section .soft-appreciation .content .swiper-container .swiper-slide .discribe {
+          width: 67.5%;
+          color: #757575;
+          background: rgba(0, 0, 0, 0.5);
+          position: absolute;
+          bottom: 2.9rem;
+          left: 50%;
+          margin-left: -33.75%; }
+        .softdesign-section .soft-appreciation .content .swiper-container .control {
+          padding-top: 1.25rem;
+          line-height: 1; }
+          .softdesign-section .soft-appreciation .content .swiper-container .control .prev {
+            border: 0.1rem solid #757575;
+            color: #000;
+            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+            border-radius: 1.5rem;
+            line-height: 1;
+            display: inline-block; }
+          .softdesign-section .soft-appreciation .content .swiper-container .control .order {
+            background-color: #00b2a1;
+            color: #fff;
+            padding: 0.66rem 0.75rem 0.66rem 0.75rem;
+            margin: 0 2.875rem 0 2.875rem;
+            border-radius: 1.5rem;
+            display: inline-block; }
+          .softdesign-section .soft-appreciation .content .swiper-container .control .next {
+            border: 0.1rem solid #757575;
+            color: #000;
+            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+            border-radius: 1.5rem;
+            line-height: 1;
+            display: inline-block; }
+  .softdesign-section .soft-trust {
+    background-color: #fff;
+    margin-bottom: .66rem; }
+    .softdesign-section .soft-trust .title {
+      line-height: 1;
+      color: #2e2e2e;
+      padding: 2.08rem 0 1.75rem 0; }
+    .softdesign-section .soft-trust .content {
+      width: 94%;
+      padding-bottom: 1.45rem;
+      display: flex;
+      flex-wrap: wrap; }
+      .softdesign-section .soft-trust .content .row {
+        width: 100%;
+        display: flex;
+        padding: 0 0 0.75rem 0; }
+        .softdesign-section .soft-trust .content .row .case {
+          width: 22.4%; }
+          .softdesign-section .soft-trust .content .row .case img {
+            width: 100%; }
+          .softdesign-section .soft-trust .content .row .case:nth-child(2) {
+            padding: 0 3.46% 0 3.46%; }
+          .softdesign-section .soft-trust .content .row .case:nth-child(3) {
+            padding: 0 3.46% 0 0; }
+  .softdesign-section .soft-case {
+    background-color: #000; }
+    .softdesign-section .soft-case .title {
+      line-height: 1;
+      color: #fff;
+      padding: 2.08rem 0 1.75rem 0; }
+    .softdesign-section .soft-case .content {
+      width: 94%;
+      padding-bottom: 1.45rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .softdesign-section .soft-case .content .item {
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1.33rem; }
+        .softdesign-section .soft-case .content .item img {
+          width: 100%;
+          margin-bottom: .83rem; }
+        .softdesign-section .soft-case .content .item span {
+          line-height: 1; }
+          .softdesign-section .soft-case .content .item span a {
+            float: left;
+            color: #fff; }
+            .softdesign-section .soft-case .content .item span a:nth-child(2) {
+              float: right; }
+
+/*# sourceMappingURL=soft-styles.css.map */
+/*追加*/
+a{
+  color:black;
+}

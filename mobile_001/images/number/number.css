@@ -1,0 +1,90 @@
+.price-div {
+  font: 12px tahoma, Arial, Verdana, sans-serif;
+  width: 100%;
+  height: 88px;
+  border: 1px solid #FFDFCA;
+  background: #FFEDE0;
+  position: relative;
+}
+
+.price-div > div,
+.total-price > div {
+  float: left;
+  text-align: center;
+}
+.price-div .number {
+    position: absolute;
+    background: #EB6100;
+    width: 30px;
+    height: 28px;
+    top: 34px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    margin-right: 2px; 
+    border-radius: 5px;
+    color: yellow;
+}
+
+.price-div .sign {
+  font-weight: bold;
+  line-height: 68px;
+  height: 48px;
+}
+
+.price-div div.t-k{
+  left: 98px;
+}
+.price-div div.k{
+  left:130px;
+}
+.price-div div.h{
+  left: 162px;
+}
+.price-div div.t{
+  left: 194px;
+}
+.price-div div.single{
+  left: 226px;
+}
+.price-div div.t-d,.price-div div.h-d,.price-div div.h-k{
+  display: none;
+}
+
+.price-div .bak{
+  position: absolute;
+  top: 44px;
+  width: 10px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+.bak_a{
+  left: 124px;
+}
+.bak_b{
+  left: 156px;
+}
+.bak_c{
+  left: 188px;
+}
+.bak_d{
+  left: 220px;
+}
+
+.price-div>.price-div_header,.price-div>.price-div_foot{
+  position: absolute;
+}
+.price-div>.price-div_header{
+  left: 150px;
+  font-size: 13px;
+  font-weight: 600;
+  top: 10px;
+}
+.price-div>.price-div_foot{
+    bottom: 4px;
+    left: 132px;
+    font-size: 13px;
+    font-weight: 600;
+}

@@ -1,0 +1,833 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+	background: #232323;
+}
+@font-face { 
+  font-family: pingfang; 
+  src: url(../font/PingFangRegular.ttf); 
+} 
+/*按钮心跳*/
+.heartbeat{animation:heartbeat 1.5s infinite;-webkit-animation:heartbeat 1.5s infinite}
+@-webkit-keyframes heartbeat{0%,30%,50%,60%,80%{-webkit-transform:scale(1)} 40%,70%{-webkit-transform:scale(1.1)}}
+@keyframes heartbeat{0%,30%,50%,60%,80%{tran   sform:scale(1);} 40%,70%{transform:scale(1.1)}}
+/*banner开始*/
+#wrap .header{
+	background: url(../img/bannerbj.jpg) no-repeat;
+	background-size:100% 100%;
+	height: 5.12rem;
+	width: 100%;
+}
+#wrap .header .banner {
+	width: 100%;
+	height: 100%;
+}
+#wrap .header .banner .logo {
+	height: 2.62rem;
+	padding-top: 0.6rem;
+	display: flex;
+	justify-content: center;
+}
+#wrap .header .banner .logo img{
+	width: 7.02rem;
+	display: block;
+}
+#wrap .header .banner .hr {
+	height: 0.01rem;
+	border-bottom: 1px dashed #ccc;
+	margin-top: 0.36rem;
+}
+#wrap .header .banner .banner-zi {
+	margin-top: 0.16rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#wrap .header .banner .banner-zi span {
+	color:#ffc703;
+}
+#wrap .header .banner .banner-zi p {
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.24rem;
+	width: 6.9rem;
+}
+#wrap .header .banner .bannerbt {
+	margin-top: 0.34rem;
+	display: flex;
+	justify-content: center;
+}
+#wrap .header .banner .bannerbt button {
+	width: 2.48rem;
+	height: 0.48rem;
+	background:url(../img/bannerbt.png)no-repeat;
+	background-size:100% 100%;
+	border: none;
+	color: #000;
+	/*font-size: 0.2rem;*/
+}
+/*免费获取报价*/
+#wrap .content {
+	width: 100%;
+}
+.content .iform {
+	width: 100%;
+	background-color:#fff ;
+}
+#wrap .contenttitle {
+	display: flex;
+	justify-content: center;
+	font-size: 0.46rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.46rem;
+}
+.content .iform .form-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+}
+.content .iform .form-2 input {
+	border-radius: 0.1rem;
+}
+.content .iform .form-1 {
+	width: 6.7rem;
+	height: 0.88rem;
+	border: 1px solid #4f4e4c;
+	display: flex;
+	align-items: center;
+	border-radius: 0.1rem;
+	margin-bottom: 0.18rem;
+}
+.content .iform .form-1 i {
+	width: 0.46rem;
+	height: 0.52rem;
+	padding-right: 0.26rem;
+	padding-left: 0.26rem;
+}
+.content .iform .form-1:nth-of-type(2) i{
+	width: 0.32rem;
+  	height: 0.52rem;
+	padding-left: 0.36rem;
+	padding-right: 0.32rem;
+}
+.content .iform .form-1 i img {
+  	/*width: 100%;*/
+  	height: 100%;
+  	display: block;
+}
+.content .iform .form-1 input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: 0;
+  font-size: 0.26rem;
+  color: #7f7f7f;
+}
+.content .iform .form-2 {
+  display: flex;
+  margin-bottom: 0.18rem;
+}
+.content .iform .formst {
+  border: 1px #4f4e4c solid;
+  width: 3.26rem;
+  height: 0.88rem;
+  background: transparent;
+  color: #5a5a59;
+  font-size: 0.26rem;
+  border-radius: 0.1rem;
+  outline: none;
+  text-indent: 1em;
+}
+.content .iform .formst select{
+	width: 2.7rem;
+	border:0;
+	outline:none;
+	font-size: 0.26rem;
+	margin-top: 0.25rem;
+	color:#7f7f7f;
+}
+.content .iform .formst:nth-of-type(1){
+	margin-right: 0.16rem;
+}
+.content .iform .formst input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 0;
+  display: block;
+  text-indent: 1em;
+  font-size: 0.26rem;
+  color: #5a5a59;
+}
+.content .iform .formst select {
+  background: transparent;  
+	border:none;
+}
+.content .iform .formst select option{
+	color: #7f7f7f;
+}
+.content .iform .form-text {
+  display: block;
+  width: 6.7rem;
+  height: 1.88rem;
+  color: #4f4e4c !important;
+  font-size: 0.26rem;
+  /*line-height: 0.48rem;*/
+  background-color: transparent;
+  resize: none;
+  padding-top: 0.2rem;
+  padding-left: 0.26rem;
+  /*text-indent: 1em;*/
+  box-sizing: border-box;
+  border: 1px solid #4f4e4c;
+  outline: none;
+  border-radius: 0.1rem;
+}
+.content .iform button {
+  display: block;
+  border: none;
+  width: 6.7rem;
+  height: 0.88rem;
+  border-radius: 0.1rem;
+  background: #ffc703;
+  font-size: 0.3rem;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+  text-align: center;
+  line-height: 0.88rem;
+  margin-top: 0.18rem;
+  margin-bottom:0.48rem;
+  font-family:"pingfang"; 
+}
+/*设计空间区域*/
+#wrap .space {
+	width: 100%;
+	height: 7.36rem;
+	background: url(../img/kongjianbj.jpg) ;
+	background-size:100% 100%;
+}
+#wrap .space .contenttitle {
+	color: #fff;
+}
+#wrap .space .spacebox {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#wrap .space .spacebox ul {
+	width: 7.3rem;
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content: center;
+}
+#wrap .space .spacebox ul li {
+	width: 48%;
+	height: 2.64rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #4b4b4b;
+	border-right: 1px solid #4b4b4b;
+}
+#wrap .space .spacebox ul li div {
+	width: 3.24rem;
+}
+#wrap .space .spacebox ul li h1 {
+	font-size: 0.24rem;
+	line-height: 0.2rem;
+	color: #fff;
+	margin-bottom: 0.22rem;
+	text-align: center;
+}
+#wrap .space .spacebox ul li p {
+	font-size: 0.2rem;
+	line-height: 0.26rem;
+	color: #fff;
+}
+#wrap .space .spacebox ul li .space01 {
+	margin-right: 0.24rem;
+}
+#wrap .space .spacebox ul li .space03{
+	margin-right: 0.24rem;
+}
+#wrap .space .spacebox ul li .space02 {
+	margin-left: 0.24rem;
+}
+#wrap .space .spacebox ul li .space04 {
+	margin-left: 0.24rem;
+}
+#wrap .space .spacebox .spaceli3 {
+	border-bottom: none;
+}
+#wrap .space .spacebox .spaceli4 {
+	border-bottom: none;
+	border-right: none;
+}
+#wrap .space .spacebox .spaceli2 {
+	border-right: none;
+}
+/*设计原则*/
+#wrap .principle {
+	width: 100%;
+	background: url(../img/yuanzebj.jpg) ;
+	background-size:100% 100%;
+	height: 8.5rem;
+}
+#wrap .principle .principlewrap {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+#wrap .principle .principlebox {
+	width: 6.46rem;
+}
+#wrap .principle .principlebox .principle00 {
+	height: 1.68rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #d0d2d5;
+}
+#wrap .principle .principlebox .principle00 .imgbox {
+	width:1.32rem;
+	height: 1.32rem;
+	border: 1px solid #ffc703;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#wrap .principle .principlebox .principle00 .imgbox img {
+	/*width: 100%;*/
+	width: 0.58rem;height: 0.58rem;
+	display: inline-block;
+}
+#wrap .principle .principlebox .principle00 .principle001 {
+	width: 4.7rem;
+	height: 1.32rem;
+	padding-top: 0.22rem;
+}
+#wrap .principle .principlebox .principle01 .principle001 {
+	padding-left: 0.4rem;
+}
+#wrap .principle .principlebox .principle03 .principle001 {
+	padding-left: 0.4rem;
+}
+#wrap .principle .principlebox .principle00 .principle001 h1 {
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	color: #000000;
+	margin-bottom: 0.16rem;
+	height: 0.3rem;
+}
+#wrap .principle .principlebox .principle00 .principle001 p {
+	font-size: 0.18rem;
+	line-height: 0.26rem;
+	color: #5c5c5c;
+}
+#wrap .principle .principlebox .principle02 {
+	flex-direction: row-reverse;
+}
+#wrap .principle .principlebox .principle02 .principle001{
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content: flex-end;
+	padding-right: 0.4rem;
+}
+#wrap .principle .principlebox .principle04 {
+	flex-direction: row-reverse;
+	border: none;
+	margin-bottom: 0.54rem;
+}
+#wrap .principle .principlebox .principle04 .principle001{
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content: flex-end;
+	padding-right: 0.4rem;
+}
+/*一站式全程服务*/
+#wrap .serve {
+	width: 100%;
+	height: 8.86rem;
+	background-color: #fff;
+}
+#wrap .serve .servebox {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#wrap .serve .servebox1 {
+	width: 7.02rem;
+	height: 6.22rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#wrap .serve .servebox .serve_00 {
+	color: #fff;
+	font-variant:small-caps;
+}
+#wrap .serve .servebox .serve_00 p:nth-child(2) {
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	margin-top: 0.14rem;
+	margin-left: 0.2rem;
+}
+#wrap .serve .servebox .serve_00 p:nth-child(1){
+	font-size: 0.18rem;
+	line-height: 0.18rem;
+	margin-left: 0.2rem;
+	margin-top: 1.12rem;
+}
+#wrap .serve .servebox .serve_01 {
+	background-image: url(../img/sever01.jpg);
+	background-size:100% 100%;
+	width: 2.12rem;
+	height: 2.02rem;
+}
+#wrap .serve .servebox .serve_02 {
+	background-image: url(../img/sever02.jpg);
+	background-size:100% 100%;
+	width: 2.60rem;
+	height: 2.02rem;
+}
+#wrap .serve .servebox .serve_03 {
+	background-image: url(../img/sever03.jpg);
+	background-size:100% 100%;
+	width: 2.12rem;
+	height: 2.02rem;
+}
+#wrap .serve .servebox .serve_04 {
+	background-image: url(../img/sever04.jpg);
+	background-size:100% 100%;
+	width: 2.12rem;
+	height: 2.02rem;
+}
+#wrap .serve .servebox .serve_05 {
+	width: 2.60rem;
+	height: 2.02rem;
+	background-color: #fff;
+	color: #000;
+	margin: 0 !important;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.18rem;
+}
+#wrap .serve .servebox .serve_05 p:nth-child(1){
+	font-size: 0.36rem;
+	margin-bottom: 0.16rem;
+	margin-left: 0.16rem;
+}
+#wrap .serve .servebox .serve_06 {
+	background-image: url(../img/sever06.jpg);
+	background-size:100% 100%;
+	width: 2.12rem;
+	height: 2.02rem;
+}
+#wrap .serve .servebox .serve_07 {
+	background-image: url(../img/sever07.jpg);
+	background-size:100% 100%;
+	width: 2.12rem;
+	height: 2.02rem;
+}
+#wrap .serve .servebox .serve_08 {
+	background-image: url(../img/sever08.jpg);
+	background-size:100% 100%;
+	width: 2.60rem;
+	height: 2.02rem;
+}
+#wrap .serve .servebox .serve_09 {
+	background-image: url(../img/sever09.jpg);
+	background-size:100% 100%;
+	width: 2.12rem;
+	height: 2.02rem;
+}
+/*了解海岸设计*/
+#wrap .know {
+	background-image: url(../img/liaojie.jpg);
+	background-size:100% 100%;
+	width: 100%;
+	height: 8.06rem;
+}
+#wrap .know .contenttitle {
+	color: #fff;
+}
+#wrap .know .knowbox {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+}
+#wrap .know .knowbox01 {
+	width: 7.02rem;
+	height: 5.94rem;
+}
+#wrap .know .knowbox01 .know_01 {
+	background-color:#de8e03 ;
+	width: 7.02rem;
+	height: 2.8rem;
+	margin-bottom: 0.3rem;
+	display: flex;
+}
+#wrap .know .knowbox01 .know_01 .know_05 {
+	width: 2.02rem;
+	height: 0.96rem;
+	border-bottom: 1px solid #f1ce92;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	margin-left: 0.48rem;
+	margin-right: 0.8rem;
+}
+#wrap .know .knowbox01 .know_01 .know_05 img {
+	width: 0.94rem;
+}
+#wrap .know .knowbox01 .know_01 .know_06 h1 {
+	font-size: 0.32rem;
+	line-height: 0.32rem;
+	margin-top: 0.48rem;
+}
+#wrap .know .knowbox01 .know_01 .know_06 p {
+	font-size: 0.2rem;
+	line-height: 0.24rem;
+	margin-right: 0.76rem;
+	margin-top: 0.18rem;
+}
+#wrap .know .knowbox01 .know_01 .know_06 button {
+	width: 1.8rem;
+	height: 0.54rem;
+	border: none;
+	border:1px solid #fff;
+	background-color:rgba(255,255,255,0) ;
+	color:#fff ;
+	margin-top: 0.38rem;
+}
+#wrap .know .knowbox02 {
+	width: 7.02rem;
+	display: flex;
+	justify-content: space-between;
+}
+#wrap .know .knowbox02 div {
+	width:2.16rem ;
+	height: 2.8rem;
+	
+}
+#wrap .know .knowbox02 .know_02 {
+	background-color: #14bbb4;
+}
+#wrap .know .knowbox02 .know_03 {
+	background-color: #0d7db6;
+}
+#wrap .know .knowbox02 .know_04 {
+	background-color: #00a47f;
+}
+#wrap .know .knowbox02 h1 {
+	font-size: 0.32rem;
+	line-height: 0.32rem;
+	text-align: center;
+	margin-top: 0.46rem;
+	margin-bottom: 0.18rem;
+}
+#wrap .know .knowbox02 p {
+	font-size: 0.2rem;
+	line-height: 0.24rem;
+	margin-left: 0.18rem;
+	margin-right: 0.18rem;
+}
+#wrap .know .knowbox02 button {
+	border: none;
+	width: 1.38rem;
+	height: 0.5rem;
+	border:1px solid #fff;
+	background-color:rgba(255,255,255,0) ;
+	margin: auto;
+	display: block;
+	color: #fff;
+	margin-top: 0.36rem;
+}
+#wrap .know .knowbox02 .know_03 button{
+	margin-top: 0.58rem !important;
+}
+/*设计案例赏析*/
+#wrap .case {
+	width: 100%;
+	height: 6.9rem;
+	background-color: #fff;
+}
+#wrap .swiper-slide {
+	width: 7.02rem;
+	height: 4.5rem;
+	display: flex;
+	justify-content: center;
+}
+#wrap .swiper-slide .case1{
+	width: 7.02rem;
+	height: 4.2rem;
+}
+#wrap .swiper-container .swiper-slide .case1 img {
+	width: 100%;
+	height: 4.2rem;
+	display: block;
+}
+#wrap .swiper-container .swiper-slide .case1 h1 {
+	font-size: 0.34rem;
+	color: #fff;
+	width: 4.76rem;
+	height: 0.68rem;
+	text-align: center;
+	line-height: 0.68rem;
+	background-color: rgba(0,0,0,0.6);
+	position: relative;
+	top: -1.2rem;
+	left: 1.14rem;
+}
+#wrap .case .swiper-button-next button{
+	width: 1.3rem;
+	height: 0.46rem;
+	border: none;
+	position: relative;
+	top: 2.2rem;
+	left: -1.2rem;
+	/*margin-top: 2.44rem;
+	margin-left: -1.2rem;*/
+	color: #000000;
+	font-size: 0.18rem;
+	border-radius:50px ;
+	border: 1px solid #5C5C5C;
+	background-color: #fff;
+}
+#wrap .case .swiper-button-prev button{
+	width: 1.3rem;
+	height: 0.46rem;
+	border: none;
+	position: relative;
+	top: 2.2rem;
+	left: 0.5rem;
+	/*margin-top: 2.44rem;
+	margin-left: 0.5rem;*/
+	color: #000000;
+	font-size: 0.18rem;
+	border-radius:50px ;
+	border: 1px solid #5C5C5C;
+	background-color: #fff;
+}
+#wrap .case .casebt {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	height: 1rem;
+}
+#wrap .case button {
+	width: 2rem;
+	height: 0.6rem;
+	background: #ffc703;
+	border: none;
+	border-radius: 0.5rem ;
+	color: #000;
+	font-size: 0.26rem;
+}
+/*选择海岸就是选择信任*/
+#wrap .custom {
+	width: 100%;
+	background-color: #fff;
+}
+#wrap .custom .company {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#wrap .custom ul {
+	width: 7rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	padding-bottom: 0.64rem;
+}
+#wrap .custom ul li {
+	width: 1.6rem;
+	height: 1.6rem;
+	padding-bottom: 0.16rem;
+}
+#wrap .custom ul li img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+}
+/*海岸连锁店设计*/
+#wrap .anli {
+	width: 100%;
+	background-color: #000;
+	padding-bottom: 0.7rem;
+}
+#wrap .anli .contenttitle {
+	color: #fff;
+}
+#wrap .anli .anlilist {
+	display: flex;
+	justify-content: center;
+}
+#wrap .content-list{
+	width: 7.2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+
+#wrap .content-list li{
+	width: 3.5rem;
+	height: 2.92rem;
+}
+#wrap .content-list li img {
+	display: block;
+	width: 100%;
+	height: 2.1rem;
+}
+#wrap .content-list li span{
+	display: flex;
+	justify-content: space-between;
+}
+#wrap .content-list li span h1{
+	font-size: 0.28rem;
+	margin-left: 0.08rem;
+	color: #fff;
+	line-height: 0.76rem;
+}
+#wrap .content-list li span p {
+	font-size: 0.2rem;
+	color: #fff;
+	line-height: 0.76rem;
+	margin-right: 0.2rem;
+}
+
+/*footer*/
+#wrap .footer {
+	width: 100%;
+	padding-top: 0.8rem;
+	background-color: #353535;
+	color: #9d9d9d;
+	font-size: 0.22rem;
+	padding-bottom: 0.36rem;
+}
+#wrap .footer .footer1 {
+	width: 100%;
+}
+#wrap .footer .footer1 .icon{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#wrap .footer .footer1 .footericon {
+	width:65%;
+	display: flex;
+	justify-content: space-between;
+}
+#wrap .footer .footer1 .footericon li{
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 0.15rem;
+}
+#wrap .footer .footer1 .footericon li p {
+	margin-top: 0.15rem;
+}
+#wrap .footer img {
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+}
+#wrap .footer .p1 {
+	text-align: center;
+	margin-top: 0.2rem;
+	/*margin-bottom: 0.36rem;*/
+}
+#wrap .footer .p1 .lastp {
+	margin-top: 0.06rem;
+}
+#wrap .footer .phone {
+	width: 100%;
+	background-color:#FFFFFF ;
+	height: 0.7rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.26rem;
+	font-weight: bold;
+	margin-top: 0.5rem;
+}
+#wrap .footer .phone div {
+	width: 0.36rem;
+	height: 0.36rem;
+	margin-right: 0.2rem;
+}
+#wrap .footer .phone img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#wrap .footer .phone p {
+	color: #676767;
+}
+#wrap .footer .phone span {
+	color: #e50202;
+}
+/*固定按钮*/
+#wrap .fixfooter {
+	width: 100%;
+	height: 0.98rem;
+	background-color: rgba(0,0,0,0.35);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+}
+#wrap .fixfooter .fixer {
+	width: 7.5rem;
+	display: flex;
+	justify-content: center;
+}
+#wrap .fixfooter .fixer .button1 {
+	display: flex;
+	justify-content: center;
+}
+#wrap .fixfooter .fixer button {
+	width: 3.38rem;
+	height: 0.6rem;
+	margin-right: 0.14rem;
+	font-size: 0.32rem;
+	font-weight: bold ;
+	line-height: 0.66rem;
+	border:none;
+	display: flex;
+	justify-content: center;
+	background-color: #e50202;
+	/*background-color: #000;*/
+	color: #fff;
+	padding-left: 0.56rem;
+	font-family: "pingfang";
+}
+#wrap .fixfooter .fixer button div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 0.6rem;
+	height: 0.6rem;
+}
+#wrap .fixfooter .fixer button div img {
+	width: 0.3rem;
+	height: 0.3rem;
+	display: block;		
+	} 

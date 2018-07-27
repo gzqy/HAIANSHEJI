@@ -1,0 +1,1080 @@
+*{
+    margin:0;padding: 0;font-family: "微软雅黑";font-style: normal;
+}
+li{
+    list-style: none;
+}
+body{
+	min-width: 1200px;
+}
+img{
+	border:none;
+}
+button{
+	cursor: pointer;
+}
+.title{
+    width: 1200px;height: 610px;margin: 0 auto;clear: both;
+}
+.about{
+    width: 1200px; height:70px; margin:50px auto;position: relative;
+    animation: about 4s ;
+	-webkit-animation: about 4s ;
+	-o-animation: about 4s ;
+	-ms-animation:about 4s ;
+}
+.anoe{
+    width: 1200px; height:70px; margin:50px auto;position: relative;
+}
+.alout{
+    width: 1200px; height:70px; margin:50px auto;position: relative;
+}
+.aloue{
+    width: 1200px; height:70px; margin:50px auto;position: relative;
+}
+.aloua{
+    width: 1200px; height:70px; margin:50px auto;position: relative;
+}
+@keyframes about{
+    0% {left:-100px;}  50% {left:0px;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes about{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes about{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes about{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+.img-xie{
+    position: absolute; top:15px;left: 65px;
+}
+.shut{
+    background: #e9e9e9;display: inline-block;text-align: center;font-weight: bold;
+    width: 70px;height: 70px;color: #d92222;font-size: 50px;
+}
+.sea{
+    display: inline-block;height: 56px;position: absolute;top:28px;left: 77px;
+}
+.sea span{
+    padding-top:10px;color: #a0a0a0;
+}
+.carousel{
+    width: 814px;height: 470px;float: left;overflow: hidden;position: relative;
+    animation: carousel 4s ;
+	-webkit-animation: carousel 4s ;
+	-o-animation: carousel 4s ;
+	-ms-animation:carousel 4s ;
+}
+
+
+@keyframes carousel{
+    0% {left:-100px;}  50% {left:0px;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes carousel{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes carousel{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes carousel{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+.carousel ul{
+    position: relative;height: 470px;width: 4000px;right: 0;
+}
+.carousel ul li{
+    width: 820px; position: relative;
+}
+.triangle{
+    background: url('../abouthaian/7-1.png')no-repeat;display: block; z-index: 100;
+    width: 13px; height: 10px; position: absolute;top:10px;left: 10px;
+}
+.establish{
+    width:380px;height: 470px; border:1px solid #ddd;background-color:#232b3a; 
+    float: left; padding:30px;box-sizing: border-box;border-radius: 10px;
+}
+.meeting{
+    position: absolute; left: 60px!important;
+}
+.oast{
+    color: red;
+}
+.establish p{
+    color:#fff;text-align: justify;font-size: 14px;line-height: 25px;
+}
+.Include ul{
+    position: relative; height:180px;width:1700px;right: 0 ;
+}
+.Include li{
+    float: left; width: 385px;margin-right: 15px;
+}
+.Include li img{
+    width: 385px;
+}
+.mghf{
+    width: 385px;height:120px;text-align: center;background: #ececec;position: relative;
+}
+.icon{
+    background: url('../abouthaian/6-1.png') no-repeat;
+    width: 13px; height: 10px;display: block;position: absolute;top:110px; left: 180px;
+}
+.mghf span{
+    position: absolute;top:50px;left: 148px;text-align: center;
+}
+.brand{
+    width: 1200px; height:300px;
+}
+.Genesis{
+    width: 1200px;height:870px;margin:0 auto;clear: both;
+}
+.people{
+    position: relative;
+}
+.Teacher{
+    position: absolute; top:116px; left: 513px;
+}
+.resume{
+    height: 368px;clear: both;position: relative;
+}
+.introduce{
+    width: 586px;height:325px; padding-right:10px;float: left; clear: both;position: relative;
+}
+.line{
+    border-right:1px dotted #a0a0a0;height: 290px; position: absolute;top:0%;left: 49.5%;
+}
+.introduce-left{
+    width: 532px;height:325px; padding-right:10px;float: left; clear: both;position: relative;
+    animation: introduce-left 4s ;
+	-webkit-animation: introduce-left 4s ;
+	-o-animation: introduce-left 4s ;
+	-ms-animation:introduce-left 4s ;
+}
+@keyframes introduce-left{
+    0% {left:-200px;top:100px;}50% {left:0px;top:0px;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes introduce-left{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes introduce-left{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes introduce-left{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+.introduce li{
+    padding-bottom: 16px;font-size: 14px;
+}
+.introduce1{
+    width: 586px;height:325px; padding-left:148px;float: left;text-align: justify;position: relative;
+}
+.introduce-right{
+    width: 666px;height:325px; position: relative;
+    animation: introduce-right 4s ;
+	-webkit-animation: introduce-right 4s ;
+	-o-animation: introduce-right 4s ;
+	-ms-animation:introduce-right 4s ;
+}
+@keyframes introduce-right{
+    0% {right:-200px;top:100px;}	50% {right:0px;top:0px;} 	
+    0% {opacity: 0;}   50%{opacity: 1;}
+}
+@-moz-keyframes introduce-right{
+	0% {right:-100px;}	25% {right:20px;}	
+}
+@-webkit-keyframes introduce-right{
+	0% {right:-100px;}	25% {right:20px;}	
+}
+@-o-keyframes introduce-right{
+	0% {right:-100px;}	25% {right:20px;}	
+}
+.introduce1 li{
+    padding-bottom: 16px;font-size: 14px;
+}
+.btno{
+    display: block;margin: 0 auto;position: relative;
+    background: url('../abouthaian/关于我们改版4_03.jpg') no-repeat;
+    width: 170px;height: 50px;cursor: pointer;  transition: 1s all;
+}
+.btno:hover{
+    transform: scale(1.1);
+}
+.liji0{
+    position: absolute;top:7px;left: 46px;
+    font-size: 22px;color:#fff;
+}   
+.btno button{
+    width: 160px; height:43px;margin-top:30px;border-radius: 5px;background: #ff0000;color: #fff;font-size: 18px;border:none;
+    display: block;margin:0 auto;
+}
+.doctrine{
+    background: url('../abouthaian/11-1.png') no-repeat;
+    width: 100%; height:553px; position: relative;
+}
+
+.repeat{
+    font-size: 28px;border:1px solid #fff;
+    width: 280px; margin:0 auto;padding:7px;height:56px;
+}
+.natural{
+    font-size: 18px;margin-top:40px;line-height: 38px;
+}
+.hr{
+    background: #fff;width: 200px;height: 2px;margin:0 auto;margin-top:40px;
+}
+.banndownarr{
+    position: absolute;
+	left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	bottom:120px;
+	animation:updown 1.3s infinite;
+	-webkit-animation:updown 1.3s infinite;
+}
+@keyframes updown{
+	0%{
+		bottom:120px;
+	}
+	50%{
+		bottom:110px;
+	}
+	100%{
+		bottom:120px;
+	}
+}
+@-webkit-keyframes updown{
+	0%{
+		bottom:-30px;
+	}
+	50%{
+		bottom:-15px;
+	}
+	100%{
+		bottom:-30px;
+	}
+}
+@-moz-keyframes updown{
+	0%{
+		bottom:-30px;
+	}
+	50%{
+		bottom:-15px;
+	}
+	100%{
+		bottom:-30px;
+	}
+}
+@-ms-keyframes updown{
+	0%{
+		bottom:-30px;
+	}
+	50%{
+		bottom:-15px;
+	}
+	100%{
+		bottom:-30px;
+	}
+}
+@-o-keyframes updown{
+	0%{
+		bottom:-30px;
+	}
+	50%{
+		bottom:-15px;
+	}
+	100%{
+		bottom:-30px;
+	}
+}
+.stan{
+    font-size: 18px;margin: 20px 0;height: 70px;line-height: 34px;
+}
+.works{
+    width: 1200px;height: 743px; margin:0 auto;clear: both;
+}
+.works ul{
+    font-size: 15px;
+}
+.plan{
+    width: 430px;height: 650px;float: left;
+}
+.play{
+    width: 215px; height:650px;float: left;
+}
+.plah{
+    width: 215px; height:650px;float: left;
+}
+.plae{
+    width: 340px; height:650px;float: left;
+}
+.one{
+    background: url('../abouthaian/jiu/_07.jpg') no-repeat;
+    width: 418px;height:198px;margin-bottom: 10px;
+    position: relative;
+}
+.one-1{
+    position: absolute; top:0;left: 0;
+    background: #1d2837;width: 418px;height:198px;opacity: .9;
+}
+.one-1:hover,.two-1:hover,.three-1:hover,.fore-1:hover,.five-1:hover,.six-1:hover,.seven-1:hover,.eight-1:hover,.nine-1:hover{
+    opacity:1;
+}
+.one-title{
+    position: absolute;top:50px;left: 100px;border:2px solid #fff;
+    width: 220px;height:100px;color: #fff;text-align: center;line-height: 30px;
+}
+.two{
+    background: url('../abouthaian/jiu/_16.jpg') no-repeat;
+    width: 419px;height:205px;margin-bottom: 10px;position: relative;
+}
+.two-1{
+    position: absolute; top:0;left: 0;
+    background: #5d3e43;width: 418px;height:198px;opacity: .9;
+}
+.two-title{
+    position: absolute;top:20px;left: 86px;border:2px solid #fff;
+    width: 250px;height:162px;color: #fff;text-align: center;line-height: 30px;
+}
+.three{
+    background: url('../abouthaian/jiu/_25.jpg') no-repeat;
+    width: 419px;height:205px;margin-bottom: 10px;position: relative;
+}
+.three-1{
+    position: absolute; top:0;left: 0;
+    background: #5a4f37;width: 418px;height:198px;opacity: .9;
+}
+.three-title{
+    position: absolute;top:16px;left: 75px;border:2px solid #fff;
+    width: 270px;height:162px;color: #fff;text-align: center;line-height: 30px;
+}
+.fore{
+    background: url('../abouthaian/jiu/_09.jpg') no-repeat;
+    width: 210px; height: 280px;margin-bottom: 10px;position: relative;
+}
+.fore-1{
+    position: absolute; top:0;left: 0;
+    background: #413d44;width: 200px;height:280px;opacity: .9;
+}
+.fore-title{
+    position: absolute;top:32px;left:23px;border:2px solid #fff;
+    width: 150px;height:210px;color: #fff;text-align: center;line-height: 34px;
+}
+.five{
+    background: url('../abouthaian/jiu/_23.jpg') no-repeat;
+    width: 210px; height: 333px;margin-bottom: 10px;position: relative;
+}
+.five-1{
+    position: absolute; top:0;left: 0;
+    background: #25474e;width: 201px;height:332px;opacity: .9;
+}
+.five-title{
+    position: absolute;top:38px;left:15px;border:2px solid #fff;
+    width: 170px;height:252px;color: #fff;text-align: center;line-height: 30px;
+}
+.six{
+    background: url('../abouthaian/jiu/_11.jpg') no-repeat;
+    width: 210px; height: 233px;margin-bottom: 10px;position: relative;
+}
+.six-1{
+    position: absolute; top:0;left: 0;
+    background: #224225;width: 201px;height:233px;opacity: .9;
+}
+.six-title{
+    position: absolute;top:14px;left:27px;border:2px solid #fff;
+    width: 143px;height:200px;color: #fff;text-align: center;line-height: 30px;
+}
+.seven{
+    background: url('../abouthaian/jiu/_19.jpg') no-repeat;
+    width: 210px; height: 380px;margin-bottom: 10px;position: relative;
+}
+.seven-1{
+    position: absolute; top:0;left: 0;
+    background: #2d293f;width: 201px;height:380px;opacity: .9;
+}
+.seven-title{
+    position: absolute;top:62px;left:27px;border:2px solid #fff;
+    width: 143px;height:255px;color: #fff;text-align: center;line-height: 30px;
+}
+.eight{
+    background: url('../abouthaian/jiu/_13.jpg') no-repeat;position: relative;
+    width: 329px; height: 270px;margin-bottom: 10px;
+}
+.eight-1{
+    position: absolute; top:0;left: 0;
+    background: #58492c;width: 329px;height:270px;opacity: .9;
+}
+.eight-title{
+    position: absolute;top:14px;left:67px; border:2px solid #fff;
+    width: 201px;height:236px;color: #fff;text-align: center;line-height: 30px;
+}
+.nine{
+    background: url('../abouthaian/jiu/_22.jpg') no-repeat;
+    width: 329px; height: 343px;margin-bottom: 10px; position: relative;
+}
+.nine-1{
+    position: absolute; top:0;left: 0;
+    background: #22313d;width: 328px;height:342px;opacity: .9;
+}
+.nine-title{
+    position: absolute;top:19px;left:46px;border:2px solid #fff;
+    width: 240px;height:300px;color: #fff;text-align: center;line-height: 30px;
+}
+.team{
+    width: 1200px; height:640px;margin:0 auto;
+}
+.boutique{
+    width: 1200px; height:800px;margin:0 auto;
+}
+.character-1{
+    position: absolute;top: 0;left: 0;
+    width: 383px; height:522px;
+}
+.character-2{
+    position: absolute;top: 14%;left:40%; background: rgba(255, 255, 255,.3);
+    width: 46px; height:322px;padding: 10px;
+}
+.character:hover .character-2{
+    width: 100%; height: 100%;
+    transition: 3s all;left: 0;top: 0; 
+}
+.character-3{
+    font-size:19px; width:37px; line-height:21px;color:#fff;position: absolute;left:44%;top:16%;text-align: center;
+}
+.coordination-1{
+    position: absolute;top: 0;left: 0;background: rgba(0, 0, 0,.4);
+    width: 386px; height:225px;
+}
+.coordination-2{
+    position: absolute;top: 79px;left:36px; background: rgba(255, 255, 255,.3);
+    width: 318px; height:56px;text-align: center;padding: 10px;line-height: 35px;border: 1px solid #d2d2d2;
+}
+.coordination:hover .coordination-2{
+    width: 100%; height: 100%;transition: 1s all;left: 0;top: 0; 
+}
+.project-1{
+    position: absolute;top: 0;left: 0;background: rgba(0, 0, 0, .4);
+    width: 386px; height:225px;
+}
+.project-2{
+    position: absolute;top: 79px;left:36px; background: rgba(255, 255, 255,.3);
+    width: 318px; height:56px;text-align: center;padding: 10px;line-height: 35px;border: 1px solid #d2d2d2;
+}
+.project:hover .project-2{
+    width: 100%; height: 100%;
+    transition: 1s all;left: 0;top: 0; 
+}
+.keep-1{
+    position: absolute;top: 0;left: 0;background: rgba(0, 0, 0, .4);
+    width: 793px; height:275px;
+}
+.keep-2{
+    position: absolute;top: 108px;left:231px; background: rgba(255, 255, 255,.3);
+    width: 318px; height:56px;text-align: center;padding: 10px;line-height: 35px;border: 1px solid #d2d2d2;
+}
+.keep:hover .keep-2{
+    width: 100%; height: 100%; transition: 1s all;left: 0;top: 0; 
+}
+.Corps{
+    font-size: 18px; color: #fff;position: absolute;top:42%;left: 17%;
+}
+.project-3{
+    font-size: 18px; color: #fff;position: absolute;top:42%;left: 15%;
+}
+.keep-3{
+    font-size: 18px; color: #fff;position: absolute;top:45%;left: 38%;
+}
+.scenery{
+    width: 1200px; height:424px;margin:0 auto;
+}
+.formulate{
+    margin:0 auto;width: 800px;line-height: 80px;height: 80px;text-align: center;
+}
+.formulate ul li{
+    width: 100px;height: 30px; line-height: 30px;  float: left;margin-left: 30px;border-radius: 8px;cursor: pointer;border: 1px solid #d2d2d2;
+}
+.formulate ul li:nth-child(6):hover{
+    color: #fff !important;
+}
+.hotel{
+    width: 1200px; height:200px;float: left;max-height: 400px;
+}
+.hotel1{
+    width: 1200px; height: 200px; float: left;
+}
+.hotel1 li{
+    float: left;margin-right: 10px;
+}
+.hotel li{
+    float: left;margin-right: 10px;
+}
+.hard{
+    height: 100px; border: 1px solid #ddd;
+}
+.active0{
+    background: #e60012;color: #fff;border: none !important;
+}
+.footer{
+    width: 1200px; height:400px;margin: 0 auto; 
+}
+.cooperation1{
+    width: 1200px; height: 254px;position: relative;
+    animation: cooperation1 3s ;
+    -webkit-animation: cooperation1 3s ;
+    -o-animation: cooperation1 3s ;
+    -ms-animation:cooperation1 3s ;
+}
+@keyframes cooperation1{
+0% {top:100px;opacity: 0;}   50% {top:0px;opacity: 1;} 
+0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes cooperation1{
+0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes cooperation1{
+0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes cooperation1{
+0% {left:-100px;}	25% {left:20px;}	
+}
+.cooperation li{
+    float: left;margin: 0 11px 11px 0;
+}
+.cooperation li img:hover{
+    box-shadow: 10px 10px 5px #ccc;border-radius: 8px;
+    transform: translateX(-3px) translateY(-3px);
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.the_left{
+    width: 645px;height: 650px;float: left;
+}
+.the_right{
+    width: 555px;height: 650px;float: left;
+}
+.layer{
+    position: relative;top:0px;left:450px;width:1000px;height:459px;
+    text-align: center;color: #fff;padding-top:100px;
+}
+.minc{
+    position: relative;
+    animation: minc 3s ;
+	-webkit-animation: minc 3s ;
+	-o-animation: minc 3s ;
+	-ms-animation:minc 3s ;
+}
+@keyframes minc{
+    0% {top:200px; opacity: 0;}   50% {top:0px;opacity: 1;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes minc{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes minc{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes minc{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+.automatic{
+    width: 1200px; height:300px;margin:15px auto;position: relative;
+    animation: automatic 4s ;
+	-webkit-animation: automatic 4s ;
+	-o-animation: automatic 4s ;
+	-ms-animation:automatic 4s ;
+}
+.Include{
+    width: 380px; height: 300px; float: left; position: relative;margin-right: 20px;position: relative;
+}
+@keyframes automatic{
+    0% {top:200px;}   50% {top:0px;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes automatic{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes automatic{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes minautomatice{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+.establish{
+    position: relative;
+    animation: establish 3s ;
+	-webkit-animation: establish 3s ;
+	-o-animation: establish 3s ;
+	-ms-animation:establish 3s ;
+}
+@keyframes establish{
+    0% {left:100px;opacity: 0;}   50% {left:0px;opacity: 1;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes establish{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes establish{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes establish{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+
+.mini{
+    position: relative;
+    animation: mini 4s ;
+	-webkit-animation: mini 4s ;
+	-o-animation: mini 4s ;
+	-ms-animation:mini 4s ;
+}
+@keyframes mini{
+    0% {left:-200px;top:100px;}50% {left:0px;top:0px;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes mini{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes mini{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes mini{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+.mine{
+    position: relative;
+    animation: mine 4s ;
+	-webkit-animation: mine 4s ;
+	-o-animation: mine 4s ;
+	-ms-animation:mine 4s ;
+}
+@keyframes mine{
+    0% {top:100px;} 50% {top:0px;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes mine{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes mine{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes mine{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+
+.mina{
+    position: relative;
+    animation: mina 4s ;
+	-webkit-animation: mina 4s ;
+	-o-animation: mina 4s ;
+	-ms-animation:mina 4s ;
+}
+@keyframes mina{
+    0% {bottom:100px;} 50% {bottom:0px;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes mina{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes mina{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes mina{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+.mind{
+    position: relative;
+    animation: mind 4s ;
+	-webkit-animation: mind 4s ;
+	-o-animation: mind 4s ;
+	-ms-animation:mind 4s ;
+}
+@keyframes mind{
+    0% {right:-200px;top:100px;}50% {right:0px;top:0px;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes mind{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes mind{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes mind{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+.about1{
+    position: relative;
+    animation: about1 4s ;
+	-webkit-animation: about1 4s ;
+	-o-animation: about1 4s ;
+	-ms-animation:about1 4s ;
+}
+@keyframes about1{
+    0% {left:-100px;}  50% {left:0px;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes about1{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes about1{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes about1{
+	0% {left:-100px;}	25% {left:20px;}	
+}
+.loste{
+    max-height: 300px;width: 1200px;
+}
+.coff{
+    margin-top: 150px;opacity: 0;transition: all 1s ease;
+    }
+.coff1{
+	transition-delay: 0.1s;
+}
+.coff2{
+	transition-delay: 0.2s;
+}
+.coff3{
+	transition-delay: 0.3s;
+}
+.coff4{
+	transition-delay: 0.4s;
+}
+.loste.hover .coff{
+	margin-top: 0;opacity: 1;
+}
+.character{
+    background: url('../abouthaian/3-1.jpg') no-repeat;float: left;position: relative;
+    width: 383px; height:522px;position: relative;margin-right: 20px;
+}
+.character4{
+    position: relative;
+    animation: character4 5s ;
+    -webkit-animation: character4 5s ;
+    -o-animation: character4 5s ;
+    -ms-animation:character4 5s ;
+}
+@keyframes character4{
+0% {right:100px;opacity: 0;}   50% {right:0px;opacity: 1;} 
+0% {opacity: 0;}   50%{opacity: 1;}	
+}
+@-moz-keyframes character4{
+0% {left:-100px;}	25% {left:20px;}	
+}
+@-webkit-keyframes character4{
+0% {left:-100px;}	25% {left:20px;}	
+}
+@-o-keyframes character4{
+0% {left:-100px;}	25% {left:20px;}	
+}
+.coordination{
+    background: url('../abouthaian/_11.jpg') no-repeat;float: left;position: relative;
+    width: 386px; height:225px;position: relative;margin-right: 20px;
+}
+.coordination4{
+    position: relative;
+    animation: coordination4 3s ;
+    -webkit-animation: coordination4 3s ;
+    -o-animation: coordination4 3s ;
+    -ms-animation:coordination4 3s ;
+}
+@keyframes coordination4{
+    0% {right:100px; opacity:0;}   50% {right:0px;opacity:1;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+    }
+    @-moz-keyframes coordination4{
+    0% {left:-100px;}	25% {left:20px;}	
+    }
+    @-webkit-keyframes coordination4{
+    0% {left:-100px;}	25% {left:20px;}	
+    }
+    @-o-keyframes coordination4{
+    0% {left:-100px;}	25% {left:20px;}	
+}
+.project{
+    background: url('../abouthaian/_12.jpg') no-repeat;float: left;
+    width: 386px; height:225px;position: relative;position: relative;
+}
+.project4{
+    position: relative;
+    animation: project4 3s ;
+    -webkit-animation: project4 3s ;
+    -o-animation: project4 3s ;
+    -ms-animation:project4 3s ;
+}
+@keyframes project4{
+    0% {left:100px;opacity: 0;}   50% {left:0px;opacity: 1;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+    }
+    @-moz-keyframes project4{
+    0% {left:-100px;}	25% {left:20px;}	
+    }
+    @-webkit-keyframes project4{
+    0% {left:-100px;}	25% {left:20px;}	
+    }
+    @-o-keyframes project4{
+    0% {left:-100px;}	25% {left:20px;}	
+}
+.keep{
+    background: url('../abouthaian/_13.jpg') no-repeat;float: left;position: relative;
+    width: 793px; height:275px;position: relative;margin-top:20px;
+}
+.keep4{
+    position: relative;
+    animation: keep4 3s ;
+    -webkit-animation: keep4 3s ;
+    -o-animation: keep4 3s ;
+    -ms-animation:keep4 3s ;
+}
+@keyframes keep4{
+    0% {left:100px;opacity: 0;}   50% {left:0px;opacity: 1;} 
+    0% {opacity: 0;}   50%{opacity: 1;}	
+    }
+    @-moz-keyframes keep4{
+    0% {left:-100px;}	25% {left:20px;}	
+    }
+    @-webkit-keyframes keep4{
+    0% {left:-100px;}	25% {left:20px;}	
+    }
+    @-o-keyframes keep4{
+    0% {left:-100px;}	25% {left:20px;}	
+}
+.control{
+    position: relative;
+}
+.control .mask{
+    width: 289px;height: 193px;position: absolute;top: 0;left: 0;
+}
+.mask {
+    opacity: 0;
+    overflow:visible;
+    border:0px solid rgba(0,0,0,0.7);
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+ }
+ a.info{
+    position: absolute;
+	top:-10px;left: 29px;
+	opacity:0;
+   -moz-transform:scale(0,0);
+   -webkit-transform:scale(0,0);
+   -o-transform:scale(0,0);
+   -ms-transform:scale(0,0);
+   transform:scale(0,0);
+   -webkit-transition: -webkit-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+   -moz-transition: -moz-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+   -o-transition: -o-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+   -ms-transition: -ms-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+   transition: transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+ }
+ .control:hover .mask {
+    opacity: 1;border:97px solid rgba(0,0,0,0.7);
+ }
+ .control:hover a.info {
+    background: url('../abouthaian/jia.png') no-repeat;
+    position: absolute;
+    top: -24px; left: 29px;
+    width: 50px;height: 50px;display: block;z-index: 10;
+	opacity:1;
+	-moz-transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	-o-transform:scale(1,1);
+	-ms-transform:scale(1,1);
+	transform:scale(1,1);
+	-moz-transition-delay:0.3s;
+	-webkit-transition-delay:0.3s;
+	-o-transition-delay:0.3s;
+	-ms-transition-delay:0.3s;
+	transition-delay:0.3s;
+}
+/* 表单样式 */
+.boxbig{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 200;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+        display: none;
+    }
+.box1{
+    margin: 0px auto;
+    font-family: "微软雅黑";
+    /*width: 355px;
+    height: 400px;*/
+    width:320px;
+    position: fixed;
+    left: 50%; top: 25%;
+    margin-left: -187.5px;
+    padding-top: 17px;
+    background: #fff;
+    /*letter-spacing: 1px;*/
+}
+
+
+.close{
+    /*margin-top: 15px;*/
+    float: right;
+    padding-left: 1px;
+    margin-right: 15px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    font-family: "微软雅黑";
+    background: rgba(255,255,255, .15);
+    border-radius: 12px;
+    line-height: 20px;/*padding-top: 2px;*/
+    font-size: 22px;
+    transition:.5s all;
+    text-align: center;
+    color: inherit !important;
+    opacity: 1 !important;
+}
+.close:hover{
+    background: rgba(0,0,0, .15);
+    color: #000;
+    transform:rotate(180deg);
+}
+.iptbox{
+    /*width: 75%;
+    height: 350px;*/
+    width: 80%;
+    margin: 0px auto;
+    color: #9e9e9e;}
+.iptbox em{
+    display: block;
+    margin-top:2px;
+    width: 100%;
+    height: 35px;
+    line-height: 47px;
+    color: #a02426;
+    font-size: 16px;
+    font-weight: bold;
+}
+.iptbox span{
+    display: block;
+    width: 100%;
+    height: 23px;
+    color: #2a2a2a;
+    font-size: 14px;
+}
+.iptbox input{
+    width: 100%;
+    /*height: 39px;*/
+    height: 35px;
+    /*padding:3px;*/
+    margin-top: 8px;
+    float: left;
+    border: 1px solid #cfcdcd;
+    text-indent:1em;
+    cursor: pointer;
+    font-size:12px;
+    color: #252525;
+}
+
+/* 侧边弹框表单验证码开始 */
+#now_code{
+    cursor: pointer;
+    width:110px;
+    height:33px;
+    margin-top:9px;
+    margin-left:10px;
+}
+
+.iptbox .inp{
+    width:134px;
+    height:35px;
+}
+/* 验证码结束 */
+
+.plceadarea input{
+    display: block;
+    width: 128px;
+    height: 38px;
+    float: left;
+}
+.tanboxarea{
+    width: 128px;
+    height: 38px;
+    float: right;
+    position: relative;
+        color: #2a2a2a;
+}
+.tanboxarea input{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tanboxarea span{
+    position: absolute;
+    display: block;
+    top: 8px;
+    width: 31px;
+    height: 38px;
+    right: 0px;
+    text-align: center;
+    line-height: 38px;
+}
+.iptbox textarea{
+    padding: 10px;
+    width: 92%;
+    height: 100px;
+    color: #252525;
+    float: left;
+    margin-top: 10px;
+    outline: none;
+    resize:none;
+    text-align: left;
+    font-size: 12px;
+    border: 1px solid #cfcdcd;
+}
+ 
+.iptbox button{
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    line-height: 37px;
+    height: 37px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.iptbox p{
+    display: block;
+    width: 100%;
+    float: left;
+    height: 30px;
+    line-height: 40px;
+    color: #828282;
+    font-size: 12px;
+    margin-bottom: 25px;
+    padding:5px;
+}
+
+.iptbox #btnone{
+    background: #a02426;
+    color:#fff;
+    font-size:15px;
+}
+
+/*侧边导航*/
+.besidenavbox { 
+    top: 35% !important; 
+}

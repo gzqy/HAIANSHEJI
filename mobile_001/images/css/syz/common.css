@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body {
+  font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif; }
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, li, ol, dl, dt, dd, input, textarea, button, img, i, b, em, form, iframe, table, thead, tbody, tr, th, td, a, select, option, footer, header, pre, code, hgroup, menu, nav, section, article, aside, details, figcaption, figure, fieldset, legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-weight: normal;
+  font-style: normal; }
+
+ul, li, ol {
+  list-style: none; }
+
+a:link, a:visited, a:hover {
+  text-decoration: none; }
+
+/*去除手机点击后背景框*/
+a, span, button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none; }
+
+input, select, label {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none; }
+
+select {
+  background-color: transparent;
+  -webkit-appearance: none; }
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../fonts/iconfont.eot?t=1479805195171");
+  /* IE9*/
+  src: url("../fonts/iconfont.eot?t=1479805195171#iefix") format("embedded-opentype"), url("../fonts/iconfont.woff?t=1479805195171") format("woff"), url("../fonts/iconfont.ttf?t=1479805195171") format("truetype"), url("../fonts/iconfont.svg?t=1479805195171#iconfont") format("svg");
+  /* iOS 4.1- */ }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+/*# sourceMappingURL=common.css.map */

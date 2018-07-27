@@ -1,0 +1,576 @@
+/*----------下面是底部------------*/
+img{
+	border:0px;
+	background-repeat:no-repeat;
+	}
+li{
+	cursor:pointer;}
+.faer_top{
+	width: 100%;
+	z-index: 1;
+	height: 60px;
+	position: fixed;
+	box-shadow: 0 0 4px 2px #989898;
+    background-color: #fff;}
+.fixednav{
+	letter-spacing: 1px;
+	width:1220px;
+	height:51px;font-family: "微软雅黑";
+	margin:0px auto;
+}
+.fixednav img{
+	display: block;
+	width:180px;
+	height:23px;
+	float:left;
+	margin-top: 18px;
+	padding-left:0px;}
+.fixednav ul{	
+	width: 780px;
+    height: 57px;
+    float: left;
+    margin-left: 68px;
+    list-style: none;
+	}
+.fixednav ul li{
+	cursor: pointer;
+    float: left;
+    font-size: 14px;
+    line-height: 60px;
+    width: 80px;
+    margin-right: 28px;
+    color: #735e5e;
+    height: 60px;
+    text-align: center;
+	}
+.nav{float:right;}
+.nav li:hover{
+	color:#b6221e;
+	font: 16px;
+	-webkit-transition: all ease-in-out .3s;
+	-moz-transition: all ease-in-out .3s;
+	-ms-transition: all ease-in-out .3s;
+	transition: all ease-in-out .3s;
+	}
+.navblue{
+	color: #b30505 !important;
+    font: 18px !important;
+    border-top: 1px solid;
+    line-height: 58px !important;
+	}
+.navphone{
+	float: left;
+	background: url(../img/redphonelogo.png) no-repeat 0px 20px;
+	height: 60px;
+	padding-left: 20px;
+	line-height: 60px;
+	width: 160px;
+	color: #b81e1d;
+	font-size: 19px;
+	letter-spacing: 0px;
+}
+a:link { 
+     color:inherit;
+text-decoration: none; 
+} 
+a:visited { 
+ color:inherit;
+text-decoration: none; 
+} 
+a:hover { 
+ color:inherit;
+text-decoration: none; 
+} 
+a:active { 
+ color:inherit;
+text-decoration: none; 
+} 
+strong{font-weight:400}
+.strong{font-weight:700}
+::selection{background:#1EACDF;color:#000}
+img{border:0}
+.auto{margin:0 auto;min-width:1px;max-width:1200px;}
+.clear-float{clear:both}
+.footer{background:rgb(0, 0, 0);font-family:"Microsoft Yahei";width: 100%;clear: both;bottom: 0px;}
+.footer-floor1{width:100%;padding:36px 0 20px}
+.footer-list{width: 700px;height:100%;float:right;padding-left: 40px;}
+.footer-list_tijaotabe{
+	margin: 0px auto;
+	height: 150px;
+	width: 540px;}
+.footer-list .flist-title{font-size:16px;color:#000;margin-bottom:15px}
+.footer-list_tijaotabe span{
+    margin-bottom: 19px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    float: left;
+    text-align: right;
+    color: #959494;
+    display: block;
+    width: 100%;}
+.footer-right{width:300px;float:left;display:block;margin-left: 20px;}
+.telephone{width:100%;height:32px;line-height:32px;color:#fafafa;display: none;}
+.telephone span{display:inline-block;width:32px;height:32px;float:left;background:url(../images/phone_32px.png);margin-left:16%}
+.telephone .tel-number{font-size:30px;font-weight:400;text-align:right}
+.official-plat{width:100%;height:100%;margin-top:5px;position:relative}
+.official-plat ul{float:right;margin-top:7px}
+.official-plat ul li span{display:inline-block;width:32px;height:32px;background:url(../images/plat_icon.png) no-repeat 0 0;line-height:32px;float:left;margin-right:12px}
+.official-plat ul li .weibo-logo{background:url(../images/plat_icon.png) no-repeat -32px 0}
+.official-plat ul li .qq-logo{background:url(../images/plat_icon.png) no-repeat -64px 0}
+.official-plat ul li{height:45px}
+.official-plat ul a{display:inline-block;height:32px;width:100%;line-height:32px;color:#e8e8e8;text-decoration:none;font-size:12px}
+.official-plat>p{display:inline-block;width:132px;height:132px;border:1px solid #ddd;/*background-color:#000*/}
+.official-plat .weixin{position:absolute;top:0;left:10px;background-image:url(../img/erweima.png);background-repeat:no-repeat;background-position:0 0}
+.official-plat .weibo{position:absolute;top:0;left:10px;background-image:url(../img/erweima.png);background-repeat:no-repeat;background-position:-132px 0;}
+#wx-corner{border:10px solid transparent;border-left:10px solid #000;position:absolute;top:12px;right:-20px;z-index:10}
+#wb-corner{border:10px solid transparent;border-left:10px solid #000;position:absolute;top:58px;right:-20px;z-index:10}
+.marquee-box{overflow:hidden;width:100%;position:absolute;left:0;top:0}
+.marquee{width:80%;height:60px}
+.footer_iptline{
+	height: 50px;
+    width: 305px;
+    float: left;
+    color: #fafafa;
+    font-size: 21px;
+}
+.iptitle{
+	font-size: 16px;
+	width: 92px;
+    line-height: 50px;
+    display: block;
+    float: left;
+}
+.footer_iptline input{
+	height: 35px;
+    margin: 0px auto;
+    text-indent: 1em;
+    border-radius: 1px;
+    width: 300px;
+    font-size: 15px;
+    background-color: #fafafa;
+}
+.footer_intbtn input{
+	width: 200px;
+    margin-top: -50px;
+    float: right;
+    /* margin-left: 10%; */
+    border: 0px;
+    background-color: #65090a;
+    height: 81px;
+    color: #c3b4b4;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: "微软雅黑";
+    border-radius: 1px;
+}
+.dowmiftion{
+    height: 77px;
+    padding-top: 20px;
+    width: 1210px;
+    border-top: 1px solid #262626;
+    background-color: #000;
+    color: #afafaf;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.dowmiftion p{
+    font-size: 6px;
+}
+
+/*3Dbox*/
+.container ul li {
+  -webkit-perspective: 800px;
+          perspective: 800px;
+}
+.info {
+  -webkit-transform: rotate3d(1, 0, 0, 90deg);
+          transform: rotate3d(1, 0, 0, 90deg);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #732222;
+} 
+
+.in-top .info {
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+  -webkit-animation: in-top 300ms ease 0ms 1 forwards;
+          animation: in-top 300ms ease 0ms 1 forwards;
+}
+
+.in-right .info {
+  -webkit-transform-origin: 100% 0%;
+          transform-origin: 100% 0%;
+  -webkit-animation: in-right 300ms ease 0ms 1 forwards;
+          animation: in-right 300ms ease 0ms 1 forwards;
+}
+
+.in-bottom .info {
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: in-bottom 300ms ease 0ms 1 forwards;
+          animation: in-bottom 300ms ease 0ms 1 forwards;
+}
+
+.in-left .info {
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-animation: in-left 300ms ease 0ms 1 forwards;
+          animation: in-left 300ms ease 0ms 1 forwards;
+}
+
+.out-top .info {
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+  -webkit-animation: out-top 300ms ease 0ms 1 forwards;
+          animation: out-top 300ms ease 0ms 1 forwards;
+}
+
+.out-right .info {
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+  -webkit-animation: out-right 300ms ease 0ms 1 forwards;
+          animation: out-right 300ms ease 0ms 1 forwards;
+}
+
+.out-bottom .info {
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: out-bottom 300ms ease 0ms 1 forwards;
+          animation: out-bottom 300ms ease 0ms 1 forwards;
+}
+
+.out-left .info {
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-animation: out-left 300ms ease 0ms 1 forwards;
+          animation: out-left 300ms ease 0ms 1 forwards;
+}
+
+@-webkit-keyframes in-top {
+  from {
+    -webkit-transform: rotate3d(-1, 0, 0, 90deg);
+            transform: rotate3d(-1, 0, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+
+@keyframes in-top {
+  from {
+    -webkit-transform: rotate3d(-1, 0, 0, 90deg);
+            transform: rotate3d(-1, 0, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@-webkit-keyframes in-right {
+  from {
+    -webkit-transform: rotate3d(0, -1, 0, 90deg);
+            transform: rotate3d(0, -1, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-right {
+  from {
+    -webkit-transform: rotate3d(0, -1, 0, 90deg);
+            transform: rotate3d(0, -1, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@-webkit-keyframes in-bottom {
+  from {
+    -webkit-transform: rotate3d(1, 0, 0, 90deg);
+            transform: rotate3d(1, 0, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-bottom {
+  from {
+    -webkit-transform: rotate3d(1, 0, 0, 90deg);
+            transform: rotate3d(1, 0, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@-webkit-keyframes in-left {
+  from {
+    -webkit-transform: rotate3d(0, 1, 0, 90deg);
+            transform: rotate3d(0, 1, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-left {
+  from {
+    -webkit-transform: rotate3d(0, 1, 0, 90deg);
+            transform: rotate3d(0, 1, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@-webkit-keyframes out-top {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(-1, 0, 0, 104deg);
+            transform: rotate3d(-1, 0, 0, 104deg);
+  }
+}
+@keyframes out-top {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(-1, 0, 0, 104deg);
+            transform: rotate3d(-1, 0, 0, 104deg);
+  }
+}
+@-webkit-keyframes out-right {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, -1, 0, 104deg);
+            transform: rotate3d(0, -1, 0, 104deg);
+  }
+}
+@keyframes out-right {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, -1, 0, 104deg);
+            transform: rotate3d(0, -1, 0, 104deg);
+  }
+}
+@-webkit-keyframes out-bottom {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(1, 0, 0, 104deg);
+            transform: rotate3d(1, 0, 0, 104deg);
+  }
+}
+@keyframes out-bottom {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(1, 0, 0, 104deg);
+            transform: rotate3d(1, 0, 0, 104deg);
+  }
+}
+@-webkit-keyframes out-left {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 1, 0, 104deg);
+            transform: rotate3d(0, 1, 0, 104deg);
+  }
+}
+@keyframes out-left {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 1, 0, 104deg);
+            transform: rotate3d(0, 1, 0, 104deg);
+  }
+}
+/* you can ignore this ones */
+.container {
+  clear: both;
+  /*border: 1px solid red;*/
+  height: 435px;
+  width: 1200px;
+  margin: 51px auto;
+}
+.firsttpicboxbtnl{
+  cursor: pointer;
+  float: left;
+  display: block;
+  height: 430px;
+  width: 48px;
+  padding-top: 195px;
+}
+
+.firsttpicboxbtnr{
+  cursor: pointer;
+  padding-top: 195px;
+  float: right;
+  display: block;
+  height: 430px;
+  width: 48px;
+}
+.container ul {
+  display: block;
+  width: 1104px;
+  height: 430px;
+  padding: 0;
+  float: left;
+}
+.container ul:after {
+  content: "";
+  display: table;
+  clear: both;
+  overflow: hidden;
+}
+
+.container ul li {
+  position: relative;
+  float: left;
+  width: 246px;
+  height: 201px;
+  margin: 0px;
+  margin-right: 14px;
+  margin-left: 14px;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 38px;
+}
+.container ul li a {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.container ul li h3 {
+  margin: 0;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.container ul li p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+}
+.container ul li .normal {
+  width: 100%;
+  height: 100%;
+  background-color: #ECF0F1;
+  box-shadow: inset 0 2px 20px #e6ebed;
+  text-align: center;
+  font-size: 50px;
+  line-height: 400px;
+  overflow: hidden;;
+}
+.normal img{
+  width: 100%;
+  height: 100%；
+}
+/*右侧固定框*/
+ul,ol {
+  list-style:none
+}
+a {
+  text-decoration:none
+}
+a:hover {
+  text-decoration:none;
+}
+#moquu_top,#moquu_wxin,#moquu_wshare {
+  z-index:2;
+  width:30px;
+  height:30px;
+  right:10px;
+  position:fixed;
+  cursor:pointer;
+  _position:absolute;
+  _bottom:auto;
+  _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))
+}
+
+#moquu_wxin { bottom:130px; right:10px;
+}
+#moquu_wxin a {
+  background:url(../images/sbtn.png) 0 0px;
+  right:0;
+  float:left;
+  width:30px;
+  height:30px;
+  text-indent:-9999px
+}
+#moquu_wxin a:hover {
+  background:url(../images/sbtn.png) -30px -0px
+}
+#moquu_wshare {bottom:100px; right:10px;
+}
+#moquu_wshare a {
+  background:url(../images/sbtn.png) 0 -30px;
+  width:30px;
+  height:30px;
+  right:0;
+  float:left;
+  text-indent:-9999px
+}
+#moquu_wshare a:hover {
+  background:url(../images/sbtn.png) -30px -30px
+}
+
+.moquu_wxin,.moquu_wshare {
+  position:relative;
+  z-index:2
+}
+.moquu_wxin a:hover .moquu_wxinh,.moquu_wshare a:hover .moquu_wshareh {
+  display:block
+}
+.moquu_wxin .moquu_wxinh {
+  position:absolute;
+  display:none;
+  right:30px;
+  bottom:0px;
+  width:70px;
+  height:30px;
+  background:url(../images/fankui.png) 0 0 no-repeat #ff6060;
+  color:#FFF; border-radius:4px 0 0 4px;
+}
+.moquu_wshare .moquu_wshareh {
+  position:absolute;
+  display:none;
+  right:36px;
+  bottom:-85px;
+  width:100px;
+  height:120px;
+  background:url(../images/weixin.png) no-repeat
+}
+
+
+#topcontrol{background:#4c4c4c; height:30px; width:30px; border-radius:4px;}

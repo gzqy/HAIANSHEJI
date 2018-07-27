@@ -1,0 +1,60 @@
+/* 页面底部表单通用 */
+.tablemain{
+	width: 595px;
+	height: 100px;
+	padding-left:5px;
+	float: left;
+	padding-top: 12px;
+}
+.tablemain input {
+    width: 150px;
+    height: 36px;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: #252525;
+    cursor: text;
+    text-indent: 1.5em;
+    font-size: 12px;
+}
+input#code {
+    display: block;
+    float: left;
+    width: 107px;
+    margin-left: 5px;
+}
+#btnnow {
+    display: block;
+    float: right;
+    width: 163px;
+    /* margin-top: -41px; */
+    height: 78px;
+    text-align: center;
+    text-indent: 0em;
+    background-color: #a02426;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border:none;
+}
+
+/* 表单非验证码部分 */
+.formmainleft{
+	width:422px;
+	height:86px;
+	float:left;
+}
+
+/* 验证码区块 */
+.codebox{
+	float:right;
+	width:112px;
+	height:86px;
+	margin-top:-82px;
+}
+#new_code{
+    cursor: pointer;
+    margin-left: 5px;
+    width:107px;
+    height:36px;
+}

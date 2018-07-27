@@ -1,0 +1,187 @@
+/*超链接文字颜色*/
+.less-link{
+	color:@text_color;
+	&:hover{
+		color:@hover_color;
+	}
+}
+.less-link (import){
+	color:@text_color!important;
+	&:hover{
+		color:@hover_color!important;
+	}
+}
+.less-decorationnone{
+	text-decoration:none;
+	&:active,&:focus,&:hover{ text-decoration:none; }
+}
+/* 背景渐变色 */
+.less-gradient(@deg,@gobg,@tobg){
+/* 如果浏览器不支持渐变，使用图像作为背景 */
+// background: @gobg;
+background:linear-gradient(@deg,@gobg,@tobg);
+/* Webkit: Safari 5.1+, Chrome 10+ */
+background: -webkit-linear-gradient(@deg,@gobg,@tobg);
+/* Firefox 3.6+ */
+background: -moz-linear-gradient(@deg,@gobg,@tobg);
+/* Opera 11.10+ */
+background: -o-linear-gradient(@deg,@gobg,@tobg);
+/* IE 10 */
+background: -ms-linear-gradient(@deg,@gobg,@tobg);
+/* IE < 10 */
+// FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=@gobg, endColorStr=@tobg);
+}
+/*css3样式*/
+.less-css3prefix(@style,@attribute){
+	-webkit-@{style}:@attribute;
+	-moz-@{style}:@attribute;
+	-o-@{style}:@attribute;
+	-ms-@{style}:@attribute;
+	@{style}:@attribute;
+}
+.less-bgz(@attribute){
+	.less-css3prefix(background-size,@attribute);
+}
+.less-transform(@attribute){
+	.less-css3prefix(transform,@attribute);
+}
+.less-transition (@type: color,@time:0.5s){
+	transition: @type @time;
+	-moz-transition: @type @time;
+	-webkit-transition: @type @time;
+	-o-transition: @type @time;
+}
+.less-animation(@type,@value){
+	animation:@type @value;
+	-webkit-animation:@type @value;
+	-moz-animation:@type @value;
+	-ms-animation:@type @value;
+	-o-animation:@type @value;
+}
+.less-radius(@radius:3px){
+	-webkit-border-radius:@radius;
+	-moz-border-radius:@radius;
+	-o-border-radius:@radius;
+	-ms-border-radius:@radius;
+	border-radius:@radius;
+}
+.less-box-shadow(@attribute){
+	.less-css3prefix(box-shadow,@attribute);
+}
+/* . */
+/*行高*/
+.less-heightline (@height){
+	height:@height;line-height:@height;
+}
+.height-20{ height:20px; }
+/**/
+.less-page-content{
+	padding:30px;background:@pageeditbg;
+	@media (max-width:767px) {
+		padding:10px;
+	}
+}
+.less-page-body{
+	padding:30px 0px;background:@pagebg;
+	@media (max-width:767px) {
+		padding:0px;
+	}
+}
+.less-uldestyle{
+	padding:0px; list-style:none;
+}
+/*编辑器*/
+.met-editor{
+	.less-page-content;
+	width: 100%;max-width: 100%;font-size:18px;line-height:1.8;color:#222;word-wrap:break-word;
+	p{ margin-bottom:16px; }
+	img{
+		max-width:100%;
+		&:not(.imgload){height: auto !important;}
+	}
+	table{ color:@text_color; }
+	.table-saw{overflow-x: auto;}
+	video,.metvideo,iframe{max-width: 100% !important;margin: auto;display: block;}
+}
+/*分页*/
+.met_pager{
+	margin-top:20px;text-align:center;
+	*{display: inline-block;}
+	a{
+		padding:9px 15px;border:1px solid #e4eaec;background:#fff;text-align:center;color:#76838f;
+		margin-right: 20px;
+		&:hover{ background:#f5f5f5; text-decoration:none;}
+		&.NextA{ border-right:1px solid #e4eaec; display:none;}
+		&.PreA{display:none;}
+	}
+	.PreSpan,.NextSpan{padding:9px 15px;border:1px solid #e4eaec;background:#fff;color:#ccd5db;cursor:default;display:none;}
+	.firstPage,.lastPage{min-width:40px;height:28px;line-height:28px;}
+	a.Ahover{
+		border-color:@pagebgcr;background:@pagebgcr;color:#fff;cursor:default;
+		&:hover{border-color:@pagebgcr;background:@pagebgcr;color:#fff;}
+	}
+	a{ .less-decorationnone; }
+	.PageText{display:none;margin-left:10px;color:#aaa;}
+	input{display:none;}
+}
+/*翻篇*/
+.pager{
+	li{
+		width: 49%;display: inline-block;
+		a{max-width: 100%;&:extend(.slh);}
+	}
+}
+/*返回顶部*/
+.met-scroll-top{position:fixed;right:10px;bottom:10px;z-index: 10;    background-color: rgba(0,0,0,.8);
+    border: none;}
+.met-scroll-top:hover,.met-scroll-top:active,.met-scroll-top:focus{
+	    background-color: rgba(0,0,0,0.1)!important;
+	    border:none;
+}
+/*弹性布局*/
+.flex{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+/*弹性布局垂直居中*/
+.less-flex-vm{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/* 特殊的动画效果类名 */
+.animation-zoomInleft{
+	animation-name: zoomInLeft;
+}
+.animation-bounceInLeft{
+	animation-name: bounceInLeft;
+}
+.animation-bounceInRight{
+	animation-name: bounceInRight;
+}
+.animation-bounceIn{
+	animation-name: bounceIn;
+}
+.animation-zoomIn{
+  animation-name: zoomIn;
+}
+.animation-fadeInDown{
+  animation-name: fadeInDown;
+}
+.animation-flipInX{
+  animation-name: flipInX;
+}
+.animation-fadeInUp{
+  animation-name: fadeInUp;
+}
+.animation-fadeInLeft{
+  animation-name: fadeInLeft;
+}
+.animation-fadeInRight{
+  animation-name: fadeInRight;
+}

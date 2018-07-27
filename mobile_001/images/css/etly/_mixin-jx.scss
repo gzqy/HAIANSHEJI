@@ -1,0 +1,182 @@
+@charset "utf-8";
+// 色值
+$white : #cacaca;
+$lightwhite : #fff;
+$gray1 : #333;
+$gray2 : #747474;
+$gray3 : #666;
+$gray4 : #cdcdcd;
+$black : #000;
+$darkorange : #FF7A24;
+$orange : #F3BD1C;
+$darkred : #d51f26;
+
+
+.white{
+	color: $white;
+}
+.lightwhite{
+	color: $lightwhite;
+}
+.gray1{
+	color: $gray1;
+}
+.gray2{
+	color: $gray2;
+}
+.gray3{
+	color: $gray3;
+}
+.gray4{
+	color: $gray4;
+}
+.black{
+	color: $black;
+}
+.darkorange{
+	color: $darkorange;
+}
+.orange{
+	color: $orange;
+}
+.darkred{
+	color: $darkred;
+}
+
+
+// 字体大小
+$f16: .66rem;
+$f18: .75rem;
+$f20: .83rem;
+$f22: .9rem;
+$f24: 1rem;
+$f26: 1.08rem;
+$f28: 1.16rem;
+$f30: 1.25rem;
+$f32: 1.33rem;
+$f33: 1.375rem;
+$f36: 1.5rem;
+$f40: 1.66rem;
+$f100: 4.16rem;
+
+.f16{
+	font-size: $f16;
+}
+.f18{
+	font-size: $f18;
+}
+.f20{
+	font-size: $f20;
+}
+.f22{
+	font-size: $f22;
+}
+.f24{
+	font-size: $f24;
+}
+.f26{
+	font-size: $f26;
+}
+.f28{
+	font-size: $f28;
+}
+.f30{
+	font-size: $f30;
+}
+.f32{
+	font-size: $f32;
+}
+.f33{
+	font-size: $f33;
+}
+.f36{
+	font-size: $f36;
+}
+.f40{
+	font-size: $f40;
+}
+.f100{
+	font-size: $f100;
+}
+
+// 背景色
+$bg1: #fefefd;
+$bg2: #ccc;
+
+
+.bg1{
+	background-color: $bg1;
+}
+.bg2{
+	background-color: $bg2;
+}
+
+
+// 属性
+.jx-block{
+	display: block;
+}
+.jx-inline{
+	display: inline;
+}
+.jx-middle{
+	vertical-align: middle;
+}
+.jx-inlineB{
+	display: inline-block;
+}
+.jx-none{
+	display: none;
+}
+.jx-center{
+	text-align: center;
+}
+.jx-auto{
+	margin: 0 auto;
+}
+.jx-hidden{
+	overflow: hidden;
+}
+.jx-visible{
+	overflow: visible;
+}
+.jx-repeat{
+	background: no-repeat;
+}
+.jx-ellipsis{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis
+}
+@mixin kg($w, $h, $lh:$h){
+  width: $w;
+  height: $h;
+  line-height: $lh;
+}
+@mixin absolute($a, $t, $r, $b, $l){
+  position: $a;
+  top: $t;
+  right: $r;
+  bottom: $b;
+  left: $l;
+}
+@mixin padding($t, $r, $b ,$l){
+  padding: $t $r $b $l;
+}
+@mixin margin($t, $r, $b ,$l){
+	margin: $t $r $b $l;
+}
+@mixin bc($b, $c){
+  background-color: $b;
+  color: $c;
+}
+@mixin border($h, $s, $c){
+	border: $h $s $c;
+}
+@mixin border_b($h, $s, $c){
+	border-bottom: $h $s $c;
+}
+@mixin flex($f, $fs){
+	display: $f;
+	flex: $fs;
+}

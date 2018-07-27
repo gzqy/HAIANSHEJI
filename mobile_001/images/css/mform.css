@@ -1,0 +1,194 @@
+/*表单*/
+
+.content .iform {
+    width: 100%;
+    background-color:#211e1b ;
+}
+.content .contenttitle {
+    display: flex;
+    justify-content: center;
+    /*padding-top: 0.5rem;*/
+    color: #e5e5e5;
+    font-size: 0.36rem;
+}
+
+ .form-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    /*padding-top: 0.48rem;*/
+    background: none;
+}
+ .form-2 input {
+      width: 100%;
+height: 100%;
+background: none;
+border: 0;
+text-indent: 1em;
+
+
+}
+ .form-1 { 
+    width: 26rem;
+    height: 3.7rem;
+    border: 1px solid #CECECE;
+    outline: none;
+    margin-bottom: 0.75rem;
+    border-radius: 0.5rem;
+}
+ .form-1 i {
+  width: 0.46rem;
+  height: 0.52rem;
+  padding-right: 0.26rem;
+  padding-left: 0.26rem;
+}
+ .form-1:nth-of-type(2) i{
+    width: 0.32rem;
+    height: 0.52rem;
+    padding-left: 0.36rem;
+    padding-right: 0.32rem;
+}
+ .form-1 i img {
+    /*width: 100%;*/
+    height: 100%;
+    display: block;
+}
+ .form-1 input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: 0;
+  padding-left: 1rem;
+  
+}
+ .form-2 {
+  display: flex;
+  margin-bottom: 0.18rem;
+  margin-bottom: 0.75rem;
+}
+ .formst {
+  width: 12.5rem;
+height: 3.7rem;
+border: 1px solid #CECECE;
+margin-right: 0.5rem;
+ border-radius: 0.5rem;
+margin-left: 0.5rem;
+
+outline: none;
+}
+.content .iform .formst select{
+    width: 100%;
+    height: 100%;
+    border:0;
+    outline:none;
+    font-size: 0.26rem;
+    margin-top: 0.25rem;
+    color:#fff;
+}
+.content .iform .formst:nth-of-type(1){
+    margin-right: 0.16rem;
+}
+.content .iform .formst input {
+  width: 100%;
+height: 100%;
+background: none;
+border: 0;
+font-size: 0.26rem;
+color: #fff;
+}
+ .formst select {
+  width: 100%;
+    height: 100%;
+background: none;
+outline: none;
+text-indent: 0.6em;
+color:#777;
+border:none;
+}
+.content .iform .formst select option{
+    color: #fff;
+}
+ .form-text {
+    text-indent: 0.6em;
+    padding-top: 0.6rem;
+    width: 26rem;
+    height: 9.7rem;
+    outline: none;
+    resize: none;
+    border: 1px solid #CECECE;
+    margin-bottom: 0.75rem;
+    border-radius: 0.5rem;
+        background: none;
+}
+.content .iform .form-main button {
+  display: block;
+  border: none;
+  width: 6.7rem;
+  height: 0.88rem;
+  border-radius: 0.1rem;
+  background: #f19601;
+  font-size: 0.3rem;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+  text-align: center;
+  line-height: 0.88rem;
+  margin-top: 0.18rem;
+  margin-bottom:0.48rem;
+  font-family:"pingfang"; 
+}
+.onlineTitle {
+    font-family: 'PingFang SC';
+    margin: 3.75rem 0 2rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+.lf {
+    float: left;
+}
+
+.yvy{
+width: 26rem;
+height: 4rem;
+font-family: 'PingFang SC';
+font-size: 1.25rem;
+background: #313131;
+color: #fff;
+border: 1px solid #333;
+border-radius: 5px;
+}
+#outstanding .swiper-container{
+    height: 16rem !important;
+}
+#onlineBooking2 {
+    margin-bottom: 4.2rem;
+}
+
+
+/*底部*/
+/* 底部信息。。。。。。。。。。。 */
+#footer{height:22.5rem;background: #353535;color:#9d9d9d;}
+#official{height:10rem;margin:0 auto;padding-top:3rem;border-bottom: 1px solid #474747}
+#official>div{width:46%;height:9rem;}
+#official p{margin-top:0.6rem;font-size:1.25rem;}
+#official .wechatPromt{padding-right:1rem}
+#official .tweetPromt{padding-left:1rem}
+#official img{width: 6.7rem;height: 6.7rem;}
+.wechatBox{text-align: right}
+.wechatBox{padding-right:1rem}
+.tweetBox{padding-left:1rem}
+.phone{width: 100%;height: 3rem;display: flex;
+font-size: 1.2rem;font-weight: bold;justify-content: center;align-items: center;}
+.phone div{width: 2rem;height: 2rem;margin-right: 1rem;}
+.phone div img{width: 100%;height: 100%;}
+.phone p {color: #676767;}
+.phone span{color: #e50202;}
+.ploriginal{ text-align: center;margin-top: 1rem;}
+.ploriginal p:last-child{margin-top: 0.5rem;}
+.heartbeat{animation:heartbeat 1.5s infinite;-webkit-animation:heartbeat 1.5s infinite}
+@-webkit-keyframes heartbeat{0%,30%,50%,60%,80%{-webkit-transform:scale(1)} 40%,70%{-webkit-transform:scale(1.1)}}
+@keyframes heartbeat{0%,30%,50%,60%,80%{transform:scale(1);} 40%,70%{transform:scale(1.1)}}

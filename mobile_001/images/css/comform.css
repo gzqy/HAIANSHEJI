@@ -1,0 +1,249 @@
+.onlineTitle {
+    font-family: 'PingFang SC';
+    margin: 7.75rem 0 2rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+/*表单*/
+
+.content .iform {
+    width: 100%;
+    background-color:#211e1b ;
+}
+.content .contenttitle {
+    display: flex;
+    justify-content: center;
+    /*padding-top: 0.5rem;*/
+    color: #e5e5e5;
+    font-size: 0.36rem;
+}
+
+ .form-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    /*padding-top: 0.48rem;*/
+    background: none;
+}
+ .form-2 input {
+      width: 100%;
+height: 100%;
+background: none;
+border: 0;
+text-indent: 1em;
+
+
+}
+ .form-1 { 
+    width: 26rem;
+    height: 3.7rem;
+    border: 1px solid #CECECE;
+    outline: none;
+    margin-bottom: 0.75rem;
+    border-radius: 0.5rem;
+}
+ .form-1 i {
+  width: 0.46rem;
+  height: 0.52rem;
+  padding-right: 0.26rem;
+  padding-left: 0.26rem;
+}
+ .form-1:nth-of-type(2) i{
+    width: 0.32rem;
+    height: 0.52rem;
+    padding-left: 0.36rem;
+    padding-right: 0.32rem;
+}
+ .form-1 i img {
+    /*width: 100%;*/
+    height: 100%;
+    display: block;
+}
+ .form-1 input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: 0;
+  padding-left: 1rem;
+  
+}
+ .form-2 {
+  display: flex;
+  margin-bottom: 0.18rem;
+  margin-bottom: 0.75rem;
+}
+ .formst {
+    width: 12.5rem;
+    height: 3.7rem;
+    border: 1px solid #CECECE;
+    border-radius: 0.5rem;
+
+outline: none;
+}
+.content .iform .formst select{
+    width: 100%;
+    height: 100%;
+    border:0;
+    outline:none;
+    font-size: 0.26rem;
+    margin-top: 0.25rem;
+    color:#fff;
+}
+.content .iform .formst:nth-of-type(1){
+    margin-right: 0.16rem;
+}
+.content .iform .formst input {
+  width: 100%;
+height: 100%;
+background: none;
+border: 0;
+font-size: 0.26rem;
+color: #fff;
+}
+ .formst select {
+  width: 100%;
+    height: 100%;
+background: none;
+outline: none;
+text-indent: 0.6em;
+color:#777;
+border:none;
+}
+.content .iform .formst select option{
+    color: #fff;
+}
+ .form-text {
+    text-indent: 0.6em;
+    padding-top: 0.6rem;
+    width: 26rem;
+    height: 9.7rem;
+    outline: none;
+    resize: none;
+    border: 1px solid #CECECE;
+    margin-bottom: 0.75rem;
+    border-radius: 0.5rem;
+}
+.content .iform .form-main button {
+  display: block;
+  border: none;
+  width: 6.7rem;
+  height: 0.88rem;
+  border-radius: 0.1rem;
+  background: #f19601;
+  font-size: 0.3rem;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+  text-align: center;
+  line-height: 0.88rem;
+  margin-top: 0.18rem;
+  margin-bottom:0.48rem;
+  font-family:"pingfang"; 
+}
+
+
+
+.yvy{
+width: 26rem;
+height: 4rem;
+font-family: 'PingFang SC';
+font-size: 1.25rem;
+background: #333;
+color: #fff;
+border: 1px solid #333;
+border-radius: 5px;
+}
+#outstanding .swiper-container{
+    height: 16rem !important;
+}
+.onlineTitles{font-family:'PingFang SC';margin:3.75rem 0 2rem 0;text-align: center;font-size:1.5rem;font-weight: bold;color: #4b4b4b;}
+.item{text-align: center;margin-bottom: 0.75rem;}
+.item>input{
+    width:26rem;height:3.7rem;
+    border: 0.1rem solid #333;
+    text-indent: 1em;outline: none;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-bnorder-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;background: transparent;
+}
+.formst:nth-of-type(1) {
+    margin-right: 0.1rem;
+}
+.Choice{
+    display: flex;margin-bottom: 0.75rem;
+}
+.Choice select{
+    width: 13rem;height: 3.85rem;border:1px solid #CECECE;border-radius: 0.5rem;
+    outline: none;text-indent: 1em;background: none;color: #777;
+    border: 0.1rem solid #333;
+}
+.formst{
+    width: 13rem;height: 3.7rem;border: 0.1rem solid #333;border-radius: 0.5rem;
+}
+.formst input{
+    width: 100%;height: 100%;outline: none; border:none;text-indent: 1em;background: none;
+}
+.item>select{
+    width: 12.8rem;background: transparent;height: 3.7rem;border:1px solid #CECECE;outline: none;text-indent: 0.6em;color:#808080;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-bnorder-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+    outline: none;
+}
+.item>textarea{
+    text-indent: 0.6em;padding-top:0.6rem;
+    width:26rem;height: 9.7rem;outline: none;
+    resize:none ;border:1px solid #CECECE;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-bnorder-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+    background: none;
+    border: 0.1rem solid #333;
+}
+.itemBtn{text-align: center}
+.itemBtn>button{
+    width:26rem;
+    height:4rem; 
+    font-family:'PingFang SC';
+    font-size: 1.25rem;
+    background:#313131;color: #fff;
+    border:1px solid #333;
+    border-radius:5px;
+}
+.typeTitle{
+    font-weight: bold;
+    vertical-align: middle;
+    font-size:1.4rem;
+    margin-top: 18.75rem;
+    text-align: center;
+    height: 3rem;
+}
+.typeTitle>span{
+    position: relative;
+    top:0.6rem;
+}
+.typeTitle img{
+    width: 100%;
+}
+.typeTitleBot{
+    background: url('../img/wq/FENGEXIAN.png') no-repeat center center;
+    padding:0 10rem;vertical-align: middle;text-align: center;margin-bottom: 3.4rem;height: 1.5rem;
+}
+.titlef{
+  margin: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #333333;
+}
+

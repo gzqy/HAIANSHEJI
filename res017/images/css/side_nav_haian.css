@@ -1,0 +1,105 @@
+/*侧边导航开始*/
+.besidenavbox{
+	display: none;
+	position: fixed;
+	top: 7%;
+	left: 7%;
+	width: 90px;
+	height: 460px;
+	z-index: 5;
+	font-family: "微软雅黑";
+	letter-spacing: .2px;
+}
+.besideyiji{
+	margin: 0 auto;
+	padding-top: 5px;
+	/*padding-bottom: 13px;*/
+	background-color: #fff;
+	display: block;
+	position: relative;
+	list-style: none;
+}
+.besideyiji>dt{
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dashed #eaeaea;
+	margin: 0 auto;
+	cursor: pointer;
+	/*transition:.1s all;*/
+}
+.besideyiji>dt a{
+	color: inherit;
+}
+.besideyiji>dt:hover{
+	color: #333;
+	background-color: #f3f3f3;
+}
+.besideyiji>dt:hover a>i{
+	border-left-color: #333;
+	border-top-color: #f3f3f3;
+	border-bottom-color: #f3f3f3;
+	border-right-color: #f3f3f3;
+}
+.besideyiji>dt:hover ul{
+	display: block;
+}
+.besideyiji>dt>a>i{
+	display: block;
+	position: absolute;
+	right: 5px;
+	top: 14px;
+	width: 0;
+	height: 0;
+	border-width: 4px;
+    border-left-width: 5px !important;
+	border-style: solid;
+	border-left-color: #818181;
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-right-color: #ffffff;
+	font-size: 20px;
+}
+.cenavcircle{
+	display: block;
+	width: 2px;
+	height: 2px;
+	background-color: #fff;
+	border-radius: 1px;
+}
+.besideturntop{
+	cursor: pointer;
+	width: 90px;
+	height: 40px;
+	margin: 0 auto;
+	background: url(../haian-core/turntopbg.png) no-repeat;
+}
+.besideturntop:hover{
+	cursor: pointer;
+}
+.besideturntop:hover span{
+	background-position: center -11px;
+}
+.besideturntop em{
+	list-style: none;
+	color: #e50202;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	height: 24px;
+}
+.besideturntop span{
+	display: block;
+	margin: 0 auto;
+	width: 26px;
+	height: 10px;
+	overflow: hidden;
+	background: url(../haian-core/turntoptriangle.png) no-repeat;
+	background-position: center 0px;
+}
+/*侧边导航结束*/

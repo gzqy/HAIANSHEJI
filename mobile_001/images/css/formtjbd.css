@@ -1,0 +1,165 @@
+/*获取报价表单弹框*/
+.quotationForm{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 200;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: none;
+    }
+.box1{
+    width: 654/@rem;
+    height: 869/@rem;
+    position: absolute;
+    left: 50%; bottom: 70/@rem;
+    transform: translateX(-50%);
+//  background: #ddd;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 60/@rem;
+    height: 60/@rem;
+    border-radius: 50%;
+    border: 2/@rem solid #fff;
+    line-height: 52/@rem;
+    font-size: 50/@rem;
+    transition:.5s all;
+    text-align: center;
+    color: #fff;
+}
+.iptbox{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 750/@rem;
+    border-radius: 5/@rem;
+    background-color: #fff;
+    font-size: 26/@rem;
+}
+.iptboxcenter{
+    width: 85.5%;
+    max-width: 800/@rem;
+    margin: 0 auto;
+    height: 650/@rem;
+}
+.iptboxcenter em{
+    font-size: 36/@rem;
+    color: #e50202;
+    display: block;
+    width: 100%;
+    height: 36/@rem;
+    line-height: 36/@rem;
+    margin: 30/@rem auto auto auto;
+    text-align: center;
+    font-weight: bold;
+}
+.iptboxcenter>span{
+    font-size: 20/@rem;
+    color: #292929;
+    display: block;
+    width: 100%;
+    height: 50/@rem;
+    line-height: 50/@rem;
+    margin: 0 auto auto auto;
+    text-align: center;
+//  font-weight: bold;
+}
+.iptboxcenter input{
+    width: 100%;
+    height: 74/@rem;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 15/@rem;
+    border: 2/@rem solid #dedede;
+    border-radius: 3/@rem;
+    text-indent: .7em;
+    letter-spacing: 1/@rem;
+    font-size: 26/@rem;
+    color: #565656;
+    box-shadow: inset 0 0 11px 0px #d4d4d4;
+}
+.iptboxcenter input::-webkit-input-placeholder{
+    color:#9b9b9b;
+}
+.iptboxcenter textarea::-webkit-input-placeholder{
+    color:#9b9b9b;
+}
+.iptboxcenter input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#9b9b9b;
+}
+.iptboxcenter input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#9b9b9b;
+}
+.iptboxcenter input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#9b9b9b;
+}
+.plceadarea{
+    width: 100%;
+    height: 74/@rem;
+    margin: 0 auto;
+    font-size: 26/@rem;
+    margin-bottom: 15/@rem;
+}
+.plceadarea>input{
+    width: 48%;
+    height: 74/@rem;
+    float: left;
+    display: block;
+    border: 2/@rem solid #dedede;
+    box-shadow: inset 0 0 11px 0px #d4d4d4;
+}
+.plceadarea>select{
+    width: 48%;
+    height: 74/@rem;
+    float: right;
+    display: block;
+    color: #9b9b9b;
+    font-size: 26/@rem;
+    text-indent: .7em;
+    letter-spacing: 1/@rem;
+    border: 2/@rem solid #dedede;
+    box-shadow: inset 0 0 11px 0px #d4d4d4;
+}
+.plceadarea>select option{font-size: 20/@rem;}
+.iptbox textarea{
+    width: 100%;
+    height: 180/@rem;
+    resize: none;
+    text-align: left;
+    color: #565656;
+    font-size: 26/@rem;
+    border: 2/@rem solid #dedede;
+    box-shadow: inset 0 0 11px 0px #d4d4d4;
+}
+.iptboxcenter button{
+    width: 100%;
+    height: 78/@rem;
+    line-height: 76/@rem;
+    margin-top: 15/@rem;
+    background-color: #e50202;
+    color: #fff;
+    font-size: 42/@rem;
+    letter-spacing: 1/@rem;
+    font-weight: 400;
+    border-radius: 3/@rem;
+    border: 2/@rem solid #e50202;
+}
+.box1 p{
+    width: 100%;
+    height: 60/@rem;
+    text-align: center;
+    height: 60/@rem;
+    line-height: 60/@rem;
+    color: #565656;
+    font-weight: bold;
+    letter-spacing: 1/@rem;
+}
+.red{
+    color: #e50202;
+}

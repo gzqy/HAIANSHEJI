@@ -1,0 +1,60 @@
+/*设计一步到位*/
+#wrap .case {
+	width: 100%;
+	background: #211e1b;
+	}
+#wrap .case .ilist {
+	width: 100%;
+	display: flex;
+	justify-content:center ;
+}
+#wrap .case .ilist ul {
+	width: 7.3rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around ;
+	padding-bottom: 0.4rem;
+}
+#wrap .case .ilist ul li {
+	width: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#wrap .case .ilist ul li div {
+	width: 1rem;
+	height: 1rem;
+	
+	border-radius: 50%;
+	background:#E69100;
+	position: relative;
+	
+}
+#wrap .case .ilist ul li img {
+	display: block;
+    position: absolute;
+    padding: 0.25rem;
+    width: 50%;
+    height: 50%;
+}
+
+#wrap .case .ilist ul li:nth-child(6) img{
+	display: block;
+	
+	position: absolute;
+	
+	padding: 0.25rem;
+}
+#wrap .case .ilist ul li p{
+	padding-top: 0.2rem;
+	font-size: 0.30rem;
+	color: #fff;
+	line-height: 0.28rem;
+	padding-bottom: 0.06rem;
+}
+#wrap .case .ilist ul li span {
+	font-size: 0.16rem;
+	color: #fff;
+	padding-bottom: 0.4rem;
+}

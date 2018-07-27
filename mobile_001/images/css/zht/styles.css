@@ -1,0 +1,1321 @@
+.white {
+  color: #cacaca; }
+
+.lightwhite {
+  color: #fff; }
+
+.gray1 {
+  color: #333; }
+
+.gray2 {
+  color: #747474; }
+
+.gray3 {
+  color: #666; }
+
+.gray4 {
+  color: #cdcdcd; }
+
+.black {
+  color: #000; }
+
+.orange {
+  color: #ffa800; }
+
+.brown {
+  color: #302613; }
+
+.grey1 {
+  color: #ededee; }
+
+.grey2 {
+  color: #363636; }
+
+.grey3 {
+  color: #b5b5b5; }
+
+.grey4 {
+  color: #d5d5d5; }
+
+.blue {
+  color: #1bb9bb; }
+
+.green {
+  color: #1bbb6d; }
+
+.f16, .marketplace-section .market_position .upper .content p, .marketplace-section .market_system .system_bg .content p {
+  font-size: 0.66rem; }
+
+.f18, .marketplace-section .market-design-service .title span, .marketplace-section .synthesis-design-service .title span, .marketplace-section .market_design_content .title span, .marketplace-section .market_position .lower .item span, .marketplace-section .market-principle .title span, .marketplace-section .market-principle .content > p, .marketplace-section .synthesis-principle .title span, .marketplace-section .synthesis-principle .content > p, .marketplace-section .market-quality .describe, .marketplace-section .market-quality .content .item_oval .suggest .inside, .marketplace-section .market-advantage .title span, .marketplace-section .market-advantage .container .content .describe, .marketplace-section .market-case .title span, .marketplace-section .market-know .shade .describe, .marketplace-section .market_appreciation .title span {
+  font-size: 0.75rem; }
+
+.f20, .marketplace-section .market-design-service .describe, .marketplace-section .synthesis-design-service .describe, .marketplace-section .market_design_content .describe, .marketplace-section .market_design_content .banner_bg .banner_slide .describe, .marketplace-section .market-principle .describe, .marketplace-section .synthesis-principle .describe, .marketplace-section .market-advantage .describe, .marketplace-section .market-case .describe, .marketplace-section .market_appreciation .describe, .textbrigade_section .banner .content .kind .item, .textbrigade_section .banner .content .order {
+  font-size: 0.83rem; }
+
+.f22, .marketplace-section .banner .content .kind .contact {
+  font-size: 0.9rem; }
+
+.f24, .marketplace-section .cmprehensive_banner .content .order, .marketplace-section .market_system .system_slide .swiper-slide .describe span, .marketplace-section .market-quality .content .item_oval .tip, .marketplace-section .market-case .content .colum .item .describe .vessel .address, .marketplace-section .market-case .content .colum .item .describe .vessel .link, .marketplace-section .market-know .shade .know-haian a, .textbrigade_section .textbrigade_prospect .container .item .describe, .textbrigade_section .textbrigade_policy .trend .list_content .list, .textbrigade_section .system_scheme .container .item .brief, .textbrigade_section .common_type .container .item .tip, .textbrigade_section .service_case .container .case .item .details .suggest, .textbrigade_section .service_case .container .case .item .details .address, .textbrigade_section .service_case .container .case .item .details .address .area, .textbrigade_section .service_case .container .case .item .details .address .order, .textbrigade_section .know_haian .container .content .know_banner p {
+  font-size: 1rem; }
+
+.f26, .marketplace-section .market-advantage .container .content .title {
+  font-size: 1.08rem; }
+
+.f28, .marketplace-section .cmprehensive_banner .content .brand, .marketplace-section .market-design-service .colum .item .tip, .marketplace-section .market-design-service .colum1 .item .tip, .marketplace-section .synthesis-design-service .colum .item .tip, .marketplace-section .market_design_content .banner_bg .banner_slide .tip, .textbrigade_section .banner .content .logo .planing, .textbrigade_section .service_case .container .case .item .details .title, .textbrigade_section .excellent_case .container .swiper-slide p {
+  font-size: 1.16rem; }
+
+.f30, .marketplace-section .banner .content .brand, .marketplace-section .banner .content .order, .marketplace-section .cmprehensive_banner .content .tel, .marketplace-section .market_position .upper .title, .marketplace-section .market_system .system_bg .title, .marketplace-section .market_system .system_slide .swiper-slide .describe .caption, .marketplace-section .market-quality .title, .textbrigade_section .system_scheme .container .item .num, .textbrigade_section .system_scheme .container .item .tip {
+  font-size: 1.25rem; }
+
+.f32, .marketplace-section .market-case .content .colum .item .describe .vessel .tip, .marketplace-section .market-know .shade .title {
+  font-size: 1.33rem; }
+
+.f36, .textbrigade_section .textbrigade_policy .container .item, .textbrigade_section .textbrigade_policy .trend .tab_title .item, .textbrigade_section .know_haian .container .title, .textbrigade_section .client .container_bg .container .title {
+  font-size: 1.5rem; }
+
+.f40, .textbrigade_section .textbrigade_prospect .caption .content .tip, .textbrigade_section .textbrigade_policy .caption .content .tip, .textbrigade_section .system_scheme .caption .content .tip, .textbrigade_section .common_type .caption .content .tip, .textbrigade_section .service_case .caption .content .tip, .textbrigade_section .know_haian .caption .content .tip, .textbrigade_section .client .caption .content .tip, .textbrigade_section .excellent_case .caption .content .tip {
+  font-size: 1.66rem; }
+
+.f100, .marketplace-section .banner .content .planing {
+  font-size: 4.16rem; }
+
+.bg1 {
+  background-color: #fefefd; }
+
+.bg2 {
+  background-color: #4c2003; }
+
+.bg3 {
+  background-color: #232323; }
+
+.bg4 {
+  background-color: #dcdcdc; }
+
+.jx-block, .marketplace-section .market_design_content .banner_bg .banner_slide .pic, .marketplace-section .market-principle .content img, .marketplace-section .synthesis-principle .content img, .marketplace-section .market-advantage .container .content img, .marketplace-section .market-case .content .colum .item, .textbrigade_section .know_haian .container .content .know_banner img, .textbrigade_section .excellent_case .container .swiper-slide img {
+  display: block; }
+
+.jx-inline, .marketplace-section .market-case .content .colum .item .describe .vessel .address .icon_li, .marketplace-section .market-case .content .colum .item .describe .vessel .link a .arrow {
+  display: inline; }
+
+.jx-middle {
+  vertical-align: middle; }
+
+.jx-inlineB, .marketplace-section .banner .content .updown, .marketplace-section .cmprehensive_banner .content .top_bar, .marketplace-section .cmprehensive_banner .content .brand, .marketplace-section .cmprehensive_banner .content .bot_bar, .marketplace-section .cmprehensive_banner .content .order, .marketplace-section .market-case .content .colum .item .describe .vessel .link, .textbrigade_section .banner .content .order {
+  display: inline-block; }
+
+.jx-none {
+  display: none; }
+
+.jx-center, .marketplace-section .banner .content, .marketplace-section .cmprehensive_banner .content, .marketplace-section .market-design-service .title span, .marketplace-section .market-design-service .describe, .marketplace-section .synthesis-design-service .title span, .marketplace-section .synthesis-design-service .describe, .marketplace-section .market_design_content .title span, .marketplace-section .market_design_content .describe, .marketplace-section .market_position .upper .title, .marketplace-section .market_position .upper .content, .marketplace-section .market-principle .title span, .marketplace-section .market-principle .describe, .marketplace-section .synthesis-principle .title span, .marketplace-section .synthesis-principle .describe, .marketplace-section .market_system .system_bg .title, .marketplace-section .market_system .system_bg .content, .marketplace-section .market-quality .title, .marketplace-section .market-quality .describe, .marketplace-section .market-advantage .title span, .marketplace-section .market-advantage .describe, .marketplace-section .market-case .title span, .marketplace-section .market-case .describe, .marketplace-section .market_appreciation .title span, .marketplace-section .market_appreciation .describe, .textbrigade_section .textbrigade_policy .trend .tab_title .item p, .textbrigade_section .system_scheme .container .item .brief, .textbrigade_section .common_type .container .item .tip, .textbrigade_section .know_haian .container .title {
+  text-align: center; }
+
+.jx-auto, .marketplace-section .banner .content .kind, .marketplace-section .banner .content .updown, .marketplace-section .market-design-service .describe, .marketplace-section .market-design-service .colum, .marketplace-section .market-design-service .colum1, .marketplace-section .synthesis-design-service .describe, .marketplace-section .synthesis-design-service .colum, .marketplace-section .market_design_content, .marketplace-section .market_design_content .describe, .marketplace-section .market_design_content .banner_bg .banner_slide, .marketplace-section .market-principle .describe, .marketplace-section .market-principle .content, .marketplace-section .synthesis-principle .describe, .marketplace-section .synthesis-principle .content, .marketplace-section .market-quality .title, .marketplace-section .market-quality .describe, .marketplace-section .market-advantage .describe, .marketplace-section .market-advantage .container .content, .marketplace-section .market-advantage .container .content img, .marketplace-section .market-advantage .container .content .title, .marketplace-section .market-advantage .container .content .describe, .marketplace-section .market-case .describe, .marketplace-section .market-case .content, .marketplace-section .market-case .content .colum .item .describe .vessel, .marketplace-section .market-know, .marketplace-section .market-know .shade .shade-content, .marketplace-section .market_appreciation, .marketplace-section .market_appreciation .describe, .textbrigade_section .banner .content .logo .title, .textbrigade_section .textbrigade_prospect .caption .content, .textbrigade_section .textbrigade_prospect .container, .textbrigade_section .textbrigade_policy .caption .content, .textbrigade_section .textbrigade_policy .container, .textbrigade_section .textbrigade_policy .trend .list_content .list, .textbrigade_section .system_scheme .caption .content, .textbrigade_section .system_scheme .container, .textbrigade_section .common_type .caption .content, .textbrigade_section .common_type .container, .textbrigade_section .service_case .caption .content, .textbrigade_section .service_case .container .case .item, .textbrigade_section .service_case .container .case .item .details .suggest, .textbrigade_section .know_haian .caption .content, .textbrigade_section .know_haian .container .content .know_banner, .textbrigade_section .know_haian .container .content .know_banner img, .textbrigade_section .know_haian .container .content .know_banner p, .textbrigade_section .client .caption .content, .textbrigade_section .client .container_bg .container, .textbrigade_section .excellent_case .caption .content {
+  margin: 0 auto; }
+
+.jx-hidden, .marketplace-section .banner, .marketplace-section .banner .content .kind, .marketplace-section .cmprehensive_banner, .marketplace-section .market-design-service, .marketplace-section .synthesis-design-service, .marketplace-section .market_design_content, .marketplace-section .market_design_content .banner_bg, .marketplace-section .market_design_content .banner_bg .banner_slide, .marketplace-section .market_position, .marketplace-section .market_position .upper, .marketplace-section .market-principle, .marketplace-section .synthesis-principle, .marketplace-section .market_system, .marketplace-section .market_system .system_bg, .marketplace-section .market-quality, .marketplace-section .market-advantage, .marketplace-section .market-case, .marketplace-section .market-case .content .colum .item, .marketplace-section .market-case .content .colum .item .describe, .marketplace-section .market-know, .marketplace-section .market_appreciation, .marketplace-section .market_appreciation .slide, .textbrigade_section .banner, .textbrigade_section .banner .content .logo, .textbrigade_section .textbrigade_prospect, .textbrigade_section .textbrigade_prospect .caption, .textbrigade_section .textbrigade_prospect .caption .content, .textbrigade_section .textbrigade_prospect .container, .textbrigade_section .textbrigade_policy, .textbrigade_section .textbrigade_policy .caption, .textbrigade_section .textbrigade_policy .caption .content, .textbrigade_section .textbrigade_policy .container, .textbrigade_section .textbrigade_policy .trend, .textbrigade_section .textbrigade_policy .trend .list_content, .textbrigade_section .system_scheme, .textbrigade_section .system_scheme .caption, .textbrigade_section .system_scheme .caption .content, .textbrigade_section .system_scheme .container, .textbrigade_section .common_type .caption, .textbrigade_section .common_type .caption .content, .textbrigade_section .common_type .container, .textbrigade_section .service_case .caption, .textbrigade_section .service_case .caption .content, .textbrigade_section .service_case .container, .textbrigade_section .know_haian .caption, .textbrigade_section .know_haian .caption .content, .textbrigade_section .client .caption, .textbrigade_section .client .caption .content, .textbrigade_section .client .container_bg, .textbrigade_section .client .container_bg .container, .textbrigade_section .excellent_case .caption, .textbrigade_section .excellent_case .caption .content {
+  overflow: hidden; }
+
+.jx-visible {
+  overflow: visible; }
+
+.jx-repeat {
+  background: no-repeat; }
+
+.jx-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.marketplace-section {
+  width: 100%;
+  height: auto;
+  margin: 0 auto; }
+  .marketplace-section .banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url("../images/market-banner-bj.jpg") no-repeat;
+    background-size: 100% 100%; }
+    .marketplace-section .banner .content {
+      color: #fff; }
+      .marketplace-section .banner .content .en {
+        width: 55%;
+        margin-top: 3rem; }
+      .marketplace-section .banner .content .planing {
+        font-weight: 500;
+        padding: 0.5rem 0 1.5rem 0; }
+      .marketplace-section .banner .content .brand {
+        color: rgba(255, 255, 255, 0.7); }
+      .marketplace-section .banner .content .kind {
+        width: 31rem;
+        height: 3rem;
+        background: url("../images/market_circle_bg.png") no-repeat;
+        margin: 1.8rem 0 2.3rem 0;
+        background-size: 100% 100%;
+        transform: scale(0.9); }
+        .marketplace-section .banner .content .kind .contact {
+          color: rgba(255, 255, 255, 0.7);
+          margin-top: .8rem; }
+      .marketplace-section .banner .content .order {
+        font-weight: bold; }
+      .marketplace-section .banner .content .updown {
+        padding: 0.25rem 0 2.25rem 0; }
+        .marketplace-section .banner .content .updown .down {
+          background: url("../images/market-updoen.png") no-repeat;
+          background-size: 100% 100%;
+          width: 1rem;
+          height: 1rem; }
+  .marketplace-section .cmprehensive_banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url("../images/comprehensive_banner_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+    line-height: 1; }
+    .marketplace-section .cmprehensive_banner .content {
+      color: #fff;
+      padding: 3rem 0 3rem 0; }
+      .marketplace-section .cmprehensive_banner .content .top_bar {
+        width: 85%;
+        height: .15rem;
+        background-color: #fff; }
+      .marketplace-section .cmprehensive_banner .content .en {
+        width: 33%;
+        padding: 0.7rem 0 0.8rem 0; }
+      .marketplace-section .cmprehensive_banner .content .logo {
+        width: 80%; }
+      .marketplace-section .cmprehensive_banner .content .brand {
+        width: 69%;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        background-color: #fff;
+        color: #333;
+        margin: 0.77rem 0 0.875rem 0;
+        transform: scale(0.9); }
+      .marketplace-section .cmprehensive_banner .content .bot_bar {
+        width: 85%;
+        height: .15rem;
+        background-color: #fff; }
+      .marketplace-section .cmprehensive_banner .content .tel {
+        font-weight: bold;
+        margin: 1.25rem 0 1.85rem 0; }
+      .marketplace-section .cmprehensive_banner .content .order {
+        padding: 0.8rem 2.8rem 0.8rem 2.8rem;
+        background-color: #ffa800;
+        color: #333; }
+  .marketplace-section .market-design-service {
+    color: #333;
+    padding-top: 2.9rem; }
+    .marketplace-section .market-design-service .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .marketplace-section .market-design-service .title span {
+        font-weight: bold;
+        line-height: 1;
+        border: 0.04rem solid #747474;
+        padding: 0.69rem 1.9rem 0.69rem 1.9rem; }
+    .marketplace-section .market-design-service .describe {
+      line-height: 1;
+      padding: 0.83rem 0 1.66rem 0; }
+    .marketplace-section .market-design-service .colum {
+      display: flex;
+      justify-content: space-around; }
+      .marketplace-section .market-design-service .colum .item {
+        position: relative;
+        width: 49%;
+        float: left;
+        height: 11.66rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: .2rem;
+        background-size: 100% 100%; }
+        .marketplace-section .market-design-service .colum .item:nth-child(1) {
+          background: url("../images/market-domain1.jpg") no-repeat;
+          background-size: 100% 100%; }
+        .marketplace-section .market-design-service .colum .item:nth-child(2) {
+          background: url("../images/market-domain2.jpg") no-repeat;
+          background-size: 100% 100%; }
+        .marketplace-section .market-design-service .colum .item .num {
+          width: 2.5rem; }
+        .marketplace-section .market-design-service .colum .item .tip {
+          color: #fff;
+          padding-top: 1rem; }
+    .marketplace-section .market-design-service .colum1 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .marketplace-section .market-design-service .colum1 .item {
+        width: 32.5%;
+        height: 11.66rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: .625rem;
+        background-size: 100% 100%; }
+        .marketplace-section .market-design-service .colum1 .item:nth-child(1) {
+          background: url("../images/market-domain3.jpg") no-repeat;
+          background-size: 100% 100%; }
+        .marketplace-section .market-design-service .colum1 .item:nth-child(2) {
+          background: url("../images/market-domain4.jpg") no-repeat;
+          background-size: 100% 100%; }
+        .marketplace-section .market-design-service .colum1 .item:nth-child(3) {
+          background: url("../images/market-domain5.jpg") no-repeat;
+          background-size: 100% 100%; }
+        .marketplace-section .market-design-service .colum1 .item img {
+          width: 100%;
+          vertical-align: top; }
+        .marketplace-section .market-design-service .colum1 .item .num1 {
+          width: 2.5rem; }
+        .marketplace-section .market-design-service .colum1 .item .tip {
+          color: #fff;
+          padding-top: 1rem; }
+  .marketplace-section .synthesis-design-service {
+    color: #333;
+    padding-top: 2.9rem; }
+    .marketplace-section .synthesis-design-service .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .marketplace-section .synthesis-design-service .title span {
+        font-weight: bold;
+        line-height: 1;
+        border: 0.04rem solid #747474;
+        padding: 0.69rem 1.9rem 0.69rem 1.9rem; }
+    .marketplace-section .synthesis-design-service .describe {
+      line-height: 1;
+      padding: 0.83rem 0 1.66rem 0; }
+    .marketplace-section .synthesis-design-service .colum {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      .marketplace-section .synthesis-design-service .colum .item {
+        position: relative;
+        width: 49.4%;
+        float: left;
+        height: 11.66rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: .2rem;
+        background-size: 100% 100%; }
+        .marketplace-section .synthesis-design-service .colum .item:nth-child(1) {
+          background: url("../images/market-domain1.jpg") no-repeat;
+          background-size: 100% 100%; }
+        .marketplace-section .synthesis-design-service .colum .item:nth-child(2) {
+          background: url("../images/synthesis_design2.jpg") no-repeat;
+          background-size: 100% 100%; }
+        .marketplace-section .synthesis-design-service .colum .item:nth-child(3) {
+          background: url("../images/synthesis_design3.jpg") no-repeat;
+          background-size: 100% 100%; }
+        .marketplace-section .synthesis-design-service .colum .item:nth-child(4) {
+          background: url("../images/synthesis_design4.jpg") no-repeat;
+          background-size: 100% 100%; }
+        .marketplace-section .synthesis-design-service .colum .item .num {
+          width: 2.5rem; }
+        .marketplace-section .synthesis-design-service .colum .item .tip {
+          color: #fff;
+          padding-top: 1rem; }
+  .marketplace-section .market_design_content {
+    width: 92.5%;
+    color: #333;
+    padding-top: 2.29rem; }
+    .marketplace-section .market_design_content .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .marketplace-section .market_design_content .title span {
+        font-weight: bold;
+        line-height: 1;
+        border: 0.04rem solid #747474;
+        padding: 0.69rem 1.9rem 0.69rem 1.9rem; }
+    .marketplace-section .market_design_content .describe {
+      width: 70%;
+      line-height: 1.3;
+      padding: 0.83rem 0 1.66rem 0; }
+    .marketplace-section .market_design_content .banner_bg {
+      width: 100%;
+      background: url("../images/market_content_bg.jpg") no-repeat;
+      background-size: 100% 100%; }
+      .marketplace-section .market_design_content .banner_bg .banner_slide {
+        width: 86%; }
+        .marketplace-section .market_design_content .banner_bg .banner_slide .pic {
+          width: 7rem;
+          height: 7rem;
+          padding: 4.7rem 0 1.875rem 0;
+          margin-left: 1.35rem; }
+        .marketplace-section .market_design_content .banner_bg .banner_slide .tip {
+          color: #ffa800;
+          text-align: left; }
+        .marketplace-section .market_design_content .banner_bg .banner_slide .describe {
+          width: 100%;
+          height: 5rem;
+          color: #fff;
+          line-height: 1.5;
+          text-align: left; }
+        .marketplace-section .market_design_content .banner_bg .banner_slide .item {
+          display: flex;
+          border: 0.04rem solid #fff;
+          justify-content: center;
+          margin-bottom: 4.2rem; }
+          .marketplace-section .market_design_content .banner_bg .banner_slide .item .prev {
+            width: 29%;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .marketplace-section .market_design_content .banner_bg .banner_slide .item .prev img {
+              width: 1.5rem;
+              padding: 2rem 0 2rem 0; }
+          .marketplace-section .market_design_content .banner_bg .banner_slide .item .content {
+            width: 40%;
+            background-color: rgba(70, 59, 32, 0.6);
+            border-left: .04rem solid #fff;
+            border-right: .04rem solid #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .marketplace-section .market_design_content .banner_bg .banner_slide .item .content img {
+              width: 3.5rem;
+              height: 3rem;
+              padding: 1rem 0 1rem 0; }
+          .marketplace-section .market_design_content .banner_bg .banner_slide .item .next {
+            width: 29%;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .marketplace-section .market_design_content .banner_bg .banner_slide .item .next img {
+              width: 1.5rem;
+              padding: 2rem 0 2rem 0; }
+  .marketplace-section .market_position {
+    position: relative;
+    width: 100%;
+    padding-top: 2.9rem; }
+    .marketplace-section .market_position .upper {
+      height: 24.8rem;
+      background: url("../images/market_position_bg.jpg") no-repeat;
+      background-size: 100% 100%;
+      padding-bottom: 7rem;
+      margin-bottom: 10rem; }
+      .marketplace-section .market_position .upper .title {
+        color: #ffa800;
+        padding: 8.6rem 0 3.9rem 0; }
+      .marketplace-section .market_position .upper .content {
+        color: #fff; }
+        .marketplace-section .market_position .upper .content p {
+          line-height: 1.8;
+          transform: scale(0.9); }
+    .marketplace-section .market_position .lower {
+      position: absolute;
+      right: 0;
+      bottom: 5.5rem;
+      left: 0;
+      display: flex; }
+      .marketplace-section .market_position .lower .item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 25%; }
+        .marketplace-section .market_position .lower .item img {
+          width: 6rem;
+          display: flex; }
+        .marketplace-section .market_position .lower .item span {
+          display: flex;
+          color: #333;
+          transform: scale(0.9);
+          white-space: nowrap; }
+  .marketplace-section .market-principle {
+    color: #333;
+    margin-top: -2rem; }
+    .marketplace-section .market-principle .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .marketplace-section .market-principle .title span {
+        line-height: 1;
+        border: 0.04rem solid #747474;
+        padding: 0.69rem 1.9rem 0.69rem 1.9rem;
+        font-weight: bold; }
+    .marketplace-section .market-principle .describe {
+      line-height: 1.3;
+      padding: 0.83rem 0 1.66rem 0; }
+    .marketplace-section .market-principle .content {
+      width: 92.5%;
+      height: 25.2rem;
+      background: url(../images/market-principle-bg.jpg) no-repeat;
+      background-size: 100% 100%;
+      position: relative; }
+      .marketplace-section .market-principle .content img {
+        width: 100%; }
+      .marketplace-section .market-principle .content > p {
+        color: #cacaca;
+        line-height: 1; }
+        .marketplace-section .market-principle .content > p:nth-child(1) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 22.5%;
+          left: 49%; }
+        .marketplace-section .market-principle .content > p:nth-child(2) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 30.5%;
+          left: 48%; }
+        .marketplace-section .market-principle .content > p:nth-child(3) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 39.5%;
+          left: 49%; }
+        .marketplace-section .market-principle .content > p:nth-child(4) {
+          white-space: nowrap;
+          transform: scale(0.8);
+          position: absolute;
+          top: 48%;
+          left: 46.7%; }
+        .marketplace-section .market-principle .content > p:nth-child(5) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 57%;
+          left: 49%; }
+        .marketplace-section .market-principle .content > p:nth-child(6) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 64.5%;
+          left: 48.7%; }
+        .marketplace-section .market-principle .content > p:nth-child(7) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 73%;
+          left: 48.3%; }
+  .marketplace-section .synthesis-principle {
+    color: #333;
+    margin-top: -2rem; }
+    .marketplace-section .synthesis-principle .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .marketplace-section .synthesis-principle .title span {
+        line-height: 1;
+        border: 0.04rem solid #747474;
+        padding: 0.69rem 1.9rem 0.69rem 1.9rem;
+        font-weight: bold; }
+    .marketplace-section .synthesis-principle .describe {
+      line-height: 1.3;
+      padding: 0.83rem 0 1.66rem 0; }
+    .marketplace-section .synthesis-principle .content {
+      width: 92.5%;
+      height: 25.2rem;
+      background: url(../images/synthesis_principle_bj.jpg) no-repeat;
+      background-size: 100% 100%;
+      position: relative; }
+      .marketplace-section .synthesis-principle .content img {
+        width: 100%; }
+      .marketplace-section .synthesis-principle .content > p {
+        color: #cacaca;
+        line-height: 1; }
+        .marketplace-section .synthesis-principle .content > p:nth-child(1) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 8.5%;
+          left: 47%; }
+        .marketplace-section .synthesis-principle .content > p:nth-child(2) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 17.5%;
+          left: 47%; }
+        .marketplace-section .synthesis-principle .content > p:nth-child(3) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 30.5%;
+          left: 47%; }
+        .marketplace-section .synthesis-principle .content > p:nth-child(4) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 45.5%;
+          left: 47%; }
+        .marketplace-section .synthesis-principle .content > p:nth-child(5) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 54%;
+          left: 47%; }
+        .marketplace-section .synthesis-principle .content > p:nth-child(6) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 68%;
+          left: 47%; }
+        .marketplace-section .synthesis-principle .content > p:nth-child(7) {
+          transform: scale(0.8);
+          position: absolute;
+          top: 76.5%;
+          left: 47%; }
+  .marketplace-section .market_system {
+    position: relative;
+    width: 100%;
+    padding-top: 2.9rem; }
+    .marketplace-section .market_system .system_bg {
+      height: 31rem;
+      background: url("../images/market_system_bg.png") no-repeat;
+      background-size: 100% 100%;
+      margin-bottom: 9rem; }
+      .marketplace-section .market_system .system_bg .title {
+        color: #ffa800;
+        padding: 6rem 0 3.9rem 0; }
+      .marketplace-section .market_system .system_bg .content {
+        color: #fff; }
+        .marketplace-section .market_system .system_bg .content p {
+          line-height: 1.8; }
+    .marketplace-section .market_system .system_slide {
+      width: 92.5%;
+      background: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      border: 0.1rem solid #d5d5d5;
+      margin-left: -46.25%; }
+      .marketplace-section .market_system .system_slide .swiper-slide {
+        padding: 2.3rem 0 5rem 0; }
+        .marketplace-section .market_system .system_slide .swiper-slide .system_logo {
+          width: 7rem; }
+        .marketplace-section .market_system .system_slide .swiper-slide .describe {
+          padding: 1.66rem 15.2% 0 16.4%;
+          float: left;
+          line-height: 2.3rem; }
+          .marketplace-section .market_system .system_slide .swiper-slide .describe .caption {
+            color: #333;
+            line-height: 1;
+            padding-bottom: 1rem; }
+          .marketplace-section .market_system .system_slide .swiper-slide .describe img {
+            width: 1.5rem;
+            vertical-align: middle;
+            margin-right: .5rem; }
+          .marketplace-section .market_system .system_slide .swiper-slide .describe span {
+            color: #333; }
+      .marketplace-section .market_system .system_slide .swiper-pagination .swiper-pagination-bullet {
+        width: 3.25rem;
+        height: .22rem;
+        border-radius: 1rem; }
+      .marketplace-section .market_system .system_slide .swiper-pagination .swiper-pagination-bullet-active {
+        background-color: #ffa800; }
+  .marketplace-section .market-quality {
+    height: 40.75rem;
+    position: relative;
+    background-image: url("../images/market-quality-bg.jpg");
+    background-size: 100% 100%; }
+    .marketplace-section .market-quality .title {
+      color: #ffa800;
+      padding-top: 6.5rem; }
+    .marketplace-section .market-quality .describe {
+      width: 62.5%;
+      color: #fff;
+      padding: 4rem 0 2.5rem 0; }
+    .marketplace-section .market-quality .content {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .marketplace-section .market-quality .content .item_oval {
+        width: 33.3%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+        transition: 1s;
+        transform-style: preserve-3d;
+        padding-bottom: 1.58rem; }
+        .marketplace-section .market-quality .content .item_oval .icon {
+          width: 8rem;
+          transform: rotateY(0deg); }
+        .marketplace-section .market-quality .content .item_oval .tip {
+          color: #fff;
+          padding-top: .875rem;
+          line-height: 1; }
+        .marketplace-section .market-quality .content .item_oval .suggest {
+          transform: rotateY(360deg);
+          position: absolute;
+          position: absolute;
+          border: 0.1rem solid #ffa800;
+          padding: .2rem;
+          border-radius: 50%;
+          display: table; }
+          .marketplace-section .market-quality .content .item_oval .suggest .inside {
+            display: table-cell;
+            vertical-align: middle;
+            width: 7rem;
+            height: 8rem;
+            background: orange;
+            text-align: center;
+            line-height: 1;
+            border-radius: 50%;
+            padding: 0 .5rem; }
+        .marketplace-section .market-quality .content .item_oval .out {
+          -webkit-animation-timing-function: ease-in;
+          -webkit-animation-duration: 225ms;
+          animation-timing-function: ease-in;
+          animation-duration: 225ms;
+          -webkit-transform: rotateY(-90deg) scale(0.9);
+          -webkit-animation-name: flipouttoleft;
+          -webkit-animation-duration: 175ms;
+          transform: rotateY(-90deg) scale(0.9);
+          animation-name: flipouttoleft;
+          animation-duration: 175ms; }
+        .marketplace-section .market-quality .content .item_oval .in {
+          -webkit-animation-timing-function: ease-out;
+          -webkit-animation-duration: 350ms;
+          animation-timing-function: ease-out;
+          animation-duration: 350ms;
+          -webkit-animation-name: flipintoright;
+          -webkit-animation-duration: 225ms;
+          animation-name: flipintoright;
+          animation-duration: 225ms; }
+@-webkit-keyframes flipouttoleft {
+  from {
+    -webkit-transform: rotateY(0); }
+  to {
+    -webkit-transform: rotateY(-90deg) scale(0.9); } }
+@keyframes flipouttoleft {
+  from {
+    transform: rotateY(0); }
+  to {
+    transform: rotateY(-90deg) scale(0.9); } }
+@-webkit-keyframes flipintoright {
+  from {
+    -webkit-transform: rotateY(90deg) scale(0.9); }
+  to {
+    -webkit-transform: rotateY(0); } }
+@keyframes flipintoright {
+  from {
+    transform: rotateY(90deg) scale(0.9); }
+  to {
+    transform: rotateY(0); } }
+  .marketplace-section .market-advantage {
+    color: #333;
+    padding: 2.9rem 0 2.9rem 0; }
+    .marketplace-section .market-advantage .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .marketplace-section .market-advantage .title span {
+        line-height: 1;
+        border: 0.04rem solid #747474;
+        padding: 0.69rem 1.9rem 0.69rem 1.9rem;
+        font-weight: bold; }
+    .marketplace-section .market-advantage .describe {
+      width: 68%;
+      line-height: 1.3;
+      padding: 0.83rem 0 1.66rem 0; }
+    .marketplace-section .market-advantage .container .content {
+      width: 92.5%;
+      border: 0.04rem solid #cdcdcd;
+      padding: 0.48rem 0 0.64rem 0; }
+      .marketplace-section .market-advantage .container .content img {
+        width: 5.2rem; }
+      .marketplace-section .market-advantage .container .content .title {
+        color: #333;
+        padding: 0.6rem 0 0.36rem 0; }
+      .marketplace-section .market-advantage .container .content .describe {
+        width: 81%;
+        color: #666; }
+      .marketplace-section .market-advantage .container .content:nth-child(2) {
+        margin-top: .3rem;
+        margin-bottom: .3rem; }
+  .marketplace-section .market-case {
+    color: #333;
+    padding: 2.9rem 0 2.5rem 0; }
+    .marketplace-section .market-case .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .marketplace-section .market-case .title span {
+        line-height: 1;
+        border: 0.04rem solid #747474;
+        padding: 0.69rem 1.9rem 0.69rem 1.9rem;
+        font-weight: bold; }
+    .marketplace-section .market-case .describe {
+      width: 68%;
+      line-height: 1.3;
+      padding: 0.83rem 0 0.75rem 0; }
+    .marketplace-section .market-case .content {
+      width: 92.5%; }
+      .marketplace-section .market-case .content .colum {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap; }
+        .marketplace-section .market-case .content .colum .item {
+          width: 48.5%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          padding-bottom: .4rem; }
+          .marketplace-section .market-case .content .colum .item img {
+            width: 100%;
+            height: 10rem;
+            display: block; }
+          .marketplace-section .market-case .content .colum .item:nth-child(1) {
+            margin-right: 0.12rem; }
+          .marketplace-section .market-case .content .colum .item .describe {
+            width: 100%;
+            background-color: #ffa800;
+            color: #333; }
+            .marketplace-section .market-case .content .colum .item .describe .vessel {
+              width: 95%; }
+              .marketplace-section .market-case .content .colum .item .describe .vessel .tip {
+                text-align: left;
+                margin-left: .4rem;
+                font-weight: lighter; }
+              .marketplace-section .market-case .content .colum .item .describe .vessel .address {
+                padding: .1rem 0 .1rem 0;
+                font-weight: lighter;
+                text-align: left;
+                padding-bottom: .5rem;
+                white-space: nowrap;
+                margin-left: -1rem;
+                transform: scale(0.8); }
+                .marketplace-section .market-case .content .colum .item .describe .vessel .address .icon_li {
+                  width: .2rem;
+                  height: .2rem;
+                  vertical-align: middle; }
+              .marketplace-section .market-case .content .colum .item .describe .vessel .link {
+                text-align: left;
+                margin-left: .1rem;
+                border: 0.05rem solid #333;
+                padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+                border-radius: 1.5rem;
+                transform: scale(0.8);
+                margin-left: -.5rem;
+                float: left; }
+                .marketplace-section .market-case .content .colum .item .describe .vessel .link a {
+                  background-color: #ffa800;
+                  color: #333;
+                  font-weight: lighter; }
+                  .marketplace-section .market-case .content .colum .item .describe .vessel .link a .arrow {
+                    width: 1.2rem;
+                    height: .25rem;
+                    vertical-align: middle; }
+  .marketplace-section .market-know {
+    width: 92.5%;
+    background: url(../images/market-know-haian.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 38.75rem;
+    position: relative; }
+    .marketplace-section .market-know .shade {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1.875rem 0 1.25rem 0;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      color: #fff; }
+      .marketplace-section .market-know .shade .shade-content {
+        width: 83%; }
+      .marketplace-section .market-know .shade .title {
+        padding-bottom: 1rem; }
+      .marketplace-section .market-know .shade .describe {
+        padding-bottom: 1.83rem;
+        line-height: 1.5; }
+      .marketplace-section .market-know .shade .know-haian {
+        text-align: right; }
+        .marketplace-section .market-know .shade .know-haian a {
+          color: #ffa800; }
+  .marketplace-section .market_appreciation {
+    width: 92.5%;
+    color: #333;
+    padding: 2.9rem 0 2.9rem 0; }
+    .marketplace-section .market_appreciation .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .marketplace-section .market_appreciation .title span {
+        line-height: 1;
+        border: 0.04rem solid #747474;
+        padding: 0.69rem 1.9rem 0.69rem 1.9rem;
+        font-weight: bold; }
+    .marketplace-section .market_appreciation .describe {
+      width: 70%;
+      line-height: 1.3;
+      padding: 0.83rem 0 1.66rem 0; }
+    .marketplace-section .market_appreciation .slide .appreciation_banner {
+      position: relative; }
+      .marketplace-section .market_appreciation .slide .appreciation_banner img {
+        width: 100%; }
+      .marketplace-section .market_appreciation .slide .appreciation_banner .prev {
+        width: 3rem;
+        height: 3rem;
+        float: left;
+        background: url("../images/market_bot_left.png");
+        position: absolute;
+        top: 50%;
+        right: auto;
+        left: 1rem;
+        margin-top: -1.5rem;
+        z-index: 10;
+        background-size: 3rem 3rem; }
+      .marketplace-section .market_appreciation .slide .appreciation_banner .next {
+        width: 3rem;
+        height: 3rem;
+        float: right;
+        background: url("../images/market_bot_right.png");
+        position: absolute;
+        top: 50%;
+        right: 1rem;
+        left: auto;
+        margin-top: -1.5rem;
+        z-index: 10;
+        background-size: 3rem 3rem; }
+  .marketplace-section .form {
+    height: 10rem;
+    background: #f00; }
+  .marketplace-section footer {
+    height: 5rem;
+    background: #f0f; }
+
+.textbrigade_section .banner {
+  width: 100%;
+  height: auto;
+  background: url("../images/textbrigade_banner_bg.jpg") no-repeat;
+  background-size: 100% 100%; }
+  .textbrigade_section .banner .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 2.7rem 0 1.66rem 0; }
+    .textbrigade_section .banner .content .logo {
+      display: flex;
+      position: relative;
+      padding-right: 1rem; }
+      .textbrigade_section .banner .content .logo .title {
+        width: 25.625rem;
+        height: 5rem; }
+      .textbrigade_section .banner .content .logo .planing {
+        position: absolute;
+        right: 0;
+        bottom: 4%;
+        padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+        font-weight: bold;
+        background-color: #1bb9bb;
+        color: #fff;
+        line-height: 1; }
+    .textbrigade_section .banner .content .kind {
+      widows: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 2rem; }
+      .textbrigade_section .banner .content .kind .item {
+        padding-left: .2rem; }
+    .textbrigade_section .banner .content .suggest {
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 2.25rem 0 2.25rem 0; }
+      .textbrigade_section .banner .content .suggest .case {
+        display: flex;
+        align-items: center; }
+        .textbrigade_section .banner .content .suggest .case .cutoff {
+          width: 2.625rem;
+          height: .1rem;
+          background-color: #fff;
+          margin-right: .5rem; }
+        .textbrigade_section .banner .content .suggest .case .txt {
+          width: 8rem;
+          height: .9rem;
+          margin-left: .5rem; }
+    .textbrigade_section .banner .content .order {
+      display: flex;
+      padding: 0.5rem 2.7rem 0.5rem 2.7rem;
+      border-radius: .1rem;
+      background-color: #1bbb6d;
+      color: #fff;
+      letter-spacing: .1rem; }
+.textbrigade_section .textbrigade_prospect .caption {
+  padding: 2.66rem 0 1.83rem 0; }
+  .textbrigade_section .textbrigade_prospect .caption .content {
+    width: 86.4%; }
+    .textbrigade_section .textbrigade_prospect .caption .content .grade {
+      width: 3rem;
+      vertical-align: middle; }
+    .textbrigade_section .textbrigade_prospect .caption .content .tip {
+      color: #363636;
+      line-height: 1;
+      padding-left: 1.5rem;
+      vertical-align: middle; }
+  .textbrigade_section .textbrigade_prospect .caption .cutoff {
+    width: 100%;
+    height: 0.3rem;
+    background: url("../images/gdlinetit-bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: .1rem; }
+.textbrigade_section .textbrigade_prospect .container {
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .textbrigade_section .textbrigade_prospect .container .item {
+    width: 48.9%;
+    display: flex;
+    align-items: center;
+    padding-bottom: .34rem; }
+    .textbrigade_section .textbrigade_prospect .container .item img {
+      width: 100%;
+      border-radius: .3rem; }
+    .textbrigade_section .textbrigade_prospect .container .item .describe {
+      line-height: 1; }
+.textbrigade_section .textbrigade_policy .caption {
+  padding: 2.66rem 0 1.83rem 0; }
+  .textbrigade_section .textbrigade_policy .caption .content {
+    width: 86.4%; }
+    .textbrigade_section .textbrigade_policy .caption .content .grade {
+      width: 3rem;
+      vertical-align: middle; }
+    .textbrigade_section .textbrigade_policy .caption .content .tip {
+      color: #363636;
+      line-height: 1;
+      padding-left: 1.5rem;
+      vertical-align: middle; }
+    .textbrigade_section .textbrigade_policy .caption .content .trend_tip {
+      padding-left: 0; }
+  .textbrigade_section .textbrigade_policy .caption .cutoff {
+    width: 100%;
+    height: 0.3rem;
+    background: url("../images/gdlinetit-bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: .1rem; }
+.textbrigade_section .textbrigade_policy .container {
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center; }
+  .textbrigade_section .textbrigade_policy .container .item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0 1.5rem 0;
+    margin-bottom: .58rem;
+    line-height: 1; }
+    .textbrigade_section .textbrigade_policy .container .item:last-child {
+      margin-bottom: 0; }
+.textbrigade_section .textbrigade_policy .trend .tab_title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1.75rem; }
+  .textbrigade_section .textbrigade_policy .trend .tab_title .item {
+    position: relative;
+    width: 32.8%;
+    display: flex;
+    background-color: #dcdcdc;
+    color: #333;
+    padding: 0.9rem 0 0.9rem 0;
+    line-height: 1;
+    justify-content: center; }
+    .textbrigade_section .textbrigade_policy .trend .tab_title .item em {
+      width: 1.5rem;
+      height: 1.2rem;
+      background: url("../images/tb_-polygon_em.jpg") no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      bottom: -1.15rem;
+      left: 50%;
+      margin-left: -.75rem; }
+.textbrigade_section .textbrigade_policy .trend .list_content {
+  padding: 4.16rem 0 4.75rem 0;
+  background: url("../images/tb_trend_bg.jpg") no-repeat;
+  background-size: 100% 100%; }
+  .textbrigade_section .textbrigade_policy .trend .list_content .list {
+    width: 79%;
+    color: #fff;
+    line-height: 1.8; }
+.textbrigade_section .system_scheme .caption {
+  padding: 2.66rem 0 1.83rem 0; }
+  .textbrigade_section .system_scheme .caption .content {
+    width: 86.4%; }
+    .textbrigade_section .system_scheme .caption .content .grade {
+      width: 3rem;
+      vertical-align: middle; }
+    .textbrigade_section .system_scheme .caption .content .tip {
+      color: #363636;
+      line-height: 1;
+      padding-left: 1.5rem;
+      vertical-align: middle; }
+  .textbrigade_section .system_scheme .caption .cutoff {
+    width: 100%;
+    height: 0.3rem;
+    background: url("../images/gdlinetit-bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: .1rem; }
+.textbrigade_section .system_scheme .container {
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff; }
+  .textbrigade_section .system_scheme .container .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49.8%;
+    height: 10.125rem;
+    line-height: 1;
+    background-size: 100% 100%; }
+    .textbrigade_section .system_scheme .container .item:nth-child(1) {
+      margin-bottom: .1rem;
+      background: url("../images/textbridge_scheme1.jpg") no-repeat; }
+    .textbrigade_section .system_scheme .container .item:nth-child(2) {
+      margin-bottom: .1rem;
+      background: url("../images/textbridge_scheme2.jpg") no-repeat; }
+    .textbrigade_section .system_scheme .container .item:nth-child(3) {
+      background: url("../images/textbridge_scheme3.jpg") no-repeat; }
+    .textbrigade_section .system_scheme .container .item:nth-child(4) {
+      background: url("../images/textbridge_scheme4.jpg") no-repeat; }
+    .textbrigade_section .system_scheme .container .item .num {
+      display: flex;
+      background-color: #fff;
+      color: #333;
+      padding: 0.66rem 1rem 0.66rem 1rem; }
+    .textbrigade_section .system_scheme .container .item .tip {
+      display: flex;
+      padding: 1rem 0 1rem 0; }
+    .textbrigade_section .system_scheme .container .item .brief {
+      width: 98%;
+      display: flex; }
+.textbrigade_section .common_type .caption {
+  padding: 2.66rem 0 1.83rem 0; }
+  .textbrigade_section .common_type .caption .content {
+    width: 86.4%; }
+    .textbrigade_section .common_type .caption .content .grade {
+      width: 3rem;
+      vertical-align: middle; }
+    .textbrigade_section .common_type .caption .content .tip {
+      color: #363636;
+      line-height: 1;
+      padding-left: 1.5rem;
+      vertical-align: middle; }
+  .textbrigade_section .common_type .caption .cutoff {
+    width: 100%;
+    height: 0.3rem;
+    background: url("../images/gdlinetit-bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: .1rem; }
+.textbrigade_section .common_type .container {
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .textbrigade_section .common_type .container .item {
+    width: 19%;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/tb_type_num_bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 1rem; }
+    .textbrigade_section .common_type .container .item .num {
+      height: 1.7rem; }
+    .textbrigade_section .common_type .container .item .tip {
+      width: 80%;
+      line-height: 1;
+      color: #fff;
+      padding-top: .5rem; }
+.textbrigade_section .service_case .caption {
+  padding: 2.66rem 0 1.83rem 0; }
+  .textbrigade_section .service_case .caption .content {
+    width: 86.4%; }
+    .textbrigade_section .service_case .caption .content .grade {
+      width: 3rem;
+      vertical-align: middle; }
+    .textbrigade_section .service_case .caption .content .tip {
+      color: #363636;
+      line-height: 1;
+      padding-left: 1.5rem;
+      vertical-align: middle; }
+  .textbrigade_section .service_case .caption .cutoff {
+    width: 100%;
+    height: 0.3rem;
+    background: url("../images/gdlinetit-bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: .1rem; }
+.textbrigade_section .service_case .container {
+  width: 100%; }
+  .textbrigade_section .service_case .container .case {
+    width: 100%;
+    padding-bottom: .83rem;
+    border-bottom: .1rem solid #b5b5b5; }
+    .textbrigade_section .service_case .container .case:nth-child(2) {
+      padding-top: 1.5rem; }
+    .textbrigade_section .service_case .container .case:nth-child(3) {
+      padding-top: 1.5rem; }
+    .textbrigade_section .service_case .container .case .item {
+      width: 98%;
+      display: flex;
+      justify-content: space-around; }
+      .textbrigade_section .service_case .container .case .item .pic {
+        display: flex; }
+        .textbrigade_section .service_case .container .case .item .pic img {
+          height: 9.75rem; }
+      .textbrigade_section .service_case .container .case .item .details {
+        width: 46%;
+        line-height: 1;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .textbrigade_section .service_case .container .case .item .details .title {
+          display: flex; }
+        .textbrigade_section .service_case .container .case .item .details .suggest {
+          width: 95%;
+          display: flex;
+          padding: 0.5rem 0 1rem 0; }
+        .textbrigade_section .service_case .container .case .item .details .address {
+          width: 100%;
+          display: flex;
+          justify-content: space-around; }
+          .textbrigade_section .service_case .container .case .item .details .address .area {
+            width: 30%;
+            display: flex;
+            line-height: 1; }
+          .textbrigade_section .service_case .container .case .item .details .address .order {
+            width: 70%;
+            display: flex;
+            background-color: #1bbb6d;
+            color: #333;
+            padding: 0.3rem 0.875rem 0.3rem 0.875rem;
+            border-radius: 1rem; }
+.textbrigade_section .know_haian .caption {
+  padding: 2.66rem 0 1.83rem 0; }
+  .textbrigade_section .know_haian .caption .content {
+    width: 86.4%; }
+    .textbrigade_section .know_haian .caption .content .grade {
+      width: 3rem;
+      vertical-align: middle; }
+    .textbrigade_section .know_haian .caption .content .tip {
+      color: #363636;
+      line-height: 1;
+      padding-left: 1.5rem;
+      vertical-align: middle; }
+  .textbrigade_section .know_haian .caption .cutoff {
+    width: 100%;
+    height: 0.3rem;
+    background: url("../images/gdlinetit-bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: .1rem; }
+.textbrigade_section .know_haian .container {
+  padding: 2.25rem 0 2rem 0;
+  background-color: #232323;
+  color: #fff; }
+  .textbrigade_section .know_haian .container .title {
+    line-height: 1;
+    padding-bottom: 2.25rem; }
+  .textbrigade_section .know_haian .container .content .know_banner {
+    width: 95%; }
+    .textbrigade_section .know_haian .container .content .know_banner img {
+      width: 84%; }
+    .textbrigade_section .know_haian .container .content .know_banner p {
+      width: 84%;
+      padding-top: 1.5rem;
+      line-height: 1.5; }
+    .textbrigade_section .know_haian .container .content .know_banner .prev {
+      position: absolute;
+      top: 34%;
+      right: auto;
+      left: 0;
+      margin-top: -1.5rem;
+      z-index: 10; }
+      .textbrigade_section .know_haian .container .content .know_banner .prev img {
+        width: 1.5rem;
+        height: 3rem; }
+    .textbrigade_section .know_haian .container .content .know_banner .next {
+      position: absolute;
+      top: 34%;
+      right: 0;
+      left: auto;
+      margin-top: -1.5rem;
+      z-index: 10; }
+      .textbrigade_section .know_haian .container .content .know_banner .next img {
+        width: 1.5rem;
+        height: 3rem; }
+.textbrigade_section .client .caption {
+  padding: 2.66rem 0 1.83rem 0; }
+  .textbrigade_section .client .caption .content {
+    width: 86.4%; }
+    .textbrigade_section .client .caption .content .grade {
+      width: 3rem;
+      vertical-align: middle; }
+    .textbrigade_section .client .caption .content .tip {
+      color: #363636;
+      line-height: 1;
+      padding-left: 1.5rem;
+      vertical-align: middle; }
+  .textbrigade_section .client .caption .cutoff {
+    width: 100%;
+    height: 0.3rem;
+    background: url("../images/gdlinetit-bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: .1rem; }
+.textbrigade_section .client .container_bg {
+  width: 100%;
+  background-color: #4c2003; }
+  .textbrigade_section .client .container_bg .container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2.25rem; }
+    .textbrigade_section .client .container_bg .container .title {
+      display: flex;
+      font-weight: bold;
+      color: #fff;
+      padding: 2rem 0 2rem 0; }
+    .textbrigade_section .client .container_bg .container .brand {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around; }
+      .textbrigade_section .client .container_bg .container .brand .item {
+        width: 7.1rem;
+        padding-bottom: .05rem; }
+        .textbrigade_section .client .container_bg .container .brand .item img {
+          width: 100%; }
+.textbrigade_section .excellent_case .caption {
+  padding: 2.66rem 0 1.83rem 0; }
+  .textbrigade_section .excellent_case .caption .content {
+    width: 86.4%; }
+    .textbrigade_section .excellent_case .caption .content .grade {
+      width: 3rem;
+      vertical-align: middle; }
+    .textbrigade_section .excellent_case .caption .content .tip {
+      color: #363636;
+      line-height: 1;
+      padding-left: 1.5rem;
+      vertical-align: middle; }
+  .textbrigade_section .excellent_case .caption .cutoff {
+    width: 100%;
+    height: 0.3rem;
+    background: url("../images/gdlinetit-bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: .1rem; }
+.textbrigade_section .excellent_case .container .swiper-slide {
+  width: 64.2% !important;
+  margin-right: .5px !important; }
+  .textbrigade_section .excellent_case .container .swiper-slide img {
+    width: 100%; }
+  .textbrigade_section .excellent_case .container .swiper-slide p {
+    width: 97%;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #000;
+    color: #fff;
+    padding-left: 3%; }
+
+/*# sourceMappingURL=styles.css.map */
+

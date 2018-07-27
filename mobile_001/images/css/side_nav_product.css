@@ -1,0 +1,134 @@
+/*侧边导航开始*/
+.besidenavbox{
+	display: none;
+	position: fixed;
+	top: 32%;
+	left: 7%;
+	width: 130px;
+	height: 460px;
+	z-index: 5;
+	font-family: "微软雅黑";
+	letter-spacing: .2px;
+}
+.besideyiji{
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	background-color: #fff;
+	display: block;
+	position: relative;
+	list-style: none;
+}
+.besideyiji>dt{
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	width: 108px;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px dashed #eaeaea;
+	margin: 0 auto;
+	cursor: pointer;
+	/*transition:.1s all;*/
+}
+.besideyiji>dt a{
+	color: inherit;
+}
+.besideyiji>dt:hover{
+	color: #333;
+	background-color: #f3f3f3;
+}
+.besideyiji>dt:hover a>i{
+	border-left-color: #333;
+	border-top-color: #f3f3f3;
+	border-bottom-color: #f3f3f3;
+	border-right-color: #f3f3f3;
+}
+.besideyiji>dt:hover ul{
+	display: block;
+}
+.besideyiji>dt>a>i{
+	display: block;
+	position: absolute;
+	right: 5px;
+	top: 14px;
+	width: 0;
+	height: 0;
+	border-width: 4px;
+    border-left-width: 5px !important;
+	border-style: solid;
+	border-left-color: #818181;
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-right-color: #ffffff;
+	font-size: 20px;
+}
+.besideyiji>dt>ul{
+	display: none;
+	width: 110px;
+	position: absolute;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	right: -110px;
+	top: 0px;
+	padding-left:  0;
+	color: #353533;
+	background-color: #ffffff;
+}
+.besideyiji>dt>ul>a>li{
+	height: 30px;
+	width:100%;
+	list-style-image: url(../haian-core/lismlcircle.png);
+	/* list-style-position: inside; */
+	text-align: left;
+	text-indent: 1.4em;
+	list-style-position: inside;
+	font-size: 13px;
+	line-height: 30px;
+	float:  left;
+	transition:.3s all;
+}
+.besideyiji>dt>ul>a>li:hover{
+	background-color:#f3f3f3;
+	padding-left:5px;
+}
+.cenavcircle{
+	display: block;
+	width: 2px;
+	height: 2px;
+	background-color: #fff;
+	border-radius: 1px;
+}
+.besideturntop{
+	cursor: pointer;
+	width: 93px;
+	height: 40px;
+	margin: 0 auto;
+	background: url(../haian-core/turntopbg.png) no-repeat;
+}
+.besideturntop:hover{
+	cursor: pointer;
+}
+.besideturntop:hover span{
+	background-position: center -11px;
+}
+.besideturntop em{
+	list-style: none;
+	color: #e50202;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	height: 24px;
+}
+.besideturntop span{
+	display: block;
+	margin: 0 auto;
+	width: 26px;
+	height: 10px;
+	overflow: hidden;
+	background: url(../haian-core/turntoptriangle.png) no-repeat;
+	background-position: center 0px;
+}
+/*侧边导航结束*/

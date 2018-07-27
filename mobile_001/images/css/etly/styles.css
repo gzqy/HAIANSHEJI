@@ -1,0 +1,935 @@
+.white {
+  color: #cacaca;
+}
+
+.lightwhite {
+  color: #fff;
+}
+
+.gray1 {
+  color: #333;
+}
+
+.gray2 {
+  color: #747474;
+}
+
+.gray3 {
+  color: #666;
+}
+
+.gray4 {
+  color: #cdcdcd;
+}
+
+.black {
+  color: #000;
+}
+
+.darkorange {
+  color: #FF7A24;
+}
+
+.orange {
+  color: #F3BD1C;
+}
+
+.darkred {
+  color: #d51f26;
+}
+
+.f16 {
+  font-size: 0.66rem;
+}
+
+.f18 {
+  font-size: 0.75rem;
+}
+
+.f20 {
+  font-size: 0.83rem;
+}
+
+.f22 {
+  font-size: 0.9rem;
+}
+
+.f24, .children_paradise .banner .container .kind, .children_paradise .cp_type .content .item .project .tip, .children_paradise .second_case .container .sea_case .discribe .details, .children_paradise .second_case .container .case_details .item .item_content, .children_paradise .third_case .container .sea_case .discribe .details, .children_paradise .excellent_case .content .case .discribe .details, .children_paradise .cp_success_case .cp_success_title .case_type .case, .children_paradise .cp_success_case .cp_success_content .container .item .item_content .caption, .children_paradise .cp_advantage .content .item .discribe .rules, .children_paradise .cp_footer .qr_code .item .tip, .children_paradise .cp_footer .company, .children_paradise .cp_footer .tel_bj .tel .hot_tel, .children_paradise .cp_footer .tel_bj .tel .num {
+  font-size: 1rem;
+}
+
+.f26 {
+  font-size: 1.08rem;
+}
+
+.f28 {
+  font-size: 1.16rem;
+}
+
+.f30, .children_paradise .second_case .container .sea_case .discribe .subtitle, .children_paradise .third_case .container .sea_case .discribe .subtitle {
+  font-size: 1.25rem;
+}
+
+.f32 {
+  font-size: 1.33rem;
+}
+
+.f33, .children_paradise .excellent_case .content .case .discribe .subtitle {
+  font-size: 1.375rem;
+}
+
+.f36, .children_paradise .cp_type .title .title_txt, .children_paradise .second_case .title .title_txt, .children_paradise .third_case .title .title_txt, .children_paradise .excellent_case .title .title_txt, .children_paradise .cp_success_case .cp_success_title .title .title_txt, .children_paradise .cp_advantage .title .title_txt {
+  font-size: 1.5rem;
+}
+
+.f40 {
+  font-size: 1.66rem;
+}
+
+.f100 {
+  font-size: 4.16rem;
+}
+
+.bg1 {
+  background-color: #fefefd;
+}
+
+.bg2 {
+  background-color: #ccc;
+}
+
+.jx-block, .children_paradise .banner .container .logo {
+  display: block;
+}
+
+.jx-inline {
+  display: inline;
+}
+
+.jx-middle {
+  vertical-align: middle;
+}
+
+.jx-inlineB {
+  display: inline-block;
+}
+
+.jx-none {
+  display: none;
+}
+
+.jx-center, .children_paradise .cp_success_case .cp_success_content .container .item .item_content .caption, .children_paradise .cp_advantage .content .item .discribe .rules, .children_paradise .cp_footer .company {
+  text-align: center;
+}
+
+.jx-auto, .children_paradise .cp_type .content, .children_paradise .second_case .title, .children_paradise .second_case .container .sea_case, .children_paradise .second_case .container .case_details, .children_paradise .third_case .title, .children_paradise .third_case .container .sea_case, .children_paradise .excellent_case .title, .children_paradise .excellent_case .content, .children_paradise .cp_success_case .cp_success_title, .children_paradise .cp_success_case .cp_success_content .container, .children_paradise .cp_advantage .title, .children_paradise .cp_footer .qr_code, .children_paradise .cp_footer .tel_bj .tel {
+  margin: 0 auto;
+}
+
+.jx-hidden, .children_paradise, .children_paradise .banner, .children_paradise .banner .container, .children_paradise .second_case .container, .children_paradise .third_case .container, .children_paradise .excellent_case, .children_paradise .excellent_case .content, .children_paradise .cp_success_case, .children_paradise .cp_success_case .cp_success_content, .children_paradise .cp_success_case .cp_success_content .container .item .item_content, .children_paradise .cp_footer, .children_paradise .cp_footer .tel_bj {
+  overflow: hidden;
+}
+
+.jx-visible {
+  overflow: visible;
+}
+
+.jx-repeat {
+  background: no-repeat;
+}
+
+.jx-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.children_paradise {
+  width: 100%;
+  height: auto;
+}
+
+.children_paradise .banner {
+  width: 100%;
+  height: auto;
+  background: url("../../img/etly/cp_banner_bg.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.children_paradise .banner .container {
+  width: 100%;
+  padding: 3.875rem 0 1.29rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.children_paradise .banner .container .logo {
+  display: flex;
+  width: 20.5rem;
+  height: 7.25rem;
+}
+
+.children_paradise .banner .container .txt {
+  display: flex;
+  width: 19.75rem;
+  height: 1.5rem;
+  margin: 0.9rem 0 0.7rem 0;
+}
+
+.children_paradise .banner .container .kind {
+  width: 26rem;
+  height: 1.8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: url("../../img/etly/cp_banner_txt_bg.png") no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.children_paradise .banner .container .kind .item {
+  display: flex;
+  line-height: 1;
+  margin-top: 0.2rem;
+}
+
+.children_paradise .banner .container .down {
+  width: 2rem;
+  height: 1.5rem;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.children_paradise .cp_type {
+  position: relative;
+  padding: 4.16rem 0 0 0;
+  margin-top: 2rem;
+}
+
+.children_paradise .cp_type .content {
+  width: 94.6%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4.3rem 0 1.78rem 0;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 1.75rem;
+}
+
+.children_paradise .cp_type .content .item {
+  width: 33%;
+  background-color: #fff;
+  color: #F3BD1C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1.8rem;
+}
+
+.children_paradise .cp_type .content .item .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.children_paradise .cp_type .content .item .project .icon {
+  display: flex;
+  width: 1.9rem;
+  height: 1.5rem;
+}
+
+.children_paradise .cp_type .content .item .project .tip {
+  line-height: 1;
+  padding-top: .3rem;
+}
+
+.children_paradise .cp_type .content .item .hate {
+  display: flex;
+}
+
+.children_paradise .cp_type .content .item .hate img {
+  width: 1.625rem;
+  height: 2.16rem;
+  padding: 0.6rem 0 0 0.6rem;
+}
+
+.children_paradise .cp_type .title {
+  position: absolute;
+  top: 2.3rem;
+  left: 50%;
+  margin-left: -11rem;
+}
+
+.children_paradise .cp_type .title .title_txt {
+  display: table-cell;
+  background-color: #fff;
+  color: #F3BD1C;
+  padding: 0.9rem 5.3rem 0.9rem 5.3rem;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 3rem;
+  font-weight: bold;
+}
+
+.children_paradise .cp_type .title .title_txt em {
+  width: 2.45rem;
+  height: 2.375rem;
+  background: url("../../img/etly/cp_type_sun.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.8rem;
+  left: 12%;
+}
+
+.children_paradise .second_case .title {
+  width: 68.5%;
+  position: relative;
+  padding: 4.16rem 0 4rem 0;
+}
+
+.children_paradise .second_case .title .title_txt {
+  background-color: #fff;
+  color: #F3BD1C;
+  padding: 0.9rem 2.3rem 0.9rem 5.3rem;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 3rem;
+  font-weight: bold;
+}
+
+.children_paradise .second_case .title .title_txt em {
+  width: 2.45rem;
+  height: 2.375rem;
+  background: url("../../img/etly/cp_type_sun.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 5rem;
+  left: 11%;
+}
+
+.children_paradise .second_case .container {
+  position: relative;
+}
+
+.children_paradise .second_case .container .sea_case {
+  width: 94.6%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.children_paradise .second_case .container .sea_case .discribe {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem 0 1rem;
+}
+
+.children_paradise .second_case .container .sea_case .discribe .subtitle a {
+  color: #F3BD1C;
+  line-height: 1;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem dashed #F3BD1C;
+  font-weight: bold;
+  display: block;
+}
+
+.children_paradise .second_case .container .sea_case .discribe .details {
+  color: #F3BD1C;
+  line-height: 1.5;
+  padding-top: .83rem;
+}
+
+.children_paradise .second_case .container .sea_case img {
+  width: 13.625rem;
+  height: 12rem;
+}
+
+.children_paradise .second_case .container .second_bg {
+  width: 9rem;
+  height: 23.8rem;
+  background: url("../../img/etly/cp_second_bj.jpg") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.children_paradise .second_case .container .case_details {
+  width: 94.6%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.875rem 0 3.95rem 0;
+}
+
+.children_paradise .second_case .container .case_details .item {
+  width: 8.625rem;
+  height: 10.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 1.45rem;
+}
+
+.children_paradise .second_case .container .case_details .item:nth-child(1) {
+  background: url(../../img/etly/cp_second_case1.jpg) no-repeat;
+  background-position: 40% 50%;
+}
+
+.children_paradise .second_case .container .case_details .item:nth-child(2) {
+  background: url(../../img/etly/cp_second_case2.jpg) no-repeat;
+  background-position: 40% 50%;
+}
+
+.children_paradise .second_case .container .case_details .item:nth-child(3) {
+  background: url(../../img/etly/cp_second_case3.jpg) no-repeat;
+  background-position: 40% 50%;
+}
+
+.children_paradise .second_case .container .case_details .item .item_content {
+  width: 85%;
+  height: 6.5rem;
+  display: flex;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  line-height: 1.2;
+  padding: 0 0.25rem 0 0.25rem;
+  padding-top: .75rem;
+  margin-top: .75rem;
+}
+
+.children_paradise .second_case .container .case_details .item em {
+  width: 3.16rem;
+  height: 3.16rem;
+  line-height: 3.16rem;
+  background: url("../../img/etly/cp_second_icon.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  margin-left: -1.58rem;
+}
+
+.children_paradise .second_case .container .bot_bg {
+  width: 100%;
+  height: 3.4rem;
+  background: url("../../img/etly/cp_second_bot_bj.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.children_paradise .third_case .title {
+  width: 68.5%;
+  position: relative;
+  padding: 4.16rem 0 4rem 0;
+}
+
+.children_paradise .third_case .title .title_txt {
+  background-color: #fff;
+  color: #F3BD1C;
+  padding: 0.9rem 2.3rem 0.9rem 5.3rem;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 3rem;
+  font-weight: bold;
+}
+
+.children_paradise .third_case .title .title_txt em {
+  width: 2.45rem;
+  height: 2.375rem;
+  background: url("../../img/etly/cp_type_sun.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 5rem;
+  left: 11%;
+}
+
+.children_paradise .third_case .container {
+  height: 91.5rem;
+  position: relative;
+  background: url("../../img/etly/cp_third_bj.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.children_paradise .third_case .container .sea_case {
+  width: 94.6%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0 8.5rem 0;
+}
+
+.children_paradise .third_case .container .sea_case .discribe {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem 0 1rem;
+  margin-top: -1rem;
+}
+
+.children_paradise .third_case .container .sea_case .discribe .subtitle a {
+  color: #FF7A24;
+  line-height: 1;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem dashed #F3BD1C;
+  font-weight: bold;
+  display: block;
+}
+
+.children_paradise .third_case .container .sea_case .discribe .details {
+  color: #F3BD1C;
+  line-height: 1.5;
+  padding-top: .83rem;
+}
+
+.children_paradise .third_case .container .sea_case .pic {
+  position: relative;
+}
+
+.children_paradise .third_case .container .sea_case .pic img {
+  width: 13rem;
+  height: 13rem;
+}
+
+.children_paradise .third_case .container .sea_case .pic:nth-child(even) .oval {
+  width: 4.16rem;
+  height: 4.16rem;
+  background: url("../../img/etly/cp_third_orange_oval.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -1rem;
+  left: 0;
+}
+
+.children_paradise .third_case .container .sea_case .pic:nth-child(odd) .subtitle {
+  color: #fff !important;
+}
+
+.children_paradise .third_case .container .sea_case .pic:nth-child(odd) .details {
+  color: #fff;
+}
+
+.children_paradise .third_case .container .sea_case .pic:nth-child(odd) .oval {
+  width: 4.16rem;
+  height: 4.16rem;
+  background: url("../../img/etly/cp_third_green_oval.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -1rem;
+  right: 0;
+}
+
+.children_paradise .third_case .container .sea_case:first-child .pic .sub_pic {
+  width: 10.3rem;
+  height: 9.375rem;
+  background: url("../../img/etly/cp_third_subcase1.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -4rem;
+  left: -5rem;
+}
+
+.children_paradise .third_case .container .sea_case:nth-child(2) .pic .sub_pic {
+  width: 10.3rem;
+  height: 9.375rem;
+  background: url("../../img/etly/cp_third_subcase2.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -4rem;
+  left: 7rem;
+}
+
+.children_paradise .third_case .container .sea_case:nth-child(3) .pic .sub_pic {
+  width: 10.3rem;
+  height: 9.375rem;
+  background: url("../../img/etly/cp_third_subcase3.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -4rem;
+  left: -5rem;
+}
+
+.children_paradise .third_case .container .sea_case:last-child .pic .sub_pic {
+  width: 10.3rem;
+  height: 9.375rem;
+  background: url("../../img/etly/cp_third_subcase4.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -4rem;
+  left: 7rem;
+}
+
+.children_paradise .third_case .container .sea_case:nth-child(even) .discribe {
+  padding-right: 0;
+}
+
+.children_paradise .third_case .container .sea_case:nth-child(even) .discribe .subtitle  a{
+  color: #fff;
+  border-bottom: 0.1rem dashed #fff;
+}
+
+.children_paradise .third_case .container .sea_case:nth-child(even) .discribe .details {
+  color: #fff;
+}
+
+.children_paradise .excellent_case {
+  width: 100%;
+  height: auto;
+}
+
+.children_paradise .excellent_case .title {
+  width: 68.5%;
+  position: relative;
+  padding: 4.16rem 0 4rem 0;
+}
+
+.children_paradise .excellent_case .title .title_txt {
+  background-color: #fff;
+  color: #F3BD1C;
+  padding: 0.9rem 2.3rem 0.9rem 5.3rem;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 3rem;
+  font-weight: bold;
+}
+
+.children_paradise .excellent_case .title .title_txt em {
+  width: 2.45rem;
+  height: 2.375rem;
+  background: url("../../img/etly/cp_type_sun.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 5rem;
+  left: 11%;
+}
+
+.children_paradise .excellent_case .content {
+  width: 94.6%;
+}
+
+.children_paradise .excellent_case .content .case {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.3rem;
+}
+
+.children_paradise .excellent_case .content .case:last-child {
+  margin-bottom: 0;
+}
+
+.children_paradise .excellent_case .content .case .pic {
+  width: 44%;
+  display: flex;
+}
+
+.children_paradise .excellent_case .content .case .pic img {
+  width: 100%;
+  height: 8.3rem;
+}
+
+.children_paradise .excellent_case .content .case .discribe {
+  width: 54%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 0.1rem solid #F3BD1C;
+  border-left: 0;
+  border-top: 0;
+  border-radius: 1rem 1rem 0 0;
+  line-height: 1;
+  padding-left: 2%;
+}
+
+.children_paradise .excellent_case .content .case .discribe .subtitle a{
+  display: flex;
+  color: #FF7A24;
+  font-weight: bold;
+}
+
+.children_paradise .excellent_case .content .case .discribe .details {
+  display: flex;
+  color: #F3BD1C;
+  padding-top: .625rem;
+  line-height: 1;
+}
+
+.children_paradise .excellent_case .content .case .discribe em {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../../img/etly/cp_excellent_oval.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.children_paradise .cp_success_case {
+  padding-top: 4.16rem;
+}
+
+.children_paradise .cp_success_case .cp_success_title {
+  width: 76.8%;
+  height: 3.4rem;
+  position: relative;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 1rem;
+  margin: 2rem auto 1rem auto;
+}
+
+.children_paradise .cp_success_case .cp_success_title .title {
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  margin-left: -10.8rem;
+}
+
+.children_paradise .cp_success_case .cp_success_title .title .title_txt {
+  display: table-cell;
+  background-color: #fff;
+  color: #F3BD1C;
+  padding: 0.9rem 2.3rem 0.9rem 5.3rem;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 3rem;
+  font-weight: bold;
+}
+
+.children_paradise .cp_success_case .cp_success_title .title .title_txt em {
+  width: 2.45rem;
+  height: 2.375rem;
+  background: url("../../img/etly/cp_type_sun.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.8rem;
+  left: 12%;
+}
+
+.children_paradise .cp_success_case .cp_success_title .case_type {
+  width: 92%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 2.3rem;
+  left: 3%;
+}
+
+.children_paradise .cp_success_case .cp_success_title .case_type .case {
+  display: flex;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 2rem;
+  background-color: #fff;
+  color: #F3BD1C;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  line-height: 1;
+}
+
+.children_paradise .cp_success_case .cp_success_content {
+  background: url("../../img/etly/cp_success_bg.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.children_paradise .cp_success_case .cp_success_content .container {
+  width: 94.6%;
+  display: flex;
+  justify-content: space-around;
+  padding: 6.25rem 0 4.4rem 0;
+}
+
+.children_paradise .cp_success_case .cp_success_content .container .item {
+  position: relative;
+  width: 8.58rem;
+  height: 9.8rem;
+  display: flex;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 1rem;
+}
+
+.children_paradise .cp_success_case .cp_success_content .container .item .item_content {
+  position: relative;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.children_paradise .cp_success_case .cp_success_content .container .item .item_content .caption a {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.4rem 0 0.4rem 0;
+}
+
+.children_paradise .cp_success_case .cp_success_content .container .item em {
+  width: 2.95rem;
+  height: 2.95rem;
+  background: url("../../img/etly/cp_success_oval.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -1.5rem;
+  left: 0;
+}
+
+.children_paradise .cp_success_case .cp_success_content .container .item:nth-child(1) .item_content {
+  background: url("../../img/etly/cp_success_case1.jpg") no-repeat;
+  background-position: 42% 50%;
+}
+
+.children_paradise .cp_success_case .cp_success_content .container .item:nth-child(2) .item_content {
+  background: url("../../img/etly/cp_success_case3.jpg") no-repeat;
+  background-position: 42% 50%;
+}
+
+.children_paradise .cp_success_case .cp_success_content .container .item:nth-child(3) .item_content {
+  background: url("../../img/etly/cp_success_case2.jpg") no-repeat;
+  background-position: 42% 50%;
+}
+
+.children_paradise .cp_advantage .title {
+  width: 68.5%;
+  position: relative;
+  padding: 4.16rem 0 4rem 0;
+}
+
+.children_paradise .cp_advantage .title .title_txt {
+  background-color: #fff;
+  color: #F3BD1C;
+  padding: 0.9rem 5.3rem 0.9rem 5.3rem;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 3rem;
+  font-weight: bold;
+}
+
+.children_paradise .cp_advantage .title .title_txt em {
+  width: 2.45rem;
+  height: 2.375rem;
+  background: url("../../img/etly/cp_type_sun.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 5rem;
+  left: 11%;
+}
+
+.children_paradise .cp_advantage .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.children_paradise .cp_advantage .content .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.children_paradise .cp_advantage .content .item .show {
+  width: 7.5rem;
+  height: 4.2rem;
+}
+
+.children_paradise .cp_advantage .content .item .discribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.1rem;
+}
+
+.children_paradise .cp_advantage .content .item .discribe .rules {
+  width: 100%;
+  background-color: #fff;
+  color: #F3BD1C;
+  line-height: 1;
+  padding: 0.25rem 0 0.25rem 0;
+  border: 0.1rem solid #F3BD1C;
+  border-radius: 1rem;
+  margin-top: .45rem;
+}
+
+.children_paradise .cp_advantage .content .item em {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  width: 3.4rem;
+  height: 8.5rem;
+  background: url("../../img/etly/cp_advantage_line.png") no-repeat;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+
+.children_paradise .form{
+  height: 15rem;
+  background: #f00;
+}
+
+.children_paradise .cp_footer {
+  background: url("../../img/etly/cp_footer_bj.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.children_paradise .cp_footer .qr_code {
+  width: 57%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 7rem;
+}
+
+.children_paradise .cp_footer .qr_code .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.children_paradise .cp_footer .qr_code .item img {
+  width: 6.58rem;
+  height: 6.58rem;
+}
+
+.children_paradise .cp_footer .qr_code .item .tip {
+  padding-top: 1.4rem;
+  line-height: 1;
+  color: #666;
+}
+
+.children_paradise .cp_footer .cutoff {
+  width: 100%;
+  height: 0.02rem;
+  background-color: #ccc;
+  margin-top: 1.7rem;
+  margin: 1.7rem 0 0.9rem 0;
+}
+
+.children_paradise .cp_footer .company {
+  color: #666;
+  line-height: 1.5;
+}
+
+.children_paradise .cp_footer .tel_bj {
+  background-color: #fff;
+  margin: 1.9rem 0 2.4rem 0;
+}
+
+.children_paradise .cp_footer .tel_bj .tel {
+  width: 61%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.625rem 0 0.625rem 0;
+}
+
+.children_paradise .cp_footer .tel_bj .tel img {
+  display: flex;
+  width: 1.625rem;
+  height: 1.625rem;
+}
+
+.children_paradise .cp_footer .tel_bj .tel .hot_tel {
+  display: flex;
+  padding: 0 0.7rem 0 0.7rem;
+  color: #666;
+  line-height: 1;
+}
+
+.children_paradise .cp_footer .tel_bj .tel .num {
+  display: flex;
+  color: #d51f26;
+}

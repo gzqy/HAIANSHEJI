@@ -1,0 +1,15 @@
+form.requireform>input[type='text']:nth-of-type(3){
+	width: 98px;
+}
+form.form_one>textarea{
+	width: 276px;
+}
+.form_one img{
+	height: 40px;
+}
+form.requireform>input[type='text']:nth-of-type(4){
+	width: 174px;
+}
+form.requireform>input[type='submit']{
+	width: 360px;
+}

@@ -1,0 +1,117 @@
+/*全局样式*/
+html,body{width: 100%;max-width: 100%;min-width: 320px;}
+body{overflow-x: hidden;font:14px/1.5 "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Roboto, Arial,sans-serif; color:@text_color;}
+.overflow-visible{ overflow:visible!important; }
+.dropdown-menu,.dropdown-menu>li>a{.less-radius(@radius);font-weight:normal; }
+.dropdown-menu>li{
+    padding:0px;
+    >a{
+        .less-link(import); .less-transition(color, 0.5s); .less-transition(background, 0.5s);
+        &:hover{ background:@navhvbg; }
+    }
+}
+.form-control.focus, .form-control:focus {
+    border-color: #444;
+}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+b,strong{font-weight: bold;}
+.clearfix{overflow:auto;_height:1%}
+/*图片画廊皮肤*/
+.met-white-lightGallery{
+	.lg-backdrop,.lg-actions .lg-next, .lg-actions .lg-prev,.lg-toolbar{ background:#fff; }
+    .lg-sub-html{background:rgba(255, 255, 255, .7);color: #555;}
+    .lg-toolbar{
+        &.opacity0{opacity: 0;-moz-opacity: 0;filter: alpha(opacity=0);.less-transition(all);.less-transform(translateY(-50px));}
+    }
+	.lg-toolbar .lg-icon,.lg-actions .lg-next,.lg-actions .lg-prev,.lg-outer .lg-toogle-thumb{
+        &:hover{color:#333;}
+    }
+	.lg-outer{
+        z-index: 1501;background: #fff;
+        &.lg-pull-caption-up.lg-thumb-open .lg-sub-html{bottom: 84px;}
+        .lg-thumb-outer,.lg-toogle-thumb{background-color:#f2f2f2;}
+        .lg-thumb-outer{
+            padding: 0 10px;
+            .lg-thumb-item{
+                margin-bottom: 0;.less-radius(0);
+                &.active,&:hover{ border-color:@pagebgcr; }
+            }
+        }
+    }
+}
+/* swiper水平滚动导航 */
+.swiper-navtab{
+    &.swiper-container-horizontal{
+        .swiper-scrollbar{width: 100%;height: 3px;left: 0;bottom: 0;}
+        .swiper-scrollbar-drag{background:rgba(0,0,0,.2);}
+    }
+    .swiper-wrapper{
+        width: auto;
+        &.flex-start{-webkit-justify-content:flex-start !important;justify-content:flex-start !important;}
+    }
+    .swiper-slide{width: auto;}
+    .swiper-container{z-index:3;}
+}
+/* 省略号 */
+.slh{display:block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+/* slick */
+.slick-loading .slick-list{background: none;}
+.slick-arrow{
+    width: auto;height: auto;z-index: 1;color: #a1a1a1 !important;
+    &:before,&:after{font-family: inherit;display: none;}
+    &:hover{color: @hover_color !important;}
+    &.slick-next{right: 0;}
+    &.slick-prev{left: 0;}
+    i{font-size: 30px;}
+}
+.slick-slide{outline: none;}
+/* 延迟加载背景图片 */
+img{
+    &.imgload,&.slick-loading{
+        &:not([src*=base64]){object-fit:none;}
+    }
+}
+/* 其他 */
+.hidden-pc{display: none;}
+.btn-outline.btn-primary{
+    color:@pagebgcr;
+    border-color:@pagebgcr; 
+}
+.btn-primary{
+    color:#fff;
+    border-color:@pagebgcr;
+    background-color:@pagebgcr;
+}
+.btn-outline.btn-primary:focus,.btn-outline.btn-primary:hover,.btn-outline.btn-primary:active{
+    color: #fff;
+    background-color: @pagebgcr;
+    border-color: @pagebgcr;
+}
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover,.btn-primary:active{
+     color: #292929;
+    background-color: #fff;
+    border-color: #292929;
+}
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover{
+     color: #292929;
+    background-color: #fff;
+    border-color: #292929;
+}
+
+
+
+
+.pager li>a:focus, .pager li>a:hover{border-color:#444;color:#444;}
+.modal-primary .modal-header{
+
+    background-color: #444;
+}
+.radio-primary input[type="radio"]:checked + label::before{
+    border-color: #444;
+}
+[class*=animation-]{
+    -webkit-animation-duration: 1s;
+       -o-animation-duration: 1s;
+          animation-duration: 1s;
+}

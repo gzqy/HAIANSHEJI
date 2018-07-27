@@ -1,0 +1,400 @@
+form.requireform>input[type='text'],form.requireform>select.msgSel,form.form_one>label,form.form_one>textarea,.form_one img{
+	margin-top: 18px;
+}
+form.requireform>input[type='submit']{
+	margin-top: 20px;
+}
+.requirergt>p{
+	bottom: 38px;
+}
+form.form_two>label{
+	margin-top: 20px;
+	line-height: 36px;
+}
+
+.boxbig{
+	display: none;
+	position: fixed;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,.7);
+	z-index:9999;
+}
+.cengrequired{
+	position: relative;
+	top:50%;
+	margin:0 auto;
+	width:764px;
+	height:595px;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+}
+.requiretop{
+	display: block;
+	position: absolute;
+	width:30px;
+	height:80px;
+	right:33px;
+}
+.requiretop>img{
+	display: block;
+	position: absolute;
+	cursor:pointer;
+	transition:.3s all;
+}
+.closehr{
+	display: block;
+	position: absolute;
+	left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	width:1px;
+	height:46px;
+	top:30px;
+	background-color: #cdcdcd;
+}
+.closetip{
+	display: block;
+	position: absolute;
+	width:8px;
+	height:8px;
+	border-radius:8px;
+	left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	bottom:0;
+	border:1px solid #cdcdcd;
+}
+.requirelf{
+	position: absolute;
+	bottom:0;
+	width:294px;
+	height:540px;
+	background: url(../openwin/openleft.png) no-repeat;
+}
+.requirergt{
+	position: absolute;
+	right:0;
+	bottom:0;
+	width:470px;
+	height:540px;
+	background-color: #fff;
+	border-radius: 0 7px 7px 0;
+
+}
+.reqireda{
+	position: relative;
+	top:46px;
+	margin-left: 92px;
+	width:221px;
+	/*margin:0 auto;*/
+}
+.reqireda p{
+	margin:0;
+}
+.reqireda p:first-child{
+	color: #FA5254;
+	font-size: 16px;
+}
+.reqireda p:last-child{
+	color:#212121;
+	font-size: 13px;
+}
+.reqireda>a{
+	text-decoration: none !important;
+	display: block;
+	position: relative;
+	width:82px;
+	font-family: '微软雅黑';
+	font-weight: normal;
+	font-size:18px;
+	color:#333333; 
+	text-align: center;
+	float:left;
+	z-index:2;
+	height:28px;
+	cursor: pointer;	
+}
+.reqireda>a:hover{
+	color: #ef2b2b;
+}
+.reqireda>a:nth-of-type(1){
+	left:22px;
+	
+}
+.reqireda>a:nth-of-type(2){
+	left:94px;
+}
+.reqireda>a.reqiredacli{
+	border-width: 0 0 2px 0;
+	border-style: solid;
+	border-color:#ef2b2b;
+	color:#ef2b2b;
+}
+form.requireform{
+	position:absolute;
+	width:364px;
+	left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	top:74px;
+}
+form.requireform>input[type='text']{
+	display: block;
+	position: relative;
+	border:1px solid #cfcdcd;
+	width:283px;
+	margin-left: 5px;
+	text-indent: .5em;
+	height:38px;
+	float:left;
+	z-index: 1;
+	font-family: "微软雅黑";
+}
+.form_one>span{
+	display: block;
+	position: absolute;
+	width: 25px;
+	height: 38px;
+	line-height: 38px;
+	font-weight: bold;	
+	text-align: center;
+	z-index: 2;
+	font-size: 18px;
+	top: 128px;
+	right: 6px;
+	color: #454545;
+}
+form.form_one>label:nth-of-type(4){
+	float: left !important;
+	clear: none;
+	margin-left: 5px;
+}
+form.requireform>input[type='text']:nth-of-type(4){
+	width: 175px;
+}
+form.requireform>input[type='text']:nth-of-type(3){
+	width: 100px;
+}
+.form_one img{
+	float: left;
+	display: block;
+	width: 109px;
+	height: 38px;
+}
+form.requireform>input[type='submit']{
+	width: 354px;
+	height: 40px;
+	background-color: #fa5254;
+	float: left;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-left: 5px;
+	border: 0;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+form.requireform>select.msgSel{
+	float: left;
+    margin-left: 5px;
+    width: 100px;
+    height: 38px;
+    font-family: '微软雅黑';
+    font-size: 12px;
+    color: #ababab;
+    text-indent: 4px;
+    border: 1px solid #cfcdcd;
+}
+select.msgSel>option{
+	height: 38px;
+	font-family: '微软雅黑';
+    font-size: 12px;
+    color: #ababab;
+    text-indent: 4px;
+}
+form.form_one>textarea{
+	display: block;
+	position: relative;
+	/*margin-left: 5px;*/
+	border:1px solid #cfcdcd;
+	width:285px;
+	height:78px;
+	color:#333333;
+	float:right;
+	resize:none;
+	padding-top:6px;
+	padding-left: 6px;
+	resize: vertical;
+}
+
+.requireform{
+	font-size: 12px;
+	color: #333333;
+}
+/*发布需求开始*/
+form.form_one>label{
+	display: block;
+	clear: both;
+	width: 74px;
+	height:  38px;
+	float: left;
+	line-height: 38px;
+	text-indent: 0.5em;
+	color: #333333;
+	font-size: 14px;
+}
+/*发布需求结束*/
+/*获取报价开始*/
+form.form_two{
+	top: 88px;
+}
+form.form_two>label{
+	display: block;
+	float: left;
+	width: 110px;
+	height: 30px;
+	overflow: hidden;
+	/*border: 0;*/
+	border-bottom: 1px solid #d5d5d5;
+}
+form.form_two>label:nth-of-type(1),form.form_two>label:nth-of-type(2){
+	margin-right: 12px;
+}
+form.form_two input{
+	display: block;
+	float: right;
+	border: 0;
+	outline: none;
+	width: 85px;
+	height: 30px;
+	text-indent: 1em;
+	/*text-align: center;*/
+}
+form.form_two>label:nth-of-type(4),form.form_two>label:nth-of-type(5){
+	width: 170px !important;
+}
+form.form_two>label:nth-of-type(4)>input{
+	width: 120px !important;
+}
+form.form_two>label:nth-of-type(4){
+	margin-right: 13px;
+}
+form.form_two>label:nth-of-type(5)>input{
+	width: 55px !important;
+	text-indent: 0em;
+}
+form.form_two>label img{
+	width: 68px;
+	height: 30px;
+	display: block;
+	float: right;
+}
+form.form_two>label:nth-of-type(6){
+	border-bottom: 0 !important;
+	height: 24px !important;
+	margin-bottom: 0;
+}
+form.form_two select{
+	border: 0 !important;
+	outline: none;
+	width: 75px;
+}
+form.form_two>textarea{
+	display: block;
+	position: relative;
+	border: 0;
+	outline: none;
+	border-bottom: 1px solid #d5d5d5;
+	width:100%;
+	height:78px;
+	color:#333333;
+	padding-top: 5px;
+	float:left;
+	margin: 0 auto;
+	text-indent: 2em;resize:none;
+}
+form.form_two>input[type='submit']{
+	display: block;
+    width: 348px;
+    height: 36px;
+    float: left;
+    margin-left: 8px;
+    text-align: center;
+    background-color: #fa5254;
+    color: #fff;
+    margin-top: 16px;
+    text-indent: 0 !important;
+}
+/*获取报价结束*/
+/* --清除谷歌浏览器下的 search 叉号 */
+input::-webkit-search-cancel-button{
+  display: none;
+}
+/* --清除IE下的 search 叉号 */
+input[type=search]::-ms-clear{
+  display: none;
+}
+input::-ms-clear, input::-ms-reveal{
+     display: none;  
+}
+input::-webkit-input-placeholder { /* WebKit browsers */  
+  color: #ababab;  
+  font-size:12px;
+}  
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */  
+  color: #ababab; 
+  font-size:12px; 
+}  
+input::-moz-placeholder { /* Mozilla Firefox 19+ */  
+  color: #ababab; 
+  font-size:12px; 
+}  
+input:-ms-input-placeholder { /* Internet Explorer 10+ */  
+  color: #ababab; 
+  font-size:12px; 
+}  
+textarea::-webkit-input-placeholder { /* WebKit browsers */  
+  color: #ababab; 
+  font-size:12px; 
+}  
+textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */  
+  color: #ababab; 
+  font-size:12px; 
+}  
+textarea::-moz-placeholder { /* Mozilla Firefox 19+ */  
+  color: #ababab; 
+  font-size:12px; 
+}  
+textarea:-ms-input-placeholder { /* Internet Explorer 10+ */  
+  color: #ababab; 
+  font-size:12px; 
+}  
+.requirergt>p{
+	display: block;
+	position: absolute;
+	width:364px;
+	font-size:12px;
+	color:#828282;
+	left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+}
+.requirergt>p>span{
+	color:#ef2b2b;
+}
